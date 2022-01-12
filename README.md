@@ -6,3 +6,7 @@ The goal of this repository is to use open data repositories to answer the follo
 import pandas as pd
 from prophet import Prophet
 ```
+
+#' References: 
+
+#' Jitendra Bajpai and Jonathan Bower
