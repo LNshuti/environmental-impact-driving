@@ -9,7 +9,7 @@ from prophet import Prophet
 
 #### References: 
 
-**Jitendra Bajpai and Jonathan Bower (2020) ** A road map for e-mobility transition in Rwanda (Policy brief 200018).
+**Jitendra Bajpai and Jonathan Bower (2020)** A road map for e-mobility transition in Rwanda (Policy brief 200018).
   International Growth Centre. from
   https://www.theigc.org/wp-content/uploads/2020/05/Bajpai-and-Bower-2020-policy-brief.pdf 
 
