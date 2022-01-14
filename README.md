@@ -24,6 +24,10 @@ Let us start with Rwanda as an example to understand trends in vehicle ownership
 -------------------------------
 **Source:** *https://theatlas.com/charts/HkTy5aw5G*
 
+A simple plot shows that the growth in vehicle ownership in Rwanda follows a linear trend line. Assuming the data is reliable, we can easily make predictions about future ownership. This goes with the assumption that the trend continues in the future. We will relax this assumption later. 
+
+
+
 #### References: 
 
 **Jitendra Bajpai and Jonathan Bower (2020)** A road map for e-mobility transition in Rwanda (Policy brief 200018).

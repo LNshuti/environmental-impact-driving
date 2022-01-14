@@ -34,7 +34,7 @@ naive_mod = Prophet()
 naive_mod.fit(rwa_df)
 
 # Naive prediction of 2025 vehicle ownership
-pr_ownership_25 = naive_mod.make_future_dataframe(periods = 9)
+pr_ownership_25 = naive_mod.make_future_dataframe(periods = 9) # in 9 years, 2025
 
 
 #' References: 
