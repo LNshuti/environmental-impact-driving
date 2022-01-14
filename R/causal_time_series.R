@@ -25,9 +25,8 @@ auto_ownership_plt <-
   ggtitle("Vehicle Ownership in Rwanda: Annual % Growth") + 
   xlab("Year") +
   ylab("Registered vehicles") + 
-  ggthemes::theme_tufte(base_size = 18) 
-
-
+  ggthemes::theme_tufte(base_size = 18) + 
+  theme(axis.text = element_text(size = 13))
 
 ggsave(auto_ownership_plt,
        filename = file.path(here::here(), 
