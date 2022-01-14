@@ -21,8 +21,8 @@ rw_auto_ownership <-
 auto_ownership_plt <- 
   ggplot(rw_auto_ownership, aes(x = year, y = n_registered)) + 
   geom_point() + 
-  geom_text(aes(x=year,y= n_registered + 3000, label = pct_growth_str), cex = 2) +
-  ggthemes::theme_tufte() + 
+  geom_text(aes(x=year,y= n_registered + 3000, label = pct_growth_str), cex = 4) +
+  ggthemes::theme_tufte(base_size = 18) + 
   ggtitle("Vehicle Ownership in Rwanda: Annual % Growth") + 
   xlab("Year") +
   ylab("Registered vehicles")
