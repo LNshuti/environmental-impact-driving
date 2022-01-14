@@ -12,13 +12,16 @@ from prophet import Prophet
 
 Let us start with one example country; Rwanda. According to a report by Bajpai and Bower(2020) from the International Growth Center, there were approximately 221,000 registered vehicles in Rwanda. The same study also states that the growth in vehicle ownership stood at 12% year-over-year. An older(2018) summary report by the Rwanda Bureau of Statistics reported the following trend in vehicle ownership: 
 
-|Year    | Registred Vehicles
-|---     |------------------|
-|2011    |
-|2012    |
-|2013    |
-
-
+|Year    | N Registred Vehicles 
+|---     |--------------------|
+|2011    |105545              |
+|2012    |125159              |
+|2013    |136824              |
+|2014    |149012              |
+|2015    |166893              |
+|2016    |183703              |
+-------------------------------
+-------------------------------
 
 [xtable]()
 
@@ -27,5 +30,7 @@ Let us start with one example country; Rwanda. According to a report by Bajpai a
 **Jitendra Bajpai and Jonathan Bower (2020)** A road map for e-mobility transition in Rwanda (Policy brief 200018).
   International Growth Centre. from
   https://www.theigc.org/wp-content/uploads/2020/05/Bajpai-and-Bower-2020-policy-brief.pdf 
+  
+
 
 
