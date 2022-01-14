@@ -24,10 +24,6 @@ Let us start with Rwanda as an example to understand trends in vehicle ownership
 -------------------------------
 **Source:** *https://theatlas.com/charts/HkTy5aw5G*
 
-
-
-[xtable]()
-
 #### References: 
 
 **Jitendra Bajpai and Jonathan Bower (2020)** A road map for e-mobility transition in Rwanda (Policy brief 200018).

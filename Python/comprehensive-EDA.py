@@ -23,8 +23,6 @@ from prophet import prophet
 |2014    |149012              |
 |2015    |166893              |
 |2016    |183703              |
--------------------------------
--------------------------------
 #' **Source:** *https://theatlas.com/charts/HkTy5aw5G*
 
 
