@@ -22,12 +22,16 @@ auto_ownership_plt <-
   ggplot(rw_auto_ownership, aes(x = year, y = n_registered)) + 
   geom_point() + 
   geom_text(aes(x=year-0.3,y= n_registered + 3000, label = pct_growth_str), cex = 4) +
-  geom_smooth(method = "lm", se = FALSE) +
+  geom_smooth(method = "lm", se = FALSE, aes(color = "brown")) +
   ggtitle("Vehicle Ownership in Rwanda: Annual % Growth") + 
   xlab("Year") +
   ylab("Registered vehicles") + 
   ggthemes::theme_tufte(base_size = 18) + 
-  theme(axis.text = element_text(size = 13))
+  theme(axis.text = element_text(size = 13), 
+        legend.position = "None")
+
+
+  
 
 ggsave(auto_ownership_plt,
        filename = file.path(here::here(), 
