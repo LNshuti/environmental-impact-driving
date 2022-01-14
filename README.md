@@ -7,6 +7,21 @@ import pandas as pd
 from prophet import Prophet
 ```
 
+
+###### Case Study: Rwanda
+
+Let us start with one example country; Rwanda. According to a report by Bajpai and Bower(2020) from the International Growth Center, there were approximately 221,000 registered vehicles in Rwanda. The same study also states that the growth in vehicle ownership stood at 12% year-over-year. An older(2018) summary report by the Rwanda Bureau of Statistics reported the following trend in vehicle ownership: 
+
+|Year    | Registred Vehicles
+|---     |------------------|
+|2011    |
+|2012    |
+|2013    |
+
+
+
+[xtable]()
+
 #### References: 
 
 **Jitendra Bajpai and Jonathan Bower (2020)** A road map for e-mobility transition in Rwanda (Policy brief 200018).
