@@ -28,23 +28,37 @@ auto_ownership_plt <-
   ggtitle("Vehicle Ownership in Rwanda: Annual % Growth") + 
   xlab("Year") +
   ylab("Registered vehicles") + 
-  ggthemes::theme_tufte(base_size = 18) + 
+  scale_color_manual(values = c("#00AFBB")) +
+  ggthemes::theme_tufte(base_size = 16) + 
   theme(axis.text = element_text(size = 13), 
         legend.position = "None")
 
 ggsave(auto_ownership_plt,
        filename = file.path(here::here(), 
-                            "GreenAutoImpact.github.io/plots/Rwandaauto_ownership_plt.png")
+                            "GreenAutoImpact.github.io/plots/Rwandaauto_ownership_plt.png"), 
+       width = 8, height = 8
 )
 
 
-#' Create a simple time series model using the **Prophet** package. 
+#' Create a simple time series model to predict future car ownership
 
 ts_df <-
   rw_auto_ownership %>% 
   select(n_registered, year) %>% 
   mutate(year = as.Date(zoo::as.yearmon(year))) %>% 
   rename(y = n_registered, ds = year) 
+
+ts_df %>% 
+  ggplot(., aes(x = ds, y = y)) + 
+  geom_point() + 
+  ggtitle("Growth Forecast 2025") + 
+  xlab("Year") +
+  ylab("Registered vehicles") + 
+  ggthemes::theme_tufte(base_size = 18) + 
+  theme(axis.text = element_text(size = 13), 
+        legend.position = "None") + 
+  scale_x_date(limit=c(as.Date("2010-01-01"),as.Date("2016-01-01")))
+  
 
 lm_mod <- train(Class ~ ., data = ts_df, method = "lm")
 
