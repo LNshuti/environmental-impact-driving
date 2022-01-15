@@ -44,20 +44,6 @@ ggplot(rw_auto_ownership, aes(x = year, y = n_registered)) +
   xlab("Year") +
   ylab("Registered vehicles")
 ```
-Create a simple time series model using the **CausalImpact** package. 
-
-```
-
-
-
-
-```
-
-
-
-
-
-
 
 ![](plots/Rwandaauto_ownership_plt.png)
 
