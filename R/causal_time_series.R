@@ -29,12 +29,12 @@ auto_ownership_plt <-
   xlab("Year") +
   ylab("Registered vehicles") + 
   scale_color_manual(values = c("#00AFBB")) +
-  theme(axis.text = element_text(size = 10), legend.position = "None")
+  theme(axis.text = element_text(size = 6), legend.position = "None")
 
 ggsave(auto_ownership_plt,
        filename = file.path(here::here(), 
                             "GreenAutoImpact.github.io/plots/Rwandaauto_ownership_plt.png"), 
-       width = 6, height = 4
+       width = 8, height = 4
 )
 
 
