@@ -35,14 +35,15 @@ rw_auto_ownership <-
   mutate(pct_growth = round((change/prev_year)*100, 2)) %>% 
   mutate(pct_growth_str = ifelse(!is.na(pct_growth),paste0(pct_growth, " %"), pct_growth))
 
-
-ggplot(rw_auto_ownership, aes(x = year, y = n_registered)) + 
+ ggplot(rw_auto_ownership, aes(x = year, y = n_registered)) + 
   geom_point() + 
-  geom_text(aes(x=year,y= n_registered + 3000, label = pct_growth_str), cex = 2) +
-  ggthemes::theme_tufte() + 
+  geom_text(aes(x=year-0.3,y= n_registered + 3000, label = pct_growth_str), cex = 4) +
+  geom_smooth(method = "lm", se = FALSE, aes(color = "brown")) +
   ggtitle("Vehicle Ownership in Rwanda: Annual % Growth") + 
   xlab("Year") +
-  ylab("Registered vehicles")
+  ylab("Registered vehicles") + 
+  scale_color_manual(values = c("#00AFBB")) +
+  theme(axis.text = element_text(size = 6), legend.position = "None")
 ```
 
 ![](plots/Rwandaauto_ownership_plt.png)
