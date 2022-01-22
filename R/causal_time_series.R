@@ -20,7 +20,6 @@ rw_auto_ownership <-
   mutate(pct_growth = round((change/prev_year)*100, 1)) %>% 
   mutate(pct_growth_str = ifelse(!is.na(pct_growth), paste0(pct_growth, " %"), pct_growth))
 
-
 auto_ownership_plt <- 
   ggplot(rw_auto_ownership, aes(x = year, y = n_registered)) + 
   geom_point() + 
@@ -30,9 +29,7 @@ auto_ownership_plt <-
   xlab("Year") +
   ylab("Registered vehicles") + 
   scale_color_manual(values = c("#00AFBB")) +
-  ggthemes::theme_tufte(base_size = 16) + 
-  theme(axis.text = element_text(size = 13), 
-        legend.position = "None")
+  theme(axis.text = element_text(size = 10), legend.position = "None")
 
 ggsave(auto_ownership_plt,
        filename = file.path(here::here(), 
