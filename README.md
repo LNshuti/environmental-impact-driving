@@ -5,6 +5,10 @@ The goal of this repository is to use open data repositories to answer the follo
 ```
 library(CausalImpact)
 library(tidyverse)
+library(plotly)
+library(forecast)
+library(prophet)
+
 ```
 
 
