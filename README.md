@@ -62,8 +62,7 @@ Given the clear *linearity* observed in this time series, we focus on two proper
 ![](plots/auto_ownership_trend.png)
 
 ```
-# Code of your application, which uses environment variables (e.g. from `os.environ` or
-# `os.getenv`) as if they came from the actual environment.
+# Use python environment variables
 
 from dotenv import load_dotenv
 
@@ -114,5 +113,7 @@ Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwand
   
 Krispin, Rami. Hands-On Time Series Analysis with R: Perform time series analysis and forecasting using R. Packt Publishing Ltd, 2019.
 
+
+https://solutions.rstudio.com/python/minimum-viable-python/
 
 
