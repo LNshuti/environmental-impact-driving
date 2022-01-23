@@ -1,5 +1,3 @@
-reticulate::py_config()
-
 # Use python environment variables 
 #from dotenv import load_dotenv
 
@@ -17,11 +15,21 @@ import pandas as pd
 import numpy as np
 import os
 import sys
-import keras
+#import keras
+
+# Convert this R code to Python
+
+index = [2011, 2012, 2013, 2014, 2015, 2016]
+s = pd.Series([105545, 125159,  136824, 149012, 166893, 183703], index= index)
+
+rw_auto_ownership = pd.DataFrame(s, columns = ["year","n_registered"])
+# rw_auto_ownership <- 
+#   data.frame(year = 2011:2016, 
+#              n_registered = c()) 
+
 
 # Read data and initialize parameters
-max_data_size = 10000
-dataSolar_Atl = util.read_data( max_data_size)
+dataSolar_Atl = util.read_data(rw_auto_ownership)
 stride = 1
 miss_test_idx = []
 alpha = 0.1
