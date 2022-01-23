@@ -17,16 +17,10 @@ import os
 import sys
 #import keras
 
-# Convert this R code to Python
-
-index = [2011, 2012, 2013, 2014, 2015, 2016]
-s = pd.Series([105545, 125159,  136824, 149012, 166893, 183703], index= index)
-
-rw_auto_ownership = pd.DataFrame(s, columns = ["year","n_registered"])
-# rw_auto_ownership <- 
-#   data.frame(year = 2011:2016, 
-#              n_registered = c()) 
-
+d = {'index': [2011, 2012, 2013, 2014, 2015, 2016], 
+     'n_registered': [105545, 125159,  136824, 149012, 166893, 183703]}
+     
+rw_auto_ownership = pd.DataFrame(data=d)
 
 # Read data and initialize parameters
 dataSolar_Atl = util.read_data(rw_auto_ownership)
@@ -36,10 +30,10 @@ alpha = 0.1
 tot_trial = 10  # For CP methods that randomizes
 np.random.seed(98765)
 B = 30  # number of bootstrap samples
-# Data_name = ['Solar_Atl']
-# response_ls = {'Solar_Atl': 'DHI'}
+Data_name = ['rw_auto_ownership']
+response_ls = {'rw_auto_ownership': 'index'}
 min_alpha = 0.0001
 max_alpha = 10
-# ridge_cv = RidgeCV(alphas=np.linspace(min_alpha, max_alpha, 10))
-# random_forest = RandomForestRegressor(n_estimators=10, criterion='mse',
-#                                       bootstrap=False, max_depth=2, n_jobs=-1)
+ridge_cv = RidgeCV(alphas=np.linspace(min_alpha, max_alpha, 10))
+random_forest = RandomForestRegressor(n_estimators=10, criterion='mse',
+                                       bootstrap=False, max_depth=2, n_jobs=-1)
