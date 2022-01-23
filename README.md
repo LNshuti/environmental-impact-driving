@@ -69,10 +69,9 @@ from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env.
 
 # from PI_class_EnbPI import prediction_interval
-#import utils_EnbPI as util
+# import utils_EnbPI as util
 from matplotlib.lines import Line2D  # For legend handles
 import statsmodels as sm
-#import warnings
 import matplotlib.pyplot as plt
 from sklearn.linear_model import RidgeCV, LassoCV
 from sklearn.ensemble import RandomForestRegressor
@@ -83,8 +82,6 @@ import numpy as np
 import os
 import sys
 import keras
-# warnings.filterwarnings("ignore")
-
 
 # Read data and initialize parameters
 max_data_size = 10000
