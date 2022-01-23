@@ -61,6 +61,7 @@ Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwand
   (Policy brief 200018). International Growth Centre. from
   https://www.theigc.org/wp-content/uploads/2020/05/Bajpai-and-Bower-2020-policy-brief.pdf 
   
+Krispin, Rami. Hands-On Time Series Analysis with R: Perform time series analysis and forecasting using R. Packt Publishing Ltd, 2019.
 
 
 
