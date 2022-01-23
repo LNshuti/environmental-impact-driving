@@ -26,6 +26,10 @@ Let us start with Rwanda as an example to understand trends in vehicle ownership
 
 A simple plot shows that the growth in vehicle ownership in Rwanda follows a linear trend line. Assuming the data is reliable, we can easily make predictions about future ownership. 
 
+Given the clear linearity observed in this time series, we focus on two properties in our modeling: 
+1. Trend
+2. Correlation.
+
 ```
 rw_auto_ownership <- 
   data.frame(year = 2011:2016, 
