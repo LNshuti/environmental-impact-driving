@@ -32,10 +32,19 @@ auto_ownership_plt <-
   theme(axis.text = element_text(size = 6), legend.position = "None")
 
 ggsave(auto_ownership_plt,
-       filename = file.path(here::here(), 
-                            "GreenAutoImpact.github.io/plots/Rwandaauto_ownership_plt.png"), 
-       width = 8, height = 4
-)
+       filename = "GreenAutoImpact.github.io/plots/Rwandaauto_ownership_plt.png", 
+       width = 8, height = 4)
+
+rw_auto_df <- 
+  rw_auto_ownership %>%
+  select(year, n_registered)
+  
+auto_ownership_trend <- 
+  zoo::read.zoo(rw_auto_df, format = "%Y") 
+  
+ggsave(auto_ownership_trend,
+       filename = "GreenAutoImpact.github.io/plots/auto_ownership_trend.png", 
+       width = 8, height = 4)
 
 
 #' Create a simple time series model to predict future car ownership

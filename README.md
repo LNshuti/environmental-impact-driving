@@ -55,6 +55,9 @@ Given the clear *linearity* observed in this time series, we focus on two proper
 **_2._ Correlation**
 
 
+![](plots/auto_ownership_trend.png)
+
+
 #### References: 
 
 Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwanda
