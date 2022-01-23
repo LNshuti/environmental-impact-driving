@@ -49,8 +49,9 @@ rw_auto_ownership <-
 ![](plots/Rwandaauto_ownership_plt.png)
 
 Given the clear *linearity* observed in this time series, we focus on two properties in our modeling: 
-**1. Trend **
-**2. Correlation. **
+
+**_1._ Trend **
+**_2._ Correlation.**
 
 
 #### References: 
