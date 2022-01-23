@@ -50,9 +50,9 @@ rw_auto_ownership <-
 
 Given the clear *linearity* observed in this time series, we focus on two properties in our modeling: 
 
-**_1._ Trend **
+**_1._ Trend**
 
-**_2._ Correlation.**
+**_2._ Correlation**
 
 
 #### References: 
