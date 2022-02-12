@@ -1,2 +1,2 @@
 library(rsconnect)
-rsconnect::deployApp('GreenAutoImpact.github.io/shiny')
+rsconnect::deployApp('GreenAutoImpact.github.io/shiny/')

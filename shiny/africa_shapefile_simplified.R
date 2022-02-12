@@ -47,7 +47,3 @@ simplified_world_shape <-
   scale_fill_manual(values = c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442")) + 
   labs(fill = 'Continent', caption = "Excluding Oceania, Antarctica and the Seven seas.") + 
   theme(plot.caption = element_text(hjust = 0, face= "italic"))
-
-ggsave(simplified_world_shape,
-       filename = file.path(here::here(), "LNSHUTI.github.io/plots/simplified_world_shape.png")
-)
