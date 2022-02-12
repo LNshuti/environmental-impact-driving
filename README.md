@@ -17,7 +17,7 @@ library(prophet)
 Let us start with Rwanda as an example to understand trends in vehicle ownership. According to a report by Bajpai and Bower(2020) from the International Growth Center, there were approximately 221,000 registered vehicles in Rwanda. The same study also states that the growth in vehicle ownership stood at 12% year-over-year. An older(2018) summary report by the Rwanda Bureau of Statistics reported the following trend in vehicle ownership: 
 
 |Year    |Registred Vehicles   | 
--------------------------------
+---------|---------------------|
 |2011    |105545               |
 |2012    |125159               |
 |2013    |136824               |
