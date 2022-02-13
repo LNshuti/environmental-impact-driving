@@ -1,24 +1,36 @@
 ---
-title: "Rwanda Imports History"
-author: "Leonce Nshuti"
-date: "2/13/2022"
-output: html_document
+output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
 library(finnts)
+library(tidyverse)
+```
 
+
+
+## Rwanda Imports History
+
+```{r setup, include=FALSE}
 # prepare historical data
-hist_data <- timetk::m4_monthly %>%
-  dplyr::rename(Date = date) %>%
-  dplyr::mutate(id = as.character(id))
+df_series <-
+  read_rds("GreenAutoImpact.github.io/inputs/trade_data_all_years.rds") %>% 
+  mutate_at(vars(from_continent, to_continent), as.factor) %>%
+  mutate(Date = as.Date(paste(year, 1, 1, sep = "-"))) %>%
+  select(-year) %>%
+  arrange(Date)
 
 # call main finnts modeling function
 finn_output <- forecast_time_series(
-  input_data = hist_data,
-  combo_variables = c("id"),
-  target_variable = "value",
-  date_type = "month",
+  input_data = df_series,
+  combo_variables = c("to_continent"),
+  target_variable = "imports",
+  date_type = "year",
   forecast_horizon = 3,
   back_test_scenarios = 6, 
   models_to_run = c("arima", "ets"), 
