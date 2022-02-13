@@ -31,6 +31,14 @@ remove_all_axes <- ggplot2::theme(
   plot.background = element_blank()
 )
 
+my_theme <- theme_classic(base_family = "Times") +
+  theme(axis.text.y = element_blank()) +
+  theme(axis.ticks.y = element_blank()) +
+  theme(axis.line.y = element_blank()) +
+  theme(legend.background = element_rect(fill = "gainsboro")) +
+  theme(plot.background = element_rect(fill = "gainsboro")) +
+  theme(panel.background = element_rect(fill = "gainsboro"))
+
 # select products of interest(sitc_product_code == "transportation")
 product2digit <- 
   read_csv("dataverse_files/country_sitcproduct2digit_year.csv")
@@ -46,24 +54,96 @@ country_codes <-
   select(continent_code, country_code = three_letter_country_code) %>%
   rename(continent_name =continent_code)
 
+sitc_xwalk <- 
+  readxl::read_xls("dataverse_files/SITCProducts.xls") %>% 
+  janitor::clean_names()
+
 # Combine trade data from 1962 to 2019
 trade_data_all_years <- 
   list.files("dataverse_files/", recursive = TRUE) %>%
   as_tibble() %>% 
   filter(grepl(pattern = "partner_sitcproduct4digit", x = value)) %>%
-  mutate(year = str_replace(value, "country_partner_sitcproduct4digit_year_",
-                            "")) %>%
-  mutate(year = as.numeric(str_replace(year, ".csv",""))) %>%
-  filter(year > 2016) %>%
   pull(value)
 
-trade_df_all_years <-
+rwanda_trade_df <-
   trade_data_all_years %>% 
   map(~data.table::fread(file = paste0("dataverse_files/",.x)) %>% 
         janitor::clean_names() %>% 
-        mutate_all(as.character)
+        as_tibble() %>% 
+        mutate_all(as.character) %>%
+        filter(location_code == "RWA")
         ) %>% 
   bind_rows() %>% 
-  as_tibble()
+  as_tibble() %>%
+  filter(year > 1998)
+
+saveRDS(object = rwanda_trade_df,
+        "GreenAutoImpact.github.io/inputs/rwanda_trade_df_1999_2019.rds")
+
+rwa_sum <-
+  #rwanda_trade_df %>% 
+  read_rds("GreenAutoImpact.github.io/inputs/rwanda_trade_df_1999_2019.rds") %>%
+  left_join(sitc_xwalk, by = c("sitc_product_code"= "product_code")) %>%
+  rename(product_name = product_description) %>%
+  mutate(product_name = str_to_lower(product_name)) %>%
+  mutate(product_name = ifelse(grepl("gold", product_name),"gold non-monetary", product_name)) %>% 
+  mutate(product_name = ifelse(grepl("cement", product_name),"cement",product_name)) %>% 
+  mutate(product_name = ifelse(grepl("medicaments", product_name),"medicaments",product_name)) %>% 
+  mutate(product_name = ifelse(grepl("vaccines", product_name),"medicaments",product_name)) %>% 
   
+  mutate(product_name = ifelse(grepl("aircraft", product_name),"aircraft",product_name)) %>%
+  mutate(product_name = ifelse(grepl("aircrft", product_name),"aircraft",product_name)) %>%
+  mutate(product_name = ifelse(grepl("special transactions", product_name),
+                               "special transactions",product_name)) %>%
+  mutate(import_value = as.numeric(import_value)) %>%
+  group_by(year, product_name) %>%
+  summarize(import_value = sum(import_value, na.rm = T)) %>% 
+  arrange(desc(import_value)) %>%
+  ungroup() %>% 
+  mutate(year =  as.Date(as.character(year), format = "%Y"))
+
+rwa_sum_rank <-
+  rwa_sum %>%
+  mutate(year = lubridate::year(year)) %>%
+  filter(year > 2010) %>%
+  # select(-sitc_product_code, -nomenclature_code, -tier) %>%
+  group_by(year) %>%  
+  arrange(year, desc(import_value)) %>%  
+  # assign ranking
+  mutate(rank = 1:n()) %>%  
+  filter(rank <= 3) 
+
+rwa_sum_rank_plt <- 
+  rwa_sum_rank %>%  
+  ggplot() +  
+  aes(xmin = 0,  xmax = import_value / 1000000) +  
+  aes(ymin = rank - .45, ymax = rank + .45, y = rank) +  
+  facet_wrap(~ year) +  
+  geom_rect(alpha = .7) +  
+  aes(fill = product_name) +  
+  scale_fill_viridis_d(option = "magma", direction = -1) +
+  labs(x = 'Imports (millions)', fill = "Product category") +
+  my_theme
+
+ggsave(rwa_sum_rank_plt,
+       filename = "GreenAutoImpact.github.io/plots/rwanda_imports.png",
+       width = 6, 
+       height = 4)
+
+library(gganimate) 
+options(gganimate.nframes = 20)
+
+rwa_sum_rank_plt +  
+  facet_null() +  
+  scale_x_continuous(  
+    limits = c(0, 800),  
+    breaks = c(0, 200, 400, 600, 800)) +  
+  # geom_text(x = 600 , y = 1,  
+  #           family = "Times",  
+  #           aes(label = year),  
+  #           size = 12, col = "grey18") +  
+  aes(group = product_name) +  
+  gganimate::transition_time(year)
+
   
+

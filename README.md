@@ -39,6 +39,14 @@ Given the clear *linearity* observed in this time series, we focus on two proper
 ![](plots/auto_ownership_trend.png)
 
 
+**&Why electric cars might be the solution:**
+
+Rwanda can improve her balance of payments by using fewer vehicles that consume petrol. We use empirical evidence to show that it is more cost effective to replace, albeit in a phased out manner that doesn't harm the national budget, the vehicle fleets belonging to all major government institutions.
+
+
+![](plots/rwanda_imports.png)
+
+
 #### References: 
 
 Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwanda (Policy brief 200018). International Growth Centre. https://www.theigc.org/wp-content/uploads/2020/05/Bajpai-and-Bower-2020-policy-brief.pdf 
