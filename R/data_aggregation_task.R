@@ -1,5 +1,5 @@
 # Load necessary libraries and functions
-library(aws.s3)
+library(finnts)
 library(data.table)
 library(tidygraph)
 library(gt)
@@ -123,6 +123,9 @@ rwa_sum_rank_plt <-
   aes(fill = product_name) +  
   scale_fill_viridis_d(option = "magma", direction = -1) +
   labs(x = 'Imports (millions)', fill = "Product category") +
+  scale_x_continuous(  
+    limits = c(0, 800),  
+    breaks = c(0, 400,  800)) +
   my_theme
 
 ggsave(rwa_sum_rank_plt,
@@ -130,20 +133,7 @@ ggsave(rwa_sum_rank_plt,
        width = 6, 
        height = 4)
 
-library(gganimate) 
-options(gganimate.nframes = 20)
 
-rwa_sum_rank_plt +  
-  facet_null() +  
-  scale_x_continuous(  
-    limits = c(0, 800),  
-    breaks = c(0, 200, 400, 600, 800)) +  
-  # geom_text(x = 600 , y = 1,  
-  #           family = "Times",  
-  #           aes(label = year),  
-  #           size = 12, col = "grey18") +  
-  aes(group = product_name) +  
-  gganimate::transition_time(year)
 
   
 

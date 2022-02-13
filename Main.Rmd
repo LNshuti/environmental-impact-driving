@@ -19,17 +19,19 @@ library(tidyverse)
 ```{r setup, include=FALSE}
 # prepare historical data
 df_series <-
-  read_rds("GreenAutoImpact.github.io/inputs/trade_data_all_years.rds") %>% 
-  mutate_at(vars(from_continent, to_continent), as.factor) %>%
+  read_rds("GreenAutoImpact.github.io/inputs/rwanda_trade_df_1999_2019.rds") %>% 
+  select(year, import_value, sitc_product_code) %>%
+  mutate_at(vars(sitc_product_code), as.factor) %>%
   mutate(Date = as.Date(paste(year, 1, 1, sep = "-"))) %>%
+  mutate(import_value = as.integer(import_value)) %>%
   select(-year) %>%
   arrange(Date)
 
 # call main finnts modeling function
 finn_output <- forecast_time_series(
   input_data = df_series,
-  combo_variables = c("to_continent"),
-  target_variable = "imports",
+  combo_variables = c("sitc_product_code"),
+  target_variable = "import_value",
   date_type = "year",
   forecast_horizon = 3,
   back_test_scenarios = 6, 
