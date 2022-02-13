@@ -3,12 +3,11 @@ The goal of this repository is to use open data repositories to answer the follo
 
 #### Import required libraries
 ```
-library(CausalImpact)
-library(tidyverse)
 library(TSstudio)
 library(plotly)
 library(forecast)
-library(prophet)
+library(finnts)
+library(tidyverse)
 ```
 
 
