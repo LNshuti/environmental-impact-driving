@@ -41,12 +41,6 @@ Given the clear *linearity* observed in this time series, we focus on two proper
 
 #### References: 
 
-Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwanda
-  (Policy brief 200018). International Growth Centre. from
-  https://www.theigc.org/wp-content/uploads/2020/05/Bajpai-and-Bower-2020-policy-brief.pdf 
+Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwanda (Policy brief 200018). International Growth Centre. https://www.theigc.org/wp-content/uploads/2020/05/Bajpai-and-Bower-2020-policy-brief.pdf 
   
 Krispin, Rami. Hands-On Time Series Analysis with R: Perform time series analysis and forecasting using R. Packt Publishing Ltd, 2019.
-
-
-https://solutions.rstudio.com/python/minimum-viable-python/
-https://theatlas.com/charts/HkTy5aw5G
