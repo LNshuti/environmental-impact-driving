@@ -13,31 +13,77 @@ library(tidyverse)
 ```
 
 
-
 ## Rwanda Imports History
 
 ```{r setup, include=FALSE}
+library(finnts)
+library(data.table)
+library(tidygraph)
+library(gt)
+library(tidyverse)
+
 # prepare historical data
 df_series <-
-  read_rds("GreenAutoImpact.github.io/inputs/rwanda_trade_df_1999_2019.rds") %>% 
-  select(year, import_value, sitc_product_code) %>%
-  mutate_at(vars(sitc_product_code), as.factor) %>%
+  read_rds("GreenAutoImpact.github.io/inputs/rwanda_trade_df_1999_2019.rds") %>%
+  left_join(sitc_xwalk, by = c("sitc_product_code"= "product_code")) %>%
+  rename(product_name = product_description) %>%
+  mutate(product_name = stringr::str_to_lower(product_name)) %>%
+  mutate(product_name = ifelse(grepl("gold", product_name),
+                               "gold non-monetary",
+                               product_name)) %>% 
+  mutate(product_name = ifelse(grepl("cement", product_name),
+                               "cement",product_name)) %>% 
+  mutate(product_name = ifelse(grepl("medicaments", product_name),
+                               "medicaments",product_name)) %>% 
+  mutate(product_name = ifelse(grepl("vaccines", product_name),"medicaments",product_name)) %>% 
+  
+  mutate(product_name = ifelse(grepl("aircraft", product_name),"aircraft",product_name)) %>%
+  mutate(product_name = ifelse(grepl("aircrft", product_name),"aircraft",product_name)) %>%
+  mutate(product_name = ifelse(grepl("special transactions", product_name),
+                               "special transactions",product_name)) %>%
+  mutate(import_value = as.numeric(import_value)) %>%
+  group_by(year, product_name) %>%
+  dplyr::summarise(import_value = sum(import_value, na.rm = T)) %>% 
+  arrange(desc(import_value)) %>%
+  ungroup() %>% 
+  group_by(year) %>%  
+  arrange(year, desc(import_value)) %>%  
   mutate(Date = as.Date(paste(year, 1, 1, sep = "-"))) %>%
   mutate(import_value = as.integer(import_value)) %>%
   select(-year) %>%
-  arrange(Date)
+  arrange(Date) 
 
-# call main finnts modeling function
-finn_output <- forecast_time_series(
-  input_data = df_series,
-  combo_variables = c("sitc_product_code"),
-  target_variable = "import_value",
-  date_type = "year",
-  forecast_horizon = 3,
-  back_test_scenarios = 6, 
-  models_to_run = c("arima", "ets"), 
-  run_global_models = FALSE, 
-  run_model_parallel = FALSE
-)
+library(tidymodels)
+library(modeltime)
+library(tidyverse)
+library(lubridate)
+library(timetk)
+
+df_series_ts <- 
+  df_series %>%
+  group_by(Date) %>%
+  dplyr::summarise(import_value = sum(import_value, na.rm = T)) %>% 
+  arrange(desc(import_value)) %>%
+  ungroup() 
+
+plot_ <-
+  df_series_ts %>%
+  timetk::plot_time_series(Date,import_value,
+                           .title = "Rwanda imports over time")
 ```
 
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(timetk)
+
+# Setup for the plotly charts (# FALSE returns ggplots)
+interactive <- FALSE
+
+taylor_30_min %>% 
+  plot_time_series(date, value, 
+                   .interactive = interactive,
+                   .plotly_slider = TRUE)
+
+```

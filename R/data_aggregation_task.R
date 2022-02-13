@@ -111,7 +111,14 @@ rwa_sum_rank <-
   arrange(year, desc(import_value)) %>%  
   # assign ranking
   mutate(rank = 1:n()) %>%  
-  filter(rank <= 3) 
+  filter(rank <= 10) %>%
+  ungroup() %>%
+  gt::gt()
+
+library(gt)
+
+gtsave(rwa_sum_rank, "GreenAutoImpact.github.io/plots/rwa_sum_rank.tex")
+
 
 rwa_sum_rank_plt <- 
   rwa_sum_rank %>%  
