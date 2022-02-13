@@ -17,7 +17,7 @@ library(prophet)
 Let us start with Rwanda as an example to understand trends in vehicle ownership. According to a report by Bajpai and Bower(2020) from the International Growth Center, there were approximately 221,000 registered vehicles in Rwanda. The same study also states that the growth in vehicle ownership stood at 12% year-over-year. An older(2018) summary report by the Rwanda Bureau of Statistics reported the following trend in vehicle ownership: 
 
 |Year    |Registred Vehicles   | 
----------|---------------------|
+:---------|:-------------------|
 |2011    |105545               |
 |2012    |125159               |
 |2013    |136824               |
@@ -25,7 +25,6 @@ Let us start with Rwanda as an example to understand trends in vehicle ownership
 |2015    |166893               |
 |2016    |183703               |
 -------------------------------
-**Source:** *https://theatlas.com/charts/HkTy5aw5G*
 
 A simple plot shows that the growth in vehicle ownership in Rwanda follows a linear trend line. Assuming the data is reliable, we can easily make predictions about future ownership. 
 
@@ -51,3 +50,4 @@ Krispin, Rami. Hands-On Time Series Analysis with R: Perform time series analysi
 
 
 https://solutions.rstudio.com/python/minimum-viable-python/
+https://theatlas.com/charts/HkTy5aw5G
