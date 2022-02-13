@@ -63,6 +63,7 @@ trade_df_all_years <-
         janitor::clean_names() %>% 
         mutate_all(as.character)
         ) %>% 
-  bind_rows()
+  bind_rows() %>% 
+  as_tibble()
   
   
