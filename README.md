@@ -44,7 +44,7 @@ Rwanda can improve her balance of payments by using fewer vehicles that consume 
 ![](plots/rwanda_imports.png)
 
 
-![](plots/rwa_sum_rank.tex)
+![](plots/rwa_sum_rank.png)
 
 **Electric vehicles might be the solution:**
 

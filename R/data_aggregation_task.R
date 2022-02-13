@@ -117,7 +117,7 @@ rwa_sum_rank <-
 
 library(gt)
 
-gtsave(rwa_sum_rank, "GreenAutoImpact.github.io/plots/rwa_sum_rank.tex")
+gtsave(rwa_sum_rank, "GreenAutoImpact.github.io/plots/rwa_sum_rank.png")
 
 
 rwa_sum_rank_plt <- 
