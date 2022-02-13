@@ -1,0 +1,29 @@
+---
+title: "Rwanda Imports History"
+author: "Leonce Nshuti"
+date: "2/13/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(finnts)
+
+# prepare historical data
+hist_data <- timetk::m4_monthly %>%
+  dplyr::rename(Date = date) %>%
+  dplyr::mutate(id = as.character(id))
+
+# call main finnts modeling function
+finn_output <- forecast_time_series(
+  input_data = hist_data,
+  combo_variables = c("id"),
+  target_variable = "value",
+  date_type = "month",
+  forecast_horizon = 3,
+  back_test_scenarios = 6, 
+  models_to_run = c("arima", "ets"), 
+  run_global_models = FALSE, 
+  run_model_parallel = FALSE
+)
+```
+
