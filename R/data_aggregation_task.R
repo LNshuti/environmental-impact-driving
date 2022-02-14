@@ -35,9 +35,7 @@ my_theme <- theme_classic(base_family = "Times") +
   theme(axis.text.y = element_blank()) +
   theme(axis.ticks.y = element_blank()) +
   theme(axis.line.y = element_blank()) +
-  theme(legend.background = element_rect(fill = "gainsboro")) +
-  theme(plot.background = element_rect(fill = "gainsboro")) +
-  theme(panel.background = element_rect(fill = "gainsboro"))
+  theme(legend.background = element_rect(fill = "gainsboro")) 
 
 # select products of interest(sitc_product_code == "transportation")
 product2digit <- 
@@ -75,10 +73,10 @@ rwanda_trade_df <-
         ) %>% 
   bind_rows() %>% 
   as_tibble() %>%
-  filter(year > 1998)
+  filter(year > 1995)
 
 saveRDS(object = rwanda_trade_df,
-        "GreenAutoImpact.github.io/inputs/rwanda_trade_df_1999_2019.rds")
+        "GreenAutoImpact.github.io/inputs/rwanda_trade_df_1995_2019.rds")
 
 rwa_sum <-
   #rwanda_trade_df %>% 
@@ -100,7 +98,8 @@ rwa_sum <-
   summarize(import_value = sum(import_value, na.rm = T)) %>% 
   arrange(desc(import_value)) %>%
   ungroup() %>% 
-  mutate(year =  as.Date(as.character(year), format = "%Y"))
+  mutate(year =  as.Date(as.character(year), format = "%Y")) %>%
+  filter(product_name == "aircraft")
 
 rwa_sum_rank <-
   rwa_sum %>%
@@ -115,10 +114,8 @@ rwa_sum_rank <-
   ungroup() %>%
   gt::gt()
 
-library(gt)
-
-gtsave(rwa_sum_rank, "GreenAutoImpact.github.io/plots/rwa_sum_rank.png")
-
+# library(gt)
+# gtsave(rwa_sum_rank, "GreenAutoImpact.github.io/plots/rwa_sum_rank.png")
 
 rwa_sum_rank_plt <- 
   rwa_sum_rank %>%  
@@ -129,7 +126,7 @@ rwa_sum_rank_plt <-
   geom_rect(alpha = .7) +  
   aes(fill = product_name) +  
   scale_fill_viridis_d(option = "magma", direction = -1) +
-  labs(x = 'Imports (millions)', fill = "Product category") +
+  labs(x = 'Imports (millions)', fill = "Product category", y ="") +
   scale_x_continuous(  
     limits = c(0, 800),  
     breaks = c(0, 400,  800)) +
@@ -139,7 +136,28 @@ ggsave(rwa_sum_rank_plt,
        filename = "GreenAutoImpact.github.io/plots/rwanda_imports.png",
        width = 6, 
        height = 4)
+# Model 1: auto_arima ----
+model_fit_arima_no_boost <- arima_reg() %>%
+  set_engine(engine = "auto_arima") %>%
+  fit(import_value ~ year+ factor(product_name, label = TRUE),
+      data = rwa_sum)
 
+# Model 4: prophet ----
+model_fit_prophet <- prophet_reg() %>%
+  set_engine(engine = "prophet") %>%
+  fit(import_value ~ year, data = rwa_sum)
+
+models_tbl <- 
+  modeltime_table(model_fit_prophet)
+
+models_tbl %>%
+  modeltime_forecast(
+    actual_data = rwa_sum
+  ) %>%
+  plot_modeltime_forecast(
+    .legend_max_width = 25, # For mobile screens
+    .interactive      = interactive
+  )
 
 
   
