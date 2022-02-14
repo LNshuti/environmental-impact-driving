@@ -38,15 +38,19 @@ Given the clear *linearity* observed in this time series, we focus on two proper
 
 ![](plots/auto_ownership_trend.png)
 
-Rwanda can improve her balance of payments by using fewer vehicles that consume petrol. We use empirical evidence to show that it is more cost effective to replace, albeit in a phased out manner that doesn't harm the national budget, the vehicle fleets belonging to all major government institutions.
+Rwanda can improve her trade balance by using fewer vehicles that consume petrol. We use empirical evidence to show that it is more cost effective to replace, albeit in a phased out manner that doesn't harm the national budget, the vehicle fleets belonging to all major government institutions.
 
+**Definition of terms:**
+- trade balance = imports - exports
+
+Show key determinants of Rwanda's trade balance over time. 
 
 ![](plots/rwanda_imports.png)
 
 
 ![](plots/rwa_sum_rank.png)
 
-**Electric vehicles might be the solution:**
+**Electric and hybrid vehicles might be the solution:**
 
 
 #### References: 

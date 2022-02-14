@@ -12,7 +12,6 @@ library(finnts)
 library(tidyverse)
 ```
 
-
 ## Rwanda Imports History
 
 ```{r setup, include=FALSE}
@@ -62,7 +61,8 @@ library(timetk)
 df_series_ts <- 
   df_series %>%
   group_by(Date) %>%
-  dplyr::summarise(import_value = sum(import_value, na.rm = T)) %>% 
+  dplyr::summarise(import_value = sum(import_value, 
+                                      na.rm = T)) %>% 
   arrange(desc(import_value)) %>%
   ungroup() 
 
