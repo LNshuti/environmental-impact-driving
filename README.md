@@ -62,9 +62,6 @@ Show key determinants of Rwanda's trade balance over time.
 
 ![](plots/rwanda_imports.png)
 
-
-![](plots/rwa_sum_rank.png)
-
 **Electric and hybrid vehicles might be the solution:**
 
 
