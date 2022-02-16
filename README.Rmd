@@ -34,7 +34,8 @@ my_theme <-
         panel.border = ggplot2::element_blank(),
         panel.grid = ggplot2::element_blank(),
         axis.line.y = element_blank(), 
-        legend.background = element_rect(fill = "gainsboro")) 
+        legend.background = element_rect()
+        ) 
 ```
 
 
