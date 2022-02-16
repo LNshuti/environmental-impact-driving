@@ -11,9 +11,6 @@ We use the World Bank's World Development Indicator APIs to pull trade data from
 
 Using the **wb_search()** function, we search for all indicators that are related to trade. Display some of them and their corresponding descriptions. Of the trade metrics found, exclude those without a valid description. For consistency, we limit ourselves to indicators that are measured in **US dollars.**  
 
-**IC.FRM.TRD.TR1**: **Days to clear direct exports through customs**  
-
-
 #### Import required libraries
 ```
 library(TSstudio)
@@ -28,25 +25,15 @@ library(tidyverse)
 
 Let us start with Rwanda as an example to understand trends in vehicle ownership. According to a report by Bajpai and Bower(2020) from the International Growth Center, there were approximately 221,000 registered vehicles in Rwanda. The same study also states that the growth in vehicle ownership stood at 12% year-over-year. An older(2018) summary report by the Rwanda Bureau of Statistics reported the following trend in vehicle ownership: 
 
-|Year    |Registred Vehicles   | 
-:---------|:-------------------|
-|2011    |105545               |
-|2012    |125159               |
-|2013    |136824               |
-|2014    |149012               |
-|2015    |166893               |
-|2016    |183703               |
--------------------------------
-
-A simple plot shows that the growth in vehicle ownership in Rwanda follows a linear trend line. Assuming the data is reliable, we can easily make predictions about future ownership. 
-
-![](plots/Rwandaauto_ownership_plt.png)
-
-Given the clear *linearity* observed in this time series, we focus on two properties in our modeling: 
-
-**_1._ Trend**
-
-**_2._ Correlation**
+|Year    |Registred Vehicles   |% Growth| 
+:---------|:-------------------|:-------|
+|2011    |105545               |-       |
+|2012    |125159               |18.6%   |
+|2013    |136824               |9.3%    |
+|2014    |149012               |8.9%    |
+|2015    |166893               |12%     |
+|2016    |183703               |10.1%   |
+----------------------------------------
 
 ![](plots/auto_ownership_trend.png)
 
