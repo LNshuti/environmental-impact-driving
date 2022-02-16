@@ -75,3 +75,15 @@ The Growth Lab at Harvard University. International Trade Data (SITC, Rev. 2).
 Matt Grainger (2021). SDGsR: Interface with the UN SDGs API to get data about the 
   Sustainable Development Goals. R package version
   0.0.0.9000. https://drmattg.github.io/SDGsR/
+  
+  
+@data{DVN/B0ASZU_2018,
+author = {Brummitt, Charles},
+publisher = {Harvard Dataverse},
+title = {{Replication Data for: Machine-learned patterns suggest that diversification drives economic development}},
+UNF = {UNF:6:5S4h+uFVmGPqZ17LpYHC4Q==},
+year = {2018},
+version = {V1},
+doi = {10.7910/DVN/B0ASZU},
+url = {https://doi.org/10.7910/DVN/B0ASZU}
+}
