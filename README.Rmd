@@ -84,13 +84,6 @@ rwa_sum <-
   mutate(rank = 1:n()) %>%  
   ungroup() 
 
-# rwa_sum_rank <-
-#   rwa_sum %>% 
-#   filter(year > 2010 & rank < 6) 
-#   gt::gt()
-# library(gt)
-# gtsave(rwa_sum_rank, "GreenAutoImpact.github.io/plots/rwa_sum_rank.png")
-
 rwa_sum_rank_plt <- 
   rwa_sum %>%
   filter(year > 2010 & rank < 6) %>%
@@ -103,7 +96,10 @@ rwa_sum_rank_plt <-
   #scale_fill_viridis_d(option = "magma", direction = -1) +
   labs(x = 'Imports (millions)', fill = "Product category", y ="") +
   scale_x_continuous(limits = c(0, 800), breaks = c(0,400,800)) +
-  my_theme
+  my_theme + 
+  ggthemes::theme_tufte()
+
+
 ggsave(rwa_sum_rank_plt,width = 6, height = 4,
        filename = "GreenAutoImpact.github.io/plots/rwanda_imports.png"
       )
