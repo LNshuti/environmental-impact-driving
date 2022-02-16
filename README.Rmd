@@ -100,7 +100,7 @@ rwa_sum_rank_plt <-
   ggthemes::theme_tufte()
 
 
-ggsave(rwa_sum_rank_plt,width = 6, height = 4,
+ggsave(rwa_sum_rank_plt,width = 8, height = 4,
        filename = "GreenAutoImpact.github.io/plots/rwanda_imports.png"
       )
 ```
