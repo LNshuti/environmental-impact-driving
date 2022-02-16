@@ -33,15 +33,14 @@ Let us start with Rwanda as an example to understand trends in vehicle ownership
 Rwanda can improve her trade balance by using fewer vehicles that consume petrol. We use empirical evidence to show that it is more cost effective to replace, albeit in a phased out manner that doesn't harm the national budget, the vehicle fleets belonging to all major government institutions.
 
 **Definition of terms:**
-- trade balance = imports - exports.
+------------------------
+Trade balance = imports - exports. Trade *imbalance* is when a country's exports are less than her imports. 
 
-Trade *imbalance* is when a country's exports are less than her imports. 
+BEV = Battery Electric Vehicle
+Hybrid = imports - exports
+MPG = Miles per gallon. 
 
-- BEV = Battery Electric Vehicle
-- Hybrid = imports - exports
-- MPG = Miles per gallon. 
-
-  Key determinants of Rwanda's trade balance over time. Categories are ranked in a descending order.  
+Key determinants of Rwanda's trade balance over time. Categories are ranked in  descending order.  
 
 ![](plots/rwanda_imports.png)
 
