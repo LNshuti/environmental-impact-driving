@@ -33,7 +33,6 @@ Let us start with Rwanda as an example to understand trends in vehicle ownership
 |2014    |149012               |8.9%    |
 |2015    |166893               |12%     |
 |2016    |183703               |10.1%   |
-----------------------------------------
 
 ![](plots/auto_ownership_trend.png)
 
