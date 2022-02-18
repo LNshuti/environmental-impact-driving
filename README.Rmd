@@ -71,47 +71,30 @@ rwa_sum <-
   select(product_name,import_value,year) %>%
   unique() %>%
   mutate(product_name = str_to_lower(product_name)) %>%
-  mutate(product_name = ifelse(grepl("gold", product_name),"gold non-monetary", product_name)) %>% 
+  mutate(product_name = ifelse(grepl("gold", product_name),"gold, non-monetary", product_name)) %>% 
   mutate(product_name = ifelse(grepl("cement", product_name),"cement",product_name)) %>% 
-  mutate(product_name = ifelse(grepl("medicaments", product_name),"medicaments",product_name)) %>% 
-  mutate(product_name = ifelse(grepl("vaccines", product_name),"medicaments",product_name)) %>% 
-  mutate(product_name = ifelse(grepl("glycosides", product_name),"medicaments",product_name)) %>% 
-  mutate(product_name = ifelse(grepl("aircraft", product_name),"aircraft",product_name)) %>%
-  mutate(product_name = ifelse(grepl("aircrft", product_name),"aircraft",product_name)) %>%
-  mutate(product_name = ifelse(grepl("special", product_name), "special transacts",product_name)) %>%
+  mutate(product_name =  ifelse(grepl(paste(c("aircraft", "aircrft", "airplanes"), collapse="|"),
+                                      product_name), "aircrafts", product_name)) %>%
+  mutate(product_name = ifelse(grepl("special tra", product_name), "special transactions",product_name)) %>%
+  mutate(product_name = ifelse(grepl(paste(c("medicaments", "glycosides", "vaccines"), collapse="|"),
+                                     product_name), "healthcare goods", product_name)) %>%
   mutate(product_name = ifelse(grepl("clothing ", product_name), "clothing",product_name)) %>%
-  mutate(product_name = ifelse(paste(c("communication", "radio", "telecom"), collapse="|"), 
-                               "telecom", product_name)) %>%
-  mutate(product_name = ifelse(paste(c("petroleum", "petrol.", "crude oil"), collapse="|"), 
-                               "petroleum", product_name)) %>%
-  
-  mutate(product_name = ifelse(paste(c("beans", "legumes", "vegetables","cane sugar",
-                                       "wheat", "corn", "maize", "sugar", "soy", "sugar",
-                                       "meal", "cereal", "hydrogenated oils", "animal",
-                                       "beet"
-                                       ), collapse="|"), 
-                               "food products", product_name)) %>%
-  
-  mutate(product_name = ifelse(grepl("lifting", product_name),
-                               "construction",product_name)) %>%
-  
-  mutate(product_name = ifelse(grepl("motor vehicles", product_name),
-                               "motor vehicles",product_name)) %>%
-  mutate(product_name = ifelse(grepl("passenger", product_name),
-                               "motor vehicles",product_name)) %>%
-  mutate(product_name = ifelse(grepl("batteries", product_name),
-                               "batteries",product_name)) %>%
-  mutate(product_name = ifelse(grepl("furniture", product_name),
-                               "furniture",product_name)) %>%
-  mutate(product_name = ifelse(grepl("leather", product_name),
-                               "leather",product_name)) %>%
-  
-    mutate(product_name = ifelse(grepl("fertilizers", product_name),
-                               "fertilizers",product_name)) %>%
-  mutate(product_name = ifelse(grepl("constr/mining", product_name),
-                               "construction",product_name)) %>%
-   mutate(product_name = ifelse(grepl("pulley", product_name),
-                               "construction",product_name)) %>%
+  mutate(product_name =  ifelse(grepl(paste(c("communication", "radio", "telecom"), collapse="|"),
+                                      product_name), "telecom", product_name)) %>%
+  mutate(product_name =  ifelse(grepl(paste(c("petroleum", "petrol.", "crude oil"), collapse="|"),
+                                      product_name), "petroleum", product_name)) %>%
+  mutate(product_name =  ifelse(grepl(paste(c("beans", "legumes", "vegetables","cane sugar", "wheat",
+                                              "corn", "maize", "sugar", "soy", "sugar", "meal", "cereal",
+                                              "hydrogenated oils", "animal", "beet", "chocolate", "food"),
+                                            collapse="|"), product_name), "food products", product_name)) %>%
+  mutate(product_name =  ifelse(grepl(paste(c("lifting", "constr/mining", "pulley"), collapse="|"),
+                                      product_name), "construction", product_name)) %>%
+  mutate(product_name = ifelse(grepl("vehicles", product_name), "motor vehicles",product_name)) %>%
+  mutate(product_name = ifelse(grepl("passenger", product_name), "motor vehicles",product_name)) %>%
+  mutate(product_name = ifelse(grepl("batteries", product_name), "batteries",product_name)) %>%
+  mutate(product_name = ifelse(grepl("furniture", product_name), "furniture",product_name)) %>%
+  mutate(product_name = ifelse(grepl("leather", product_name), "leather",product_name)) %>%
+  mutate(product_name = ifelse(grepl("fertilizers", product_name), "fertilizers",product_name)) %>%
   mutate(import_value = as.numeric(import_value)) %>%
   group_by(year, product_name) %>%
   summarize(import_value = sum(import_value, na.rm = T)) %>% 
@@ -126,17 +109,6 @@ rwa_sum <-
   mutate(rank = 1:n()) %>%  
   ungroup() 
 ```
-
-```{r}
-rwa_sum %>%
-  filter(year > 2005) %>%
-  select(product_name) %>% 
-  filter(grepl("parts", product_name)) %>%
-  unique() %>%
-  View()
-
-```
-
 
 
 ```{r}
@@ -155,10 +127,8 @@ rwa_sum_rank_plt <-
   my_theme + 
   theme_tufte_revised()
 
-
 ggsave(rwa_sum_rank_plt,width = 8, height = 4,
-       filename = "GreenAutoImpact.github.io/plots/rwanda_imports.png"
-      )
+       filename = "GreenAutoImpact.github.io/plots/rwanda_imports.png")
 ```
 
 ```{r}
