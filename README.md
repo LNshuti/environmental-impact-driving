@@ -17,7 +17,7 @@ library(tidyverse)
 
 #### Case Study: Rwanda
 
-According to a report by Bajpai and Bower from the International Growth Center, there were approximately 221,000 registered vehicles in Rwanda. The same study also states that the growth in vehicle ownership stood at 12% year-over-year. An older summary report by the Rwanda Bureau of Statistics reported the following trend in vehicle ownership: 
+According to a report by Bajpai and Bower from the International Growth Center, there were approximately 221,000 registered vehicles in Rwanda in 2020. The same study also states that the growth in vehicle ownership stood at 12% year-over-year. An older summary report by the Rwanda Bureau of Statistics reported the following trend in vehicle ownership: 
 
 |Year    |Registred Vehicles   |% Growth| 
 :---------|:-------------------|:-------|
