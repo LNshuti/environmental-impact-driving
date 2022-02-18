@@ -39,10 +39,9 @@ Trade balance = imports - exports.
 Trade *imbalance* is when a country's exports are less than her imports. 
 
 - BEV = Battery Electric Vehicle
-- Hybrid = imports - exports
-- MPG = Miles per gallon. 
+- MPG = Miles per gallon
 
-Rwanda's key imports over time.
+Rwanda's key imports over time
 ![](plots/rwanda_imports.png)
 
 
