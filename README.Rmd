@@ -78,48 +78,23 @@ rwa_sum <-
   mutate(product_name = ifelse(grepl("glycosides", product_name),"medicaments",product_name)) %>% 
   mutate(product_name = ifelse(grepl("aircraft", product_name),"aircraft",product_name)) %>%
   mutate(product_name = ifelse(grepl("aircrft", product_name),"aircraft",product_name)) %>%
-  mutate(product_name = ifelse(grepl("special transactions", product_name),
-                               "special transactions",product_name)) %>%
-  mutate(product_name = ifelse(grepl("clothing ", product_name),
-                               "clothing",product_name)) %>%
-  mutate(product_name = ifelse(grepl("communication", product_name),
-                               "telecom",product_name)) %>%
-  mutate(product_name = ifelse(grepl("radio", product_name),
-                               "telecom",product_name)) %>%
+  mutate(product_name = ifelse(grepl("special", product_name), "special transacts",product_name)) %>%
+  mutate(product_name = ifelse(grepl("clothing ", product_name), "clothing",product_name)) %>%
+  mutate(product_name = ifelse(paste(c("communication", "radio", "telecom"), collapse="|"), 
+                               "telecom", product_name)) %>%
+  mutate(product_name = ifelse(paste(c("petroleum", "petrol.", "crude oil"), collapse="|"), 
+                               "petroleum", product_name)) %>%
+  
+  mutate(product_name = ifelse(paste(c("beans", "legumes", "vegetables","cane sugar",
+                                       "wheat", "corn", "maize", "sugar", "soy", "sugar",
+                                       "meal", "cereal", "hydrogenated oils", "animal",
+                                       "beet"
+                                       ), collapse="|"), 
+                               "food products", product_name)) %>%
+  
   mutate(product_name = ifelse(grepl("lifting", product_name),
                                "construction",product_name)) %>%
-  mutate(product_name = ifelse(grepl("petroleum", product_name),
-                               "petroleum",product_name)) %>%
-  mutate(product_name = ifelse(grepl("petrol.", product_name),
-                               "petroleum",product_name)) %>%
-  mutate(product_name = ifelse(grepl("telecom", product_name),
-                               "telecom",product_name)) %>%
-  mutate(product_name = ifelse(grepl("beans", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("legumes", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("vegetables", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("cane sugar", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("meal", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("cereal", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("refined sugar", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("hydrogenated oils", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("animal or vegetable", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("anim./veget", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("animal/veg", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("cane/beet", product_name),
-                               "food",product_name)) %>%
-  mutate(product_name = ifelse(grepl("refined sugar", product_name),
-                               "food",product_name)) %>%
+  
   mutate(product_name = ifelse(grepl("motor vehicles", product_name),
                                "motor vehicles",product_name)) %>%
   mutate(product_name = ifelse(grepl("passenger", product_name),
