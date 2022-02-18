@@ -45,35 +45,20 @@ Rwanda's key imports over time
 ![](plots/rwanda_imports.png)
 
 
-
-
-
-
-**Electric and hybrid vehicles might be the solution:**
-
-
 #### References: 
 
-Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwanda (Policy brief 200018). International Growth Centre. https://www.theigc.org/wp-content/uploads/2020/05/Bajpai-and-Bower-2020-policy-brief.pdf 
+Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwanda (Policy brief 200018).
+  International Growth Centre.
+  https://www.theigc.org/wp-content/uploads/2020/05/Bajpai-and-Bower-2020-policy-brief.pdf 
   
-Krispin, Rami. Hands-On Time Series Analysis with R: Perform time series analysis and forecasting using R. Packt Publishing Ltd, 2019.
-
 Jesse Piburn (2020). wbstats: Programmatic Access to the World Bank API. Oak Ridge
   National Laboratory. Oak Ridge, Tennessee. URL
   https://doi.org/10.11578/dc.20171025.1827
-  
-John Graves(2019). health-care-markets: Defining Markets for Health Care Services.
-  Vanderbilt University Medical Center. Nashville, TN. URL 
-  https://github.com/graveja0/health-care-markets
   
 The Growth Lab at Harvard University. International Trade Data (SITC, Rev. 2).
   2019-05-31. 2019. V5. Harvard Dataverse. URL. https://doi.org/10.7910/DVN/H8SFD2. 
   doi/10.7910/DVN/H8SFD2
 
-Matt Grainger (2021). SDGsR: Interface with the UN SDGs API to get data about the 
-  Sustainable Development Goals. R package version
-  0.0.0.9000. https://drmattg.github.io/SDGsR/
-  
 Brummitt, Charles (2018). Replication Data for: Machine-learned patterns suggest that
   diversification drives economic development. UNF:6:5S4h+uFVmGPqZ17LpYHC4Q==.
   doi = 10.7910/DVN/B0ASZU.https://doi.org/10.7910/DVN/B0ASZU
