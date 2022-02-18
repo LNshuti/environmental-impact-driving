@@ -42,8 +42,7 @@ Trade *imbalance* is when a country's exports are less than her imports.
 - Hybrid = imports - exports
 - MPG = Miles per gallon. 
 
-Rwanda's key imports over time. Categories are ranked in  descending order.  
-
+Rwanda's key imports over time.
 ![](plots/rwanda_imports.png)
 
 
