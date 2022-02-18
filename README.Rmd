@@ -75,7 +75,9 @@ rwa_sum <-
   mutate(product_name = ifelse(grepl("cement", product_name),"cement",product_name)) %>% 
   mutate(product_name =  ifelse(grepl(paste(c("aircraft", "aircrft", "airplanes"), collapse="|"),
                                       product_name), "aircrafts", product_name)) %>%
-  mutate(product_name = ifelse(grepl("special tra", product_name), "special transactions",product_name)) %>%
+  mutate(product_name =  ifelse(grepl(paste(c("special tra", "un special code"), collapse="|"),
+                                      product_name), "special transactions", product_name)) %>%
+  
   mutate(product_name = ifelse(grepl(paste(c("medicaments", "glycosides", "vaccines"), collapse="|"),
                                      product_name), "healthcare goods", product_name)) %>%
   mutate(product_name = ifelse(grepl("clothing ", product_name), "clothing",product_name)) %>%
