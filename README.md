@@ -47,13 +47,6 @@ Rwanda's key imports over time
 ![](plots/rwanda_imports.png)
 
 
-
-
-#### Contact
-
-For additional information regarding **StructuRly**, please visit [our website](https://www.greenautorwanda.com/).
-
-
 #### References: 
 
 Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwanda (Policy brief 200018).
