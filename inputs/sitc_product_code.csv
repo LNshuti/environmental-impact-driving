@@ -1,0 +1,4634 @@
+NomenclatureCode,Tier,ProductCode,ProductDescription
+S3,0, Total,Total Trade
+S3,1,0,Food & live animals
+S3,2,00,Live animals except fish
+S3,3,001,Live animals except fish
+S3,4,0011,"Bovine animals, live"
+S3,5,00111,"Bovine animals, breeding"
+S3,5,00119,"Bovine animals, other"
+S3,4,0012,"Sheep & goats, live"
+S3,5,00121,"Sheep,live"
+S3,5,00122,"Goats,live"
+S3,4,0013,"Swine, live"
+S3,5,00131,"Swine, live for breeding"
+S3,5,00139,"Swine, live, other"
+S3,4,0014,"Poultry, live"
+S3,5,00141,"Poultry,live,max 185 gm"
+S3,5,00149,"Poultry live,over 185 gm"
+S3,4,0015,"Equine species, live"
+S3,5,00151,Horses
+S3,5,00152,"Asses/mules/hinnies,live"
+S3,4,0019,Live animals n.e.s.
+S3,2,01,Meat & preparations
+S3,3,011,"Beef, fresh/chilld/frozn"
+S3,4,0111,"Beef, fresh/chilled"
+S3,5,01111,"Beef fresh/chld,bone in"
+S3,5,01112,Beef fresh/chld boneless
+S3,4,0112,"Beef, frozen"
+S3,5,01121,"Beef, frozen, bone in"
+S3,5,01122,"Beef, frozen, boneless"
+S3,3,012,"Meat nes,fresh/chld/froz"
+S3,4,0121,Meat sheep/goat fr/ch/fz
+S3,5,01211,Mutton fresh/chilled
+S3,5,01212,Mutton frozen
+S3,5,01213,"Goat meat,fresh/chld/frz"
+S3,4,0122,Pork fresh/chilled/frozn
+S3,5,01221,Pork fresh/chilled
+S3,5,01222,Pork frozen
+S3,4,0123,Poultry fresh/chld/frozn
+S3,5,01231,Poultry(whole)frsh/chld
+S3,5,01232,Poultry(whole) frozen
+S3,5,01233,"Liver,goose/duck frsh/ch"
+S3,5,01234,Poultry cuts fresh/chlld
+S3,5,01235,"Poultry cuts, frozen"
+S3,5,01236,Poultry liver frozen
+S3,4,0124,"Meat,equine,frsh/chl/frz"
+S3,4,0125,"Edible offal,frs/chl/frz"
+S3,5,01250,  UN Special Code
+S3,5,01251,"Beef offal,fresh/chilled"
+S3,5,01252,"Beef offal, frozen"
+S3,5,01253,"Swine offal,fresh/chilld"
+S3,5,01254,"Swine offal, frozen"
+S3,5,01255,"Offal,sheep etc fresh/ch"
+S3,5,01256,"Offal,sheep etc frozen"
+S3,4,0129,"Meat/offal nes,fr/ch/frz"
+S3,5,01291,"Meat/offal,rabbit/hare"
+S3,5,01292,Frogs legs
+S3,5,01293,Edible snails(not sea)
+S3,5,01299,Other meat nes fr/ch/frz
+S3,3,016,Meat/offal preserved
+S3,4,0161,"Bacon, ham, etc."
+S3,5,01610,  UN Special Code
+S3,5,01611,Ham/shoulder/cuts w bone
+S3,5,01612,Pork bellies/streaky
+S3,5,01619,"Meat,swine,cured nes"
+S3,4,0168,Meat(exc.swine)preserved
+S3,5,01681,Beef etc salted/smkd/dry
+S3,5,01689,Meat/offal cured nes etc
+S3,3,017,Meat/offal presvd n.e.s
+S3,4,0171,"Meat,fish extrcts/juices"
+S3,4,0172,Sausages etc. (meat)
+S3,4,0173,"Liver,prepared/preserved"
+S3,4,0174,"Poultry,prepd/presvd.nes"
+S3,4,0175,Pork prepared/presvd nes
+S3,4,0176,Beef prepared/presvd nes
+S3,4,0179,Meat nes prepared/presvd
+S3,2,02,Dairy products & eggs
+S3,3,022,Milk pr exc buttr/cheese
+S3,4,0220,  UN Special Code
+S3,4,0221,Milk and cream unsweetnd
+S3,5,02210,  UN Special Code
+S3,5,02211,Milk (max fat 1%)
+S3,5,02212,Milk (fat 1%-6%)
+S3,5,02213,Cream (min fat 6%)
+S3,4,0222,"Milk/cream,conc/sweetend"
+S3,5,02221,"Milk powder, fat < 1.5%"
+S3,5,02222,Milk/cream powder nes
+S3,5,02223,"Milk(ex dry) prsvd,unswt"
+S3,5,02224,"Milk(ex dry) prsvd,swtnd"
+S3,4,0223,Yogurt/buttermilk/ice cr
+S3,5,02230,  UN Special Code
+S3,5,02231,Yogurt
+S3,5,02232,Buttermilk etc.
+S3,5,02233,"Ice cream,edible ice"
+S3,4,0224,"Whey, products"
+S3,5,02241,Whey
+S3,5,02249,Natural milk prods n.e.s
+S3,3,023,Butter and cheese
+S3,4,0230,"Butter, milk fats"
+S3,3,024,Cheese and curd
+S3,4,0240,  UN Special Code
+S3,4,0241,"Cheese,grated/powdered"
+S3,4,0242,"Cheese,processed n.e.s."
+S3,4,0243,"Cheese, blue veined"
+S3,4,0249,"Cheese, curd n.e.s."
+S3,5,02491,"Cheese,unfermented,n.e.s"
+S3,5,02499,Cheese and curd nes
+S3,3,025,"Eggs, albumin"
+S3,4,0251,Eggs in shell
+S3,4,0252,"Eggs(shelled),processed"
+S3,5,02521,Eggs - dried
+S3,5,02522,"Eggs,preserved exc dried"
+S3,4,0253,Egg albumin
+S3,2,03,Fish/shellfish/etc.
+S3,3,034,"Fish,live/frsh/chld/froz"
+S3,4,0341,"Fish,whole,live/frsh/chd"
+S3,5,03411,"Fish, live"
+S3,5,03412,"Salmon/trout, fresh"
+S3,5,03413,"Fish, flat,fresh/chilled"
+S3,5,03414,"Tuna/skipjack/bonito,f/c"
+S3,5,03415,"Herring/sardine/sprat,fc"
+S3,5,03416,"Cod, fresh/chilled"
+S3,5,03417,"Mackerel, fresh/chilled"
+S3,5,03418,"Fish, n.e.s. fresh/chld"
+S3,5,03419,"Fish liver/roe,frsh/chld"
+S3,4,0342,"Fish,frozen exc.fillets"
+S3,5,03421,"Salmon/trout, frozen"
+S3,5,03422,"Fish, flat, frozen"
+S3,5,03423,"Tuna/skipjack/bonito,frz"
+S3,5,03424,"Herring/sardine/sprat,fz"
+S3,5,03425,"Cod,frozen,exc.liver/roe"
+S3,5,03426,"Mackerel,frozen,exc.roe"
+S3,5,03427,"Hake,frozen,exc.liv/roe"
+S3,5,03428,"Fish nes,frzn ex liv/roe"
+S3,5,03429,"Fish liver/roe,frozen"
+S3,4,0344,"Fish fillets,frozen"
+S3,4,0345,"Fish fillets,fresh/chill"
+S3,5,03451,"Fish fillets/meat,frs/ch"
+S3,5,03455,"Fish meat exc.fillet,frz"
+S3,3,035,"Fish,dried/salted/smoked"
+S3,4,0350,  UN Special Code
+S3,4,0351,"Fish,dried/salted/brine"
+S3,5,03510,  UN Special Code
+S3,5,03511,"Cod, dried"
+S3,5,03512,"Fish fillets,dried/saltd"
+S3,5,03513,Fish(ex cod)dried/salted
+S3,4,0352,"Fish,salted,not drd/smkd"
+S3,5,03520,  UN Special Code
+S3,5,03521,"Cod, salted,not drd/smkd"
+S3,5,03522,"Anchovies,salted,not dry"
+S3,5,03529,"Fish n.e.s.salted,wet"
+S3,4,0353,Fish smoked(exc fillets)
+S3,4,0354,"Fish liver/roe,dr/sm/sal"
+S3,4,0355,Fish meal fit for food
+S3,3,036,Crustaceans molluscs etc
+S3,4,0360,  UN Special Code
+S3,4,0361,"Crustaceans, frozen"
+S3,5,03611,"Shrimps/prawns, frozen"
+S3,5,03619,Crustaceans n.e.s.frozen
+S3,4,0362,"Crustaceans, not frozen"
+S3,4,0363,Molluscs/aquatic invert.
+S3,5,03631,Oysters
+S3,5,03633,"Octopus/squid,frsh/chlld"
+S3,5,03635,"Shell fish nes,frsh/chld"
+S3,5,03637,"Octopus/squid,frz/dry/sa"
+S3,5,03639,"Shell fish nes,fz/dr/sal"
+S3,3,037,"Fish/shellfish,prep/pres"
+S3,4,0371,"Fish, prepared/preserved"
+S3,5,03711,"Salmon,prepd/preserved"
+S3,5,03712,Herring etc prepd/presvd
+S3,5,03713,Tuna etc prepd/preserved
+S3,5,03714,Mackerel prepd/preserved
+S3,5,03715,Fish nes prepd/preserved
+S3,5,03716,"Fish prepard,presrvd nes"
+S3,5,03717,Caviar/substitutes
+S3,4,0372,Shellfish prepared/prsvd
+S3,5,03721,"Crustaceans,prepd/presvd"
+S3,5,03722,"Molluscs,prepared/presvd"
+S3,2,04,Cereals/cereal preparatn
+S3,3,040,  UN Special Code
+S3,3,041,Wheat/meslin
+S3,4,0411,Durum wheat
+S3,4,0412,Wheat nes/meslin
+S3,3,042,Rice
+S3,4,0420,  UN Special Code
+S3,4,0421,Rice in the husk
+S3,4,0422,Rice husked(brown)
+S3,4,0423,"Rice,milled"
+S3,5,04231,Rice milled unbroken
+S3,5,04232,"Rice milled, broken"
+S3,3,043,Barley grain
+S3,4,0430,Barley grain
+S3,3,044,Maize except sweet corn.
+S3,4,0441,Maize seed ex sweet corn
+S3,4,0449,Maize ex sweet corn nes
+S3,3,045,Cereal grains nes
+S3,4,0451,Rye
+S3,4,0452,Oats
+S3,4,0453,Grain sorghum
+S3,4,0459,Buckwheat/millet/etc unm
+S3,5,04590,  UN Special Code
+S3,5,04591,Millet
+S3,5,04592,Buckwheat
+S3,5,04593,Canary seed
+S3,5,04599,Cereals grains nes
+S3,3,046,Flour/meal wheat/meslin
+S3,4,0461,Flour of wheat or meslin
+S3,4,0462,Wheat meal/groats/pellet
+S3,3,047,Cereal meal/flour n.e.s
+S3,4,0471,Cereal flour(non-wheat)
+S3,5,04711,Maize (corn) flour
+S3,5,04719,Cereal meal/flour nes
+S3,4,0472,Cereal meal/gr non-wheat
+S3,5,04721,Maize meal/groats
+S3,5,04722,Cereal groats/meal n.e.s
+S3,5,04729,"Cereal pellets,non-wheat"
+S3,3,048,Cereal etc flour/starch
+S3,4,0481,Cereals/breakfast foods
+S3,5,04810,  UN Special Code
+S3,5,04811,Cereal roasted/puffed
+S3,5,04812,"Cereal,grain,prp,ex corn"
+S3,5,04813,Cereal nes rolled/flaked
+S3,5,04814,"Cereal,prepd nes ex rice"
+S3,5,04815,Cereal germ prepared
+S3,4,0482,Malt/ malt flour
+S3,4,0483,"Pasta, uncooked"
+S3,4,0484,Bread/pastry/cakes/etc.
+S3,5,04841,Crispbread/rusks/toast
+S3,5,04842,Sweet biscuits etc.
+S3,5,04849,Bakers wares nes
+S3,4,0485,Bakers mixes/doughs
+S3,2,05,Vegetables and fruit
+S3,3,054,"Vegetables,frsh/chld/frz"
+S3,4,0540,  UN Special Code
+S3,4,0541,Potatoes frsh excl sweet
+S3,4,0542,Dried legumes
+S3,5,05420,  UN Special Code
+S3,5,05421,Peas
+S3,5,05422,Dried chickpeas
+S3,5,05423,Dried beans n.e.s.
+S3,5,05424,Dried lentils
+S3,5,05425,Dried broad/horse beans
+S3,5,05429,Dried legumes nes
+S3,4,0544,Tomatoes fresh/chilled
+S3,4,0545,"Vegetables nes,frsh/chld"
+S3,5,05450,  UN Special Code
+S3,5,05451,"Onions/shallot,frsh/chld"
+S3,5,05452,Garlic/leek/etc frsh/chd
+S3,5,05453,Cabbages etc fresh/chld
+S3,5,05454,Letuce/chicory frsh/chld
+S3,5,05455,"Root vegetables,frsh/chd"
+S3,5,05456,Cucumber/gherkin frsh/ch
+S3,5,05457,"Legumes, fresh/chilled"
+S3,5,05458,Mushrooms/truffles
+S3,5,05459,"Vegetables nes,frsh/chld"
+S3,4,0546,"Vegetables,frozen"
+S3,5,05460,  UN Special Code
+S3,5,05461,"Sweet corn, frozen"
+S3,5,05469,Vegetables n.e.s. frozen
+S3,4,0547,Vegetables prov preservd
+S3,4,0548,"Veg prod nes,fresh/dried"
+S3,5,05480,  UN Special Code
+S3,5,05481,"Manioc(cassava),frsh/drd"
+S3,5,05483,"Roots,tubers nes frs/drd"
+S3,5,05484,Hop cones and lupulin
+S3,5,05485,"Fruit kernels,fresh/dry"
+S3,5,05487,Sugar beet frsh dried
+S3,5,05488,Sugar cane frsh dried
+S3,5,05489,Veg prods nes frsh/dried
+S3,3,056,Veg root/tuber prep/pres
+S3,4,0561,Veg dried excl legumes
+S3,5,05610,  UN Special Code
+S3,5,05611,"Potatoes, dried"
+S3,5,05612,"Onions, dried"
+S3,5,05613,"Mushrooms/truffles,dried"
+S3,5,05619,Dried vegatables nes
+S3,4,0564,Fruit/veg flour/meal nes
+S3,5,05640,  UN Special Code
+S3,5,05641,"Potato flour,meal"
+S3,5,05642,Potato flaked
+S3,5,05645,Tapioca/sago/etc
+S3,5,05646,Legume flour/meal
+S3,5,05647,Veg root/tubr flour/meal
+S3,5,05648,Fruit/nut meal/flour
+S3,4,0566,"Vegetables, presvd/frozn"
+S3,5,05661,"Potatoes, presvd/frozen"
+S3,5,05669,"Vegetables nes, pres/frz"
+S3,4,0567,Vegetables prep/pres nes
+S3,5,05670,  UN Special Code
+S3,5,05671,Vegtbls/fruit in vinegar
+S3,5,05672,Tomatoes presvd ex vineg
+S3,5,05673,Tomato puree etc
+S3,5,05674,Mushroom/truffle presvd
+S3,5,05675,Sauerkraut ex in vinegar
+S3,5,05676,Potatoes presvd ex vineg
+S3,5,05677,Sweet corn
+S3,5,05679,"Oth veg presvd,prepd nes"
+S3,3,057,"Fruit/nuts, fresh/dried"
+S3,4,0570,  UN Special Code
+S3,4,0571,Citrus fruit fresh/dried
+S3,5,05711,"Oranges,fresh or dried"
+S3,5,05712,Mandarins etc frsh/dried
+S3,4,0572,Citrus fruit nes frsh/dr
+S3,5,05721,"Lemons/limes,fresh/dried"
+S3,5,05722,"Grapefruits,fresh/dried"
+S3,5,05729,"Citrus nes,fresh/dried"
+S3,4,0573,"Banana/plantain,frsh/dry"
+S3,4,0574,Apples fresh
+S3,4,0575,Grapes fresh/dried
+S3,5,05751,Grapes fresh
+S3,5,05752,Grapes dried(raisins)
+S3,4,0576,"Figs,fresh or dried"
+S3,4,0577,Nuts edible fresh/dried
+S3,5,05771,Coconuts fresh/dried
+S3,5,05772,"Brazil nuts, fresh/dried"
+S3,5,05773,"Cashew nuts, fresh/dried"
+S3,5,05774,"Almonds, fresh/dried"
+S3,5,05775,"Hazelnuts, fresh/dried"
+S3,5,05776,"Walnuts, fresh/dried"
+S3,5,05777,"Chestnuts, fresh/dried"
+S3,5,05778,"Pistachios, fresh/dried"
+S3,5,05779,"Nuts edible,frsh/dry nes"
+S3,4,0579,Fruit fresh/dried nes
+S3,5,05790,  UN Special Code
+S3,5,05791,Melons/papaws fresh
+S3,5,05792,Pears/quinces fresh
+S3,5,05793,"Stone fruit nes, fresh"
+S3,5,05794,Berries fresh
+S3,5,05795,"Pineapples, fresh/dried"
+S3,5,05796,"Dates, fresh/dried"
+S3,5,05797,Avocado/mango/guava frsh
+S3,5,05798,Other fresh fruit
+S3,5,05799,"Dried fruit nes,mixtures"
+S3,3,058,Fruit presvd/fruit preps
+S3,4,0581,Fruit jams/jellies/etc
+S3,4,0582,Fruit/nuts prov.presvd.
+S3,5,05821,Fruit temp preserved
+S3,5,05822,"Fruit peel, temp presvd."
+S3,4,0583,Fruit/nuts uncooked/boil
+S3,5,05830,  UN Special Code
+S3,5,05831,"Strawberries, frozen"
+S3,5,05832,"Berry fruits nes,frozen"
+S3,5,05839,Fruit/nut nes cook/frozn
+S3,4,0589,Fruit/nuts/veg prsvd nes
+S3,5,05890,  UN Special Code
+S3,5,05892,Nuts/seeds prepd/presvd
+S3,5,05893,Pineapples prepd/presvd
+S3,5,05894,Citrus fruit prepd/presv
+S3,5,05895,Apricot/cherry/peach prs
+S3,5,05896,"Fruit/nuts nes,preserved"
+S3,5,05897,Fruit/mixtures preserved
+S3,3,059,Fruit/veg juices
+S3,4,0590,  UN Special Code
+S3,4,0591,Orange juice
+S3,4,0592,Grapefruit juice
+S3,4,0593,Citrus fruit juices nes
+S3,5,05930,  UN Special Code
+S3,4,0599,Fruit juices nes/mixture
+S3,5,05990,  UN Special Code
+S3,5,05991,Pineapple juice
+S3,5,05992,Tomato juice
+S3,5,05993,Grape juice/grape must
+S3,5,05994,Apple juice
+S3,5,05995,"Juice,one fruit/veg nes"
+S3,5,05996,Mixtures of diff juices
+S3,2,06,Sugar/sugar prep/honey
+S3,3,061,Sugar/mollasses/honey
+S3,4,0610,  UN Special Code
+S3,4,0611,Raw sugars
+S3,5,06111,Raw cane sugar
+S3,5,06112,Raw beet sugar
+S3,4,0612,Cane/beet sugar nes
+S3,5,06121,"Sugar,coloured/flavoured"
+S3,5,06129,Raw solid sugar nes
+S3,4,0615,Molasses ex sugar refine
+S3,5,06151,Cane sugar molasses
+S3,5,06159,Beet/other molasses
+S3,4,0616,Natural honey
+S3,4,0619,Sugars nes/syrups/etc.
+S3,5,06190,  UN Special Code
+S3,5,06191,"Lactose, lactose syrup"
+S3,5,06192,Maple sugar/syrup
+S3,5,06193,Glucose/syrup <20%fructo
+S3,5,06194,Glucose/syrup 20-50%fruc
+S3,5,06195,"Fructose, pure"
+S3,5,06196,Fructose/syrup nes
+S3,5,06199,Sugars nes/invert sugar
+S3,3,062,Sugar confectionery
+S3,4,0621,Fruit preserved by sugar
+S3,4,0622,Sugar conf/white choc.
+S3,5,06221,Chewing gum
+S3,5,06229,Sugar confectionery nes
+S3,2,07,Coffee/tea/cocoa/spices
+S3,3,071,Coffee/coffee substitute
+S3,4,0711,"Coffee, not roasted"
+S3,5,07110,  UN Special Code
+S3,5,07111,Coffee not roasted/decaf
+S3,5,07112,Coffee decaff not roastd
+S3,5,07113,Coffee husks/skins
+S3,4,0712,Coffee roasted
+S3,4,0713,Coffee extr/essence/subs
+S3,5,07131,Coffee extract/essence
+S3,5,07132,Coffee/substitute mixes
+S3,5,07133,Chicory/coffee substitut
+S3,3,072,Cocoa
+S3,4,0721,"Cocoa beans,raw/roasted"
+S3,4,0722,"Cocoa powder,unsweetened"
+S3,4,0723,Cocoa paste
+S3,5,07231,"Cocoa paste,not defatted"
+S3,5,07232,"Cocoa paste, defatted"
+S3,4,0724,Cocoa butter/fat/oil
+S3,4,0725,Cocoa wastes
+S3,3,073,Chocolate/cocoa preps
+S3,4,0730,  UN Special Code
+S3,4,0731,"Cocoa powder, sweetened"
+S3,4,0732,Cocoa preps/choc.(bulk)
+S3,4,0733,Chocolate bars nes
+S3,4,0739,Cocoa foods nes
+S3,3,074,Tea and mate
+S3,4,0741,Tea
+S3,5,07410,  UN Special Code
+S3,5,07411,"Green tea, pack to 3kg"
+S3,5,07412,"Green tea, bulk"
+S3,5,07413,"Black tea, pack to 3kg"
+S3,5,07414,"Black tea, bulk"
+S3,4,0743,"Mate, tea extracts/preps"
+S3,5,07431,Mate
+S3,5,07432,Tea/etc extract/essence
+S3,3,075,Spices
+S3,4,0751,Peppers dried/crush/grnd
+S3,5,07511,Pepper whole
+S3,5,07512,Pepper crushed/ground
+S3,5,07513,Capsicum dry/crush/grnd
+S3,4,0752,Spices ex pepper/pimento
+S3,5,07520,  UN Special Code
+S3,5,07521,Vanilla
+S3,5,07522,"Cinnamon,etc whole"
+S3,5,07523,"Cinnamon,crushed/ground"
+S3,5,07524,"Cloves, whole/clove/stem"
+S3,5,07525,Nutmeg/mace/cardamoms
+S3,5,07526,Seed spices
+S3,5,07527,Ginger (excpt preserved)
+S3,5,07528,Thyme/saffron/bay leaves
+S3,5,07529,"Spices nes, mixtures"
+S3,2,08,Animal feed ex unml cer.
+S3,3,081,Animal feed ex unml cer.
+S3,4,0811,"Hay/fodder, green/dry"
+S3,5,08110,  UN Special Code
+S3,5,08111,Cereal straw etc unprep
+S3,5,08112,Lucerne(alfalfa)
+S3,5,08113,Fodder roots/crops
+S3,5,08119,Fodder-veg residues
+S3,4,0812,Fodder bran/by-products
+S3,5,08123,"Bran, etc of legumes"
+S3,5,08124,"Bran, etc of maize"
+S3,5,08125,"Bran, etc of rice"
+S3,5,08126,"Bran, etc of wheat"
+S3,5,08129,"Bran, etc of cereals nes"
+S3,4,0813,Oil cake by-products
+S3,5,08131,Oil cake of soya beans
+S3,5,08132,Oil cake of groundnuts
+S3,5,08133,Oil cake of cotton seed
+S3,5,08134,Oil cake of linseed
+S3,5,08135,Oil cake of sunflower
+S3,5,08136,Oil cake of rape/colza
+S3,5,08137,Oil cake of copra
+S3,5,08138,Oil cake of palm nuts
+S3,5,08139,Oil cake of oilseeds nes
+S3,4,0814,Meat/fish meal fodder
+S3,5,08141,Meat meal fodder
+S3,5,08142,Fish meal fodder
+S3,4,0815,Starch/sugar waste foddr
+S3,5,08150,  UN Special Code
+S3,5,08151,Starch ind waste fodder
+S3,5,08152,Sugar ind waste fodder
+S3,5,08153,Brewing ind waste fodder
+S3,4,0819,"Fodder,food wastes nes"
+S3,5,08194,Wine lees/argol
+S3,5,08195,"Dog/cat food, retail"
+S3,5,08199,Animal feeds n.e.s.
+S3,2,09,Misc food products
+S3,3,091,Margarine/shortening
+S3,4,0910,Margarines/fats/oils
+S3,5,09101,Margarine exc liquid
+S3,5,09109,Misc edible prods nes
+S3,3,098,Edible products n.e.s.
+S3,4,0981,Homogenized food preps.
+S3,5,09810,  UN Special Code
+S3,5,09811,Homogenized meat preps.
+S3,5,09812,Homogenized vegetables
+S3,5,09813,Homogenized fruit preps
+S3,5,09814,Homogenzd composite food
+S3,4,0984,Sauce/condiments etc
+S3,5,09841,Soya sauce
+S3,5,09842,Tomato sauces
+S3,5,09843,Mustard preparations
+S3,5,09844,Vinegar and substitutes
+S3,5,09849,Sauces/mixed seasonings
+S3,4,0985,Soups and broths
+S3,4,0986,Yeasts/baking powders
+S3,4,0989,Food preparations n.e.s.
+S3,5,09891,Pasta(cooked)/couscous
+S3,5,09892,Edible animl prodcts nes
+S3,5,09893,Baby foods (cereal)
+S3,5,09894,Malt extracts etc.
+S3,5,09899,Misc food preprtions nes
+S3,1,1,Beverages and tobacco
+S3,2,11,Beverages
+S3,3,111,Beverage non-alcohol nes
+S3,4,1110,Beverage non alcohol nes
+S3,5,11101,Mineral water/ice/snow
+S3,5,11102,Flavored waters non-alc
+S3,3,112,Alcoholic beverages
+S3,4,1121,Wine of fresh grapes
+S3,5,11211,Grape must in fermentat.
+S3,5,11213,Vermouth/flavoured wine
+S3,5,11215,Sparkling wine
+S3,5,11217,Still/fortified wines
+S3,4,1122,Cider/perry/mead/etc
+S3,4,1123,Beer/ale/stout/porter
+S3,4,1124,Distilled alcoholic bev
+S3,5,11241,Whisky
+S3,5,11242,Brandies/marcs etc.
+S3,5,11243,Compound alcohol preps.
+S3,5,11244,Rum/tafia
+S3,5,11245,Gin/geneva
+S3,5,11249,Distilled alcohol n.e.s.
+S3,2,12,Tobacco/manufactures
+S3,3,121,"Tobacco, raw and wastes"
+S3,4,1211,"Tobacco,not stripped"
+S3,4,1212,Tobacco stripped/stemmed
+S3,4,1213,Tobacco refuse
+S3,3,122,"Tobacco, manufactured"
+S3,4,1221,Cigars/cheroots/etc
+S3,4,1222,Cigarettes (tobacco)
+S3,4,1223,Manufactured tobacco nes
+S3,5,12230,  UN Special Code
+S3,5,12231,Cigars etc(tobacco subs)
+S3,5,12232,Pipe tobacco etc.
+S3,5,12239,Oth manufactured tobacco
+S3,1,2,Crude mater.ex food/fuel
+S3,2,20,  UN Special Code
+S3,2,21,"Hide/skin/fur, raw"
+S3,3,211,Hide/skin (ex fur) raw
+S3,4,2111,Bovine/equine hide raw
+S3,5,21110,  UN Special Code
+S3,5,21111,Bovine hide fresh/salted
+S3,5,21112,Bovine hide raw nes
+S3,5,21113,Equine hide/skin raw
+S3,4,2112,"Bovine hides, whole, raw"
+S3,4,2114,"Goat/kid skins, raw"
+S3,4,2116,Sheep skin common w/wool
+S3,4,2117,Sheep skin without wool
+S3,4,2119,Hide/skin nes/waste
+S3,5,21191,Leather waste/dust etc.
+S3,5,21199,"Hides and skins nes,raw"
+S3,3,212,"Furskins/pieces, raw"
+S3,4,2120,  UN Special Code
+S3,4,2121,"Mink skins,raw"
+S3,4,2122,"Furskins nes,raw"
+S3,5,21221,"Rabbit/hare skins, raw"
+S3,5,21222,"Special lamb skins,raw"
+S3,5,21223,"Beaver skins, raw"
+S3,5,21224,"Muskrat skins, raw"
+S3,5,21225,"Fox skins, raw"
+S3,5,21226,"Seal skins, raw"
+S3,5,21229,"Other furskins,raw"
+S3,4,2123,Furskin pieces
+S3,2,22,Oil seeds/oil fruits
+S3,3,222,Oil seeds etc - soft oil
+S3,4,2221,"Groundnuts, unroasted"
+S3,5,22211,Groundnuts in shell
+S3,5,22212,Groundnuts shelled
+S3,4,2222,Soya beans
+S3,4,2223,Cotton seeds
+S3,4,2224,Sunflower seeds
+S3,4,2225,Sesame seeds
+S3,4,2226,Rape/colza/mustard seeds
+S3,5,22261,Rape and colza seeds
+S3,5,22262,Mustard seeds
+S3,4,2227,Safflower seeds
+S3,3,223,Oil seeds-not soft oil
+S3,4,2230,  UN Special Code
+S3,4,2231,Copra
+S3,4,2232,Palm nuts and kernels
+S3,4,2234,Linseed
+S3,4,2235,Castor oil seeds
+S3,4,2237,Oil seeds/oil fruits nes
+S3,4,2239,Oil seed/etc flour/meal
+S3,2,23,Crude/synthet/rec rubber
+S3,3,231,Natural rubber/latex/etc
+S3,4,2310,  UN Special Code
+S3,4,2311,Natural rubber latex
+S3,4,2312,Natural rubber exc latex
+S3,5,23120,  UN Special Code
+S3,5,23121,Natural rubber - smoked
+S3,5,23125,Tech spec natural rubber
+S3,5,23129,Natural rubber nes
+S3,4,2313,Balata/gutta percha/etc
+S3,3,232,Rubber synth/waste/etc
+S3,4,2320,  UN Special Code
+S3,4,2321,Rubber synth from oil
+S3,5,23210,  UN Special Code
+S3,5,23211,Synthetic rubber sbr/xsbr
+S3,5,23212,Synthetic rubber br
+S3,5,23213,Synthetic rubber iir
+S3,5,23214,Synthetic rubbr ciir/biir
+S3,5,23215,Synthetic rubber nbr
+S3,5,23216,Synthetic rubber ir
+S3,5,23217,Synthetic rubber epdm
+S3,5,23218,Nat/synth rubber mixture
+S3,5,23219,Synthetic rubber nes
+S3,4,2322,Reclaimed/waste rubber
+S3,5,23221,Reclaimed rubber-primary
+S3,5,23222,Scrap unhardened rubber
+S3,2,24,Cork and wood
+S3,3,240,  UN Special Code
+S3,3,244,Cork natural/raw/waste
+S3,4,2440,Cork natural/raw/waste
+S3,5,24402,Cork simply worked
+S3,5,24403,Cork natural/raw/prepd.
+S3,5,24404,Cork waste/crushed/etc
+S3,3,245,Fuel wood/wood charcoal
+S3,4,2450,Fuel wood/wood charcoal
+S3,5,24500,  UN Special Code
+S3,5,24501,"Fuel wood in logs,etc"
+S3,5,24502,Wood charcoal-natural
+S3,3,246,Wood chips/waste
+S3,4,2461,Wood chips/particles
+S3,5,24611,Wood chips - coniferous
+S3,5,24615,Wood chips - non-conifer
+S3,4,2462,Wood waste(incl sawdust)
+S3,3,247,Wood in rough/squared
+S3,4,2470,  UN Special Code
+S3,4,2473,"Wood poles,treated"
+S3,4,2474,"Wood,conifer,rough,untrt"
+S3,4,2475,"Hardwood,rough,untreated"
+S3,5,24751,"Tropical hardwood,untrtd"
+S3,5,24752,"Other hardwood,untreated"
+S3,3,248,Wood simply worked
+S3,4,2481,Wood railway sleepers
+S3,5,24811,Railway sleepers untreat
+S3,5,24819,Railway sleepers treated
+S3,4,2482,"Softwood,simply worked"
+S3,4,2483,Softwood shaped/grooved
+S3,4,2484,Hardwood sawn >6mm thick
+S3,4,2485,Hardwood shaped/grooved
+S3,2,25,Pulp and waste paper
+S3,3,251,Pulp and waste paper
+S3,4,2510,  UN Special Code
+S3,4,2511,Paper/board waste/scrap
+S3,5,25110,  UN Special Code
+S3,5,25111,Waste kraft/corr paper
+S3,5,25112,Waste bleach pulp paper
+S3,5,25113,Waste newsprint etc
+S3,5,25119,Waste nes/unsorted
+S3,4,2512,Mechanical wood pulp
+S3,4,2513,Chem wood pulp disolving
+S3,4,2514,Chem wood pulp non-disol
+S3,5,25141,Conifer wood pulp unblch
+S3,5,25142,Non-con wood pulp unblch
+S3,4,2515,Chem wood pulp semi-blch
+S3,5,25151,Conif wood pulp semi-blc
+S3,5,25152,Non-co wood pulp semi-bl
+S3,4,2516,Chem wood pulp sulphite
+S3,5,25161,Wood pulp sulphite unblc
+S3,5,25162,Wood pulp sulphite semib
+S3,4,2519,Semi-chem wood pulp etc
+S3,5,25191,Semi-chemical wood pulp
+S3,5,25192,Pulp othr than wood pulp
+S3,2,26,Textile fibres
+S3,3,261,Silk
+S3,4,2613,Raw silk not thrown
+S3,4,2614,Silk worm cocoons/waste
+S3,5,26141,Silk worm cocoons
+S3,5,26142,Silk waste uncarded
+S3,5,26149,Silk waste other
+S3,3,263,Cotton
+S3,4,2631,"Raw cotton,excl linters"
+S3,4,2632,Cotton linters
+S3,4,2633,Cotton waste
+S3,5,26330,  UN Special Code
+S3,5,26331,Cotton yarn waste
+S3,5,26332,Cotton garnetted stock
+S3,5,26339,Cotton waste n.e.s.
+S3,4,2634,"Cotton,carded/combed"
+S3,3,264,Jute/bast fibre raw/retd
+S3,4,2641,"Jute/bast fibre,raw/rett"
+S3,4,2649,Jute etc tow/waste etc
+S3,3,265,Veg text fibre ex cot/ju
+S3,4,2650,  UN Special Code
+S3,4,2651,Flax unspun/tow/waste
+S3,5,26510,  UN Special Code
+S3,5,26511,"Flax,raw/retted"
+S3,5,26512,"Flax,broken/scutched/etc"
+S3,5,26513,Flax tow/waste
+S3,4,2652,True hemp/waste
+S3,5,26521,True hemp raw/retted
+S3,5,26529,True hemp/tow/waste nes
+S3,4,2654,Sisal etc unspun/tow/wst
+S3,5,26541,"Sisal/agave fibres, raw"
+S3,5,26549,Sisal etc. nes
+S3,4,2655,Abaca unspun/tow/waste
+S3,5,26551,Abaca (manila hemp) raw
+S3,5,26559,Abaca tow/waste/nes
+S3,4,2657,Coconut fibres/wastes
+S3,5,26571,Coconut fibre (coir) raw
+S3,5,26579,Coconut fibre nes
+S3,4,2658,Veg text fibre nes unspn
+S3,5,26581,Oth veg text fibre - raw
+S3,5,26589,Veg text fibre nes/waste
+S3,3,266,Synthetic spinning fibre
+S3,4,2665,Synth fibres not procd
+S3,5,26650,  UN Special Code
+S3,5,26651,Nylon/polyamide fibres
+S3,5,26652,Polyester fibres
+S3,5,26653,Acrylic/modacrylic fibre
+S3,5,26659,Synth staple fibres nes
+S3,4,2666,Synthetic filament tow
+S3,5,26660,  UN Special Code
+S3,5,26661,Nylon/polyamide fil tow
+S3,5,26662,Polyester filament tow
+S3,5,26663,Acrylic filament tow
+S3,5,26669,Synth filament tow nes
+S3,4,2667,"Synth fibres, spinable"
+S3,5,26670,  UN Special Code
+S3,5,26671,Nylon/polyamide spinable
+S3,5,26672,Polyester fibre spinable
+S3,5,26673,Acrylic fibre spinable
+S3,5,26679,Synth fibre nes spinable
+S3,3,267,Man-made fibres nes/wast
+S3,4,2670,  UN Special Code
+S3,4,2671,Artificial spinning fibr
+S3,5,26710,  UN Special Code
+S3,5,26711,Art fibres not processed
+S3,5,26712,Artificial filament tow
+S3,5,26713,Artif fibres for spining
+S3,4,2672,Waste of man-made fibres
+S3,5,26721,Waste of synthetic fibre
+S3,5,26722,Waste of artificial fibr
+S3,3,268,Wool/animal hair
+S3,4,2680,  UN Special Code
+S3,4,2681,"Wool, greasy"
+S3,5,26811,"Wool, shorn, greasy"
+S3,5,26819,"Wool, greasy, nes"
+S3,4,2682,"Wool nes, uncombed"
+S3,5,26821,"Wool degreased,uncarboni"
+S3,5,26829,"Wool degreased,carbonisd"
+S3,4,2683,"Fine animal hair,uncombd"
+S3,4,2685,Horsehair/etc uncombed
+S3,5,26851,Horsehair and its waste
+S3,5,26859,Coarse hair nes uncombed
+S3,4,2686,Waste wool/animal hair
+S3,5,26860,  UN Special Code
+S3,5,26862,Garnetted wool/hair wast
+S3,5,26863,Noils of wool/hair waste
+S3,5,26869,Waste wool/hair nes
+S3,4,2687,Combed/carded wool/hair
+S3,5,26871,Wool carded/combed fragm
+S3,5,26873,Wool tops/combed wool
+S3,5,26877,Animal hair combd/carded
+S3,3,269,Worn clothing etc
+S3,4,2690,Worn clothing etc
+S3,5,26901,Bulk text wste/old cloth
+S3,5,26902,Rags/waste cordage/etc
+S3,2,27,Crude fertilizer/mineral
+S3,3,272,Fertilizers crude
+S3,4,2720,  UN Special Code
+S3,4,2721,"Animal,veg fertlzr,crude"
+S3,4,2722,Sodium nitrate fertilizr
+S3,4,2723,Natural phosphates
+S3,5,27231,Unground nat phosphates
+S3,5,27232,Ground natrl phosphates
+S3,4,2724,Ntrl potassium salts
+S3,3,273,Stone/sand/gravel
+S3,4,2731,Quarried stone slabs
+S3,5,27311,"Slate, slabs"
+S3,5,27312,Marble/etc slabs
+S3,5,27313,Granite/sandstone/etc
+S3,4,2732,Gypsum etc for cement mf
+S3,5,27322,Limestone etc for cement
+S3,5,27323,Gypsum and anhydrite
+S3,5,27324,"Calcined gypsum,plaster"
+S3,4,2733,"Sands, natural"
+S3,5,27331,Silica/quartz sands
+S3,5,27339,Sands nes non-metallic
+S3,4,2734,Gravel/crushed stone/etc
+S3,3,274,Sulphur/unroastd pyrites
+S3,4,2740,  UN Special Code
+S3,4,2741,Sulphur exc purified
+S3,5,27411,"Sulphur, unrefined"
+S3,5,27419,"Sulphur, impure nes"
+S3,4,2742,"Iron pyrites,unroasted"
+S3,3,277,Natural abrasives n.e.s.
+S3,4,2771,"Indust diamonds,sorted"
+S3,5,27711,"Indust diamonds,sawn etc"
+S3,5,27719,"Indust diamonds,worked"
+S3,4,2772,Natural abrasives n.e.s.
+S3,5,27720,  UN Special Code
+S3,5,27721,Dust and powder of gems
+S3,5,27722,Nat abrasives nes crude
+S3,5,27729,Nat abrasives nes worked
+S3,3,278,Other crude minerals
+S3,4,2780,  UN Special Code
+S3,4,2782,Clays/refractory materl.
+S3,5,27822,Natural graphite
+S3,5,27823,Dolomite
+S3,5,27824,Magnesite
+S3,5,27825,Fused magnesia etc.
+S3,5,27826,Kaolinic clays
+S3,5,27827,Bentonite
+S3,5,27829,Clays/earths nes
+S3,4,2783,Common salt all forms
+S3,4,2784,Asbestos
+S3,4,2785,Quartz/mica/felspar etc
+S3,5,27851,Natural quartz exc sand
+S3,5,27852,Mica/mica waste
+S3,5,27853,Felspar/leucite/syenite
+S3,5,27854,Fluorspar
+S3,5,27855,Cryolite/chiolite naturl
+S3,4,2786,Waste slag/dross/scaling
+S3,5,27861,Slag sand(iron/steel mf)
+S3,5,27862,Iron/steel dross/scale..
+S3,5,27869,Slag/ash nes(incl kelp)
+S3,4,2789,Crude mineraks n.e.s.
+S3,5,27891,Chalk
+S3,5,27892,"Nat barium sulphate,carb"
+S3,5,27893,Talc/natural steatite
+S3,5,27894,Crude natural borates
+S3,5,27895,Siliceous fossil meals
+S3,5,27896,Bituminus shale/tar sand
+S3,5,27897,Natural asphalt/bitumen
+S3,5,27898,Vermiculite/perlite/chlo
+S3,5,27899,Mineral substances nes
+S3,2,28,Metal ores/metal scrap
+S3,3,280,  UN Special Code
+S3,3,281,Iron ore/concentrates
+S3,4,2810,  UN Special Code
+S3,4,2814,Roasted iron pyrites
+S3,4,2815,"Iron ore,conc,not agglom"
+S3,4,2816,Iron ore agglomerates
+S3,3,282,Ferrous waste/scrap
+S3,4,2820,  UN Special Code
+S3,4,2821,Waste/scrap cast iron
+S3,4,2822,Waste/scrap alloy steel
+S3,5,28221,Waste/scrap stainless st
+S3,5,28229,Waste/scrap alloy st nes
+S3,4,2823,Ferrous waste/scrap nes
+S3,5,28231,Waste tinned iron/steel
+S3,5,28232,Waste steel trimmings
+S3,5,28233,Remelt iron/steel ingots
+S3,5,28239,Ferrous waste/scrap nes
+S3,3,283,Copper ores/concentrates
+S3,4,2830,  UN Special Code
+S3,4,2831,Copper ores/concentrates
+S3,4,2832,Copper mattes/cement cu
+S3,5,28321,Copper mattes
+S3,5,28322,Cement copper
+S3,3,284,Nickel ores/concs/etc
+S3,4,2841,Nickel ores/concentrates
+S3,4,2842,Nickel mattes/sinters/++
+S3,5,28421,Nickel mattes
+S3,5,28422,Nickel oxide sinters/etc
+S3,3,285,Aluminium ores/concs/etc
+S3,4,2850,  UN Special Code
+S3,4,2851,Aluminium ore/concntrate
+S3,4,2852,Alumina(aluminium oxide)
+S3,3,286,Uranium/thorium ore/conc
+S3,4,2861,Uranium ore/concentrates
+S3,4,2862,Thorium ore/concentrates
+S3,3,287,Base metal ore/conc nes
+S3,4,2870,  UN Special Code
+S3,4,2874,Lead ores/concentrates
+S3,4,2875,Zinc ores/concentrates
+S3,4,2876,Tin ores/concentrates
+S3,4,2877,Manganese ore/conc.
+S3,4,2878,Mo/nb/v/ta/ti/zr ore/con
+S3,5,28781,"Molybdenum ore, roasted"
+S3,5,28782,"Molybdenum ore, other"
+S3,5,28783,Titanium ore/concentrate
+S3,5,28784,Zirconium ore/concentrat
+S3,5,28785,Nb/ta/va ore/concentrate
+S3,4,2879,Base metal ore/conc nes
+S3,5,28791,Chromium ore/concentrate
+S3,5,28792,Tungsten ore/concentrate
+S3,5,28793,Cobalt ore/concentrate
+S3,5,28799,Ores/concentrates nes
+S3,3,288,Nf base metal waste nes
+S3,4,2880,  UN Special Code
+S3,4,2881,Metaliferous non-fer ash
+S3,4,2882,Non-fer metal waste nes
+S3,5,28821,Copper waste and scrap
+S3,5,28822,Nickel waste and scrap
+S3,5,28823,Aluminium wste and scrap
+S3,5,28824,Lead waste and scrap
+S3,5,28825,Zinc waste and scrap
+S3,5,28826,Tin waste and scrap
+S3,3,289,Precious metal ore/conc.
+S3,4,2891,Precious metal ore/conc
+S3,5,28911,Silver ore/concentrates
+S3,5,28919,Prec.metal ore/conc nes
+S3,4,2892,Prec.metal waste/scrap
+S3,5,28921,Platinum waste/scrap
+S3,5,28929,Precious metal waste nes
+S3,2,29,Crude anim/veg mater nes
+S3,3,291,Crude animal mterial nes
+S3,4,2911,Bones/ivory/shells/etc
+S3,5,29111,Bones etc.
+S3,5,29115,Coral/shells/cuttlebone
+S3,5,29116,Ivory/tortoise-shell/etc
+S3,4,2919,Animal materials nes
+S3,5,29191,"Human hair,unworked,etc"
+S3,5,29192,"Brush-making hair,etc"
+S3,5,29193,"Gut,bladders,etc nonfish"
+S3,5,29194,Bovine semen
+S3,5,29195,Birds skins/feathers/etc
+S3,5,29196,Fish/shellfish waste
+S3,5,29197,Natural sponges
+S3,5,29198,Ambergris/civet/musk/etc
+S3,5,29199,Animal products n.e.s.
+S3,3,292,Crude veg materials nes
+S3,4,2920,  UN Special Code
+S3,4,2922,Lac/gums/resins/balsams
+S3,5,29220,  UN Special Code
+S3,5,29221,Lac
+S3,5,29222,Gum arabic
+S3,5,29229,Nat gums/resin/etc nes
+S3,4,2923,Veg plaiting materials
+S3,5,29230,  UN Special Code
+S3,5,29231,Bamboo for plaiting
+S3,5,29232,Rattan
+S3,5,29239,Plaiting materials nes
+S3,4,2924,Pharmaceutical plants
+S3,5,29240,  UN Special Code
+S3,5,29241,Liquorice roots
+S3,5,29242,Ginseng roots
+S3,5,29249,Pharmacy plants nes
+S3,4,2925,Seed/fruit/spores sowing
+S3,5,29250,  UN Special Code
+S3,5,29251,Sugar beet seed
+S3,5,29252,Seeds of forage plants
+S3,5,29253,Flower seeds
+S3,5,29254,Other vegetable seeds
+S3,5,29259,Seeds/fruit/spores nes
+S3,4,2926,Bulbs/cuttings/plants
+S3,5,29261,Bulbs/tubers/corms/etc
+S3,5,29269,Live plants/cuttings nes
+S3,4,2927,Cut flowers/foliage
+S3,5,29271,Cut flowers
+S3,5,29272,"Cut foliage, etc"
+S3,4,2929,Vegetable materials nes
+S3,5,29290,  UN Special Code
+S3,5,29292,Veget padding materials
+S3,5,29293,Veg brush/broom material
+S3,5,29294,Vegetable saps/extracts
+S3,5,29295,Vegetable pectins
+S3,5,29296,Veg mucilages/thickeners
+S3,5,29297,Seaweeds/algae nes
+S3,5,29299,Veg material/product nes
+S3,1,3,Mineral fuel/lubricants
+S3,2,32,Coal/coke/briquettes
+S3,3,321,Coal non-agglomerated
+S3,4,3210,  UN Special Code
+S3,4,3211,"Anthracite,not agglomrtd"
+S3,4,3212,Other coal
+S3,5,32121,Bitum.coal not agglomrtd
+S3,5,32122,"Oth coal,not agglomerat."
+S3,3,322,Briquettes/lignite/peat
+S3,4,3221,Briquettes etc (coal)
+S3,4,3222,Lignite
+S3,5,32221,"Lignite,not agglomerated"
+S3,5,32222,"Lignite,agglomerated"
+S3,4,3223,Peat
+S3,3,325,Coke/semi-coke/retort c
+S3,4,3250,Coke/semi-coke/retort c
+S3,2,33,Petroleum and products
+S3,3,333,"Petrol./bitum. oil,crude"
+S3,4,3330,"Petrol./bitum. oil,crude"
+S3,3,334,Heavy petrol/bitum oils
+S3,4,3340,  UN Special Code
+S3,4,3341,Motor spirit/light oils
+S3,5,33410,  UN Special Code
+S3,5,33411,Motor/aviation spirit
+S3,5,33412,Spirit type jet fuel
+S3,5,33419,Oth light petroleum oil
+S3,4,3342,Kerosene/medium oils
+S3,5,33421,Kerosene incl jet fuel
+S3,5,33429,Oth medium petroleum oil
+S3,4,3343,Gas oils
+S3,4,3344,"Fuel oils,nes"
+S3,4,3345,Lubs(high petr cont) etc
+S3,3,335,Residual petrol. prods
+S3,4,3350,  UN Special Code
+S3,4,3351,Petroleum jelly/waxes
+S3,5,33511,Petroleum jelly
+S3,5,33512,Paraffin wax
+S3,4,3352,Mineral tar/distil prods
+S3,5,33520,  UN Special Code
+S3,5,33521,Mineral tar
+S3,5,33522,Benzole
+S3,5,33523,Toluole
+S3,5,33524,Xylole
+S3,5,33525,Coal tar distillate prod
+S3,4,3353,Coal pitch/pitch tar
+S3,5,33530,  UN Special Code
+S3,5,33531,Pitch (coal/mineral tar)
+S3,5,33532,Pitch coke
+S3,4,3354,Petrol. bitumen/coke/etc
+S3,5,33541,Petroleum bitumen/resids
+S3,5,33542,Petroleum coke
+S3,5,33543,Bituminous mixtures etc
+S3,2,34,Gas natural/manufactured
+S3,3,342,Liquid propane/butane
+S3,4,3421,Liquefied propane
+S3,4,3425,Liquefied butane
+S3,3,343,Natural gas
+S3,4,3431,"Natural gas,liquified"
+S3,4,3432,"Natural gas, gaseous"
+S3,3,344,Petrol./hydrocarbon gas
+S3,4,3441,Ethylene etc liquified
+S3,4,3442,Oth hydrocarbon gas lqf
+S3,4,3449,"Petroleum gases, gaseous"
+S3,3,345,Coal gas/water gas/etc
+S3,4,3450,Coal gas/water gas/etc
+S3,2,35,Electric current
+S3,3,351,Electric current
+S3,4,3510,Electrical energy
+S3,1,4,Animal/veg oil/fat/wax
+S3,2,41,Animal oil/fat
+S3,3,411,Animal oil/fat
+S3,4,4111,Fish/marine mamm.oil/fat
+S3,5,41111,Fish liver oil
+S3,5,41112,Other fish oils/fats
+S3,5,41113,Marine mammals oils/fats
+S3,4,4112,"Pig,poultry fat rendered"
+S3,4,4113,Animal oil/fat nes
+S3,5,41130,  UN Special Code
+S3,5,41131,"Pig,poultry fat unrendrd"
+S3,5,41132,Fats of cattle/sheep/etc
+S3,5,41133,Lard stearin/oil unemuls
+S3,5,41134,"Wool grease, crude"
+S3,5,41135,Wool grease ders/lanolin
+S3,5,41139,Animal oils/fats nes
+S3,2,42,Fixed veg oils/fats
+S3,3,421,"Fixed veg oil/fat, soft"
+S3,4,4210,  UN Special Code
+S3,4,4211,Soya bean oil
+S3,5,42111,Crude soya bean oil
+S3,5,42119,Refined soya bean oil
+S3,4,4212,Cotton seed oil
+S3,5,42121,Crude cotton seed oil
+S3,5,42129,Refined cotton seed oil
+S3,4,4213,Groundnut (peanut) oil
+S3,5,42131,Crude peanut oil
+S3,5,42139,Refined peanut oil
+S3,4,4214,Olive oil
+S3,5,42140,  UN Special Code
+S3,5,42141,Virgin olive oil
+S3,5,42142,Other olive oil
+S3,5,42149,Olive oil blends
+S3,4,4215,Safflower oil
+S3,5,42151,Crude safflower oil
+S3,5,42159,Refined safflower oil
+S3,4,4216,Maize (corn) oil
+S3,5,42161,Crude maize oil
+S3,5,42169,Refined maize oil
+S3,4,4217,Rape/colza/mustard oil
+S3,5,42171,Crude rape/colza/mus oil
+S3,5,42179,Ref rape/colza/must oil
+S3,4,4218,Sesame (sesasum) oil
+S3,3,422,Fixed veg oils not soft
+S3,4,4221,Linseed oil
+S3,5,42211,Crude linseed oil
+S3,5,42219,Refined linseed oil
+S3,4,4222,Palm oil
+S3,5,42221,Crude palm oil
+S3,5,42229,Refined palm oil
+S3,4,4223,Coconut (copra) oil
+S3,5,42231,Crude coconut oil
+S3,5,42239,Refined coconut oil
+S3,4,4224,Palm kernel(babassu) oil
+S3,5,42241,Crude palm kernel oil
+S3,5,42249,Refined palm kernel oil
+S3,4,4225,Castor oil
+S3,4,4229,Fix veg fat nes not soft
+S3,5,42291,Tung oil
+S3,5,42299,Fixed vegetable oils nes
+S3,2,43,Animal/veg oils procesd
+S3,3,431,Animal/veg oils procesd
+S3,4,4311,Animal/veg oil modified
+S3,4,4312,Animal/veg oil hydrogen.
+S3,5,43121,Animal fat/oil/fractions
+S3,5,43122,Veg fat/oil/fractions
+S3,4,4313,Fatty acid/acid oil/resi
+S3,5,43131,Fatty acids/acid oils
+S3,5,43133,Degras-fat residues
+S3,4,4314,Animal/vegetable waxes
+S3,5,43141,Vegetable waxes
+S3,5,43142,Insect waxes/spermaceti
+S3,1,5,Chemicals/products n.e.s
+S3,2,50,  UN Special Code
+S3,2,51,Organic chemicals
+S3,3,511,Hydrocarbons/derivatives
+S3,4,5110,  UN Special Code
+S3,4,5111,Acyclic hydrocarbons
+S3,5,51110,  UN Special Code
+S3,5,51111,Ethylene
+S3,5,51112,Propylene (propene)
+S3,5,51113,Butylenes/butadienes etc
+S3,5,51114,Saturated acyclic hcs
+S3,5,51119,Acyclic hydrocarbons nes
+S3,4,5112,Cyclic hydrocarbons
+S3,5,51120,  UN Special Code
+S3,5,51121,Cyclohexane
+S3,5,51122,Benzene
+S3,5,51123,Toluene
+S3,5,51124,Xylenes
+S3,5,51125,Styrene
+S3,5,51126,Ethylbenzene
+S3,5,51127,Cumene
+S3,5,51129,Cyclic hydrocarbons nes
+S3,4,5113,Halogenated hc derivs
+S3,5,51130,  UN Special Code
+S3,5,51131,Vinyl chloride
+S3,5,51132,Trichloroethylene
+S3,5,51133,Tetrachloroethylene
+S3,5,51134,Oth unsat chlor derivs
+S3,5,51135,Ethylene dichloride
+S3,5,51136,Oth sat chlor der ac hc
+S3,5,51137,Fl/br/i derivs acycl hc
+S3,5,51138,Multi-halog derivs ac hc
+S3,5,51139,Halog derivs of hc nes
+S3,4,5114,Sulphon/nitrat/nitros hc
+S3,3,512,Alcohols/phenols/derivs
+S3,4,5120,  UN Special Code
+S3,4,5121,Acyclic monohyd alcohols
+S3,5,51211,Methyl alcohol(methanol)
+S3,5,51212,Propanols
+S3,5,51213,Butyl alcohols(butanols)
+S3,5,51214,Octyl alcohols(octanols)
+S3,5,51215,Ethyl alcohol not denat
+S3,5,51216,Ethyl alc/denatrd spirit
+S3,5,51217,"Fatty alcohols,indust."
+S3,5,51219,Other monohydric alcohol
+S3,4,5122,Oth acyclic alcs/derivs
+S3,5,51220,  UN Special Code
+S3,5,51221,Ethylene glycol
+S3,5,51222,"Glycerol,glycerol lyes"
+S3,5,51223,Pentaerythritol
+S3,5,51224,Mannitol
+S3,5,51225,Sorbitol (d-glucitol)
+S3,5,51229,Acyclic alcohols nes
+S3,4,5123,Cyclic alcohols/derivs
+S3,5,51231,Cyclanic etc alc/derivs
+S3,5,51235,Arom cyc alcohols/derivs
+S3,4,5124,"Phenol/alcohols, derivs"
+S3,5,51241,"Phenol pure,its salts"
+S3,5,51242,Cresols nes/their salts
+S3,5,51243,Oth phenols/phenol-alco
+S3,5,51244,Derivatvs of phenol etc
+S3,3,513,Carboxylic acid compound
+S3,4,5130,  UN Special Code
+S3,4,5137,Monocarboxylic comps
+S3,5,51370,  UN Special Code
+S3,5,51371,Acetic acid/acetates
+S3,5,51372,Esters of acetic acid
+S3,5,51373,Methacrylic acid/derivs
+S3,5,51374,Formic acid/salts/esters
+S3,5,51375,Butyric/valeric acid/der
+S3,5,51376,Palmitic/stearic acid/de
+S3,5,51377,Sat acyc monocarb ac etc
+S3,5,51378,Oleic/linoleic acid etc
+S3,5,51379,Unsat acycl monocarb etc
+S3,4,5138,Polycarboxylic acid/deri
+S3,5,51380,  UN Special Code
+S3,5,51381,Maleic anhydride
+S3,5,51382,Phthalic anhydride
+S3,5,51383,Dioctyl orthophthalates
+S3,5,51384,Dimethyl terephthalate
+S3,5,51385,Cyclanic polyacid/derivs
+S3,5,51389,Oth polyacids etc/derivs
+S3,4,5139,Oxy func carboxylic comp
+S3,5,51390,  UN Special Code
+S3,5,51391,Lactic/tart/citric acid
+S3,5,51392,Alc-func acids/derivs
+S3,5,51393,Salacylic acid/derivs
+S3,5,51394,Phenol-func acids/derivs
+S3,5,51395,Ket-funct acids/derivs
+S3,5,51396,Oxy-func acids/derivs
+S3,3,514,Nitrogen function compds
+S3,4,5140,  UN Special Code
+S3,4,5145,Amine-function compounds
+S3,5,51450,  UN Special Code
+S3,5,51451,Acyclic monoamines/deriv
+S3,5,51452,Acyclic polyamines/deriv
+S3,5,51453,Cyclanic amines/derivs
+S3,5,51454,Aromatic monoamine/deriv
+S3,5,51455,Aromatic polyamine/deriv
+S3,4,5146,Oxy-func amino-compounds
+S3,5,51460,  UN Special Code
+S3,5,51461,Amino-alcohols/derivativ
+S3,5,51462,Amino-phenols/derivative
+S3,5,51463,Amino-aldehydes etc.
+S3,5,51464,Lysene/glutamic acid/com
+S3,5,51465,Amino acid derivativ nes
+S3,5,51467,Amino-alc-phenols etc.
+S3,4,5147,Amide-func comps ex urea
+S3,5,51470,  UN Special Code
+S3,5,51471,Acyclic amides/compounds
+S3,5,51473,Ureines/derivs/salts
+S3,5,51479,Cyclic amides nes/derivs
+S3,4,5148,Nitro-func compounds nes
+S3,5,51480,  UN Special Code
+S3,5,51481,"Quat ammonium salts,etc"
+S3,5,51482,Carboxyimide/amine f cmp
+S3,5,51483,Acrylonitrile
+S3,5,51484,Oth nitrile-fnctn cmpnds
+S3,5,51485,"Diazo-,azo-,azoxy-cmpnds"
+S3,5,51486,Hydrazine etc org derivs
+S3,5,51489,Nitrogen-fnct cmpnds nes
+S3,3,515,Organo-inorganic compnds
+S3,4,5150,  UN Special Code
+S3,4,5154,Organo-sulphur compounds
+S3,5,51540,  UN Special Code
+S3,5,51541,Dithiocarbonates
+S3,5,51542,Thiocarbamates
+S3,5,51543,Thiuram sulphides
+S3,5,51544,Methionine
+S3,5,51549,Organo-sulphur comp nes
+S3,4,5155,Oth org-inorg compounds
+S3,4,5156,Lactams/lactones
+S3,5,51561,Lactams
+S3,5,51562,Coumarins
+S3,5,51563,Other lactones
+S3,5,51569,Lactams etc nes
+S3,4,5157,Nucleic acids etc
+S3,5,51571,N-atom pyrazole ring cmp
+S3,5,51572,Hydantoin/derivatives
+S3,5,51573,Unf imidazole ring cmpds
+S3,5,51574,Unf pyridime ring cmpds
+S3,5,51575,Quinoline ring compounds
+S3,5,51576,Pyrimidine ring compound
+S3,5,51577,N-hetero atom cmpds nes
+S3,5,51578,Phenothiazine ring cmpds
+S3,5,51579,Oth heterocyc cmpds nes
+S3,4,5158,Sulphonamides
+S3,3,516,Other organic compounds
+S3,4,5160,  UN Special Code
+S3,4,5161,Ethers/peroxides/derivs
+S3,5,51610,  UN Special Code
+S3,5,51612,Acetals/hemiacetals/derv
+S3,5,51613,Ethylene oxide(oxirane)
+S3,5,51614,Propylene oxide
+S3,5,51615,Other epoxides/derivs
+S3,5,51616,Aromatic etc ethers/driv
+S3,5,51617,Ether-alcohol/etc/deriv
+S3,4,5162,Ald/ketone/quinone funct
+S3,5,51621,Acyclic non-oxy f aldeh.
+S3,5,51622,Oth aldehydes/polymers
+S3,5,51623,Acetone
+S3,5,51624,Ethyl methyl ketone
+S3,5,51625,Oth acyclic ket non-o fn
+S3,5,51626,Aldehyde derivatives nes
+S3,5,51627,Camphor
+S3,5,51628,Oth cycl non-o-f ketones
+S3,5,51629,Aromatic etc ketones
+S3,4,5163,Inorg esters/derivatives
+S3,5,51631,Phosphoric esters/salts
+S3,5,51639,Oth inorganic esters/etc
+S3,4,5169,Oganic chemicals n.e.s.
+S3,5,51691,Enzymes
+S3,5,51692,"Sugars,chem pure etc,nes"
+S3,5,51699,Other organic compounds
+S3,2,52,Inorganic chemicals
+S3,3,522,Elements/oxides/hal salt
+S3,4,5220,  UN Special Code
+S3,4,5221,"Carbon nes, carbon black"
+S3,4,5222,Other chemical elements
+S3,5,52221,Gas elements h/n/o/rare
+S3,5,52222,Non-metals se/te/p/as/bo
+S3,5,52223,Silicon
+S3,5,52224,Chlorine
+S3,5,52225,"Fluorine,bromine,iodine"
+S3,5,52226,"Sulphur, pure forms"
+S3,5,52227,Mercury
+S3,5,52228,Sodium/potassium metals
+S3,5,52229,Metals ca/sr/ba/r.earth
+S3,4,5223,Inorg acids/oxy compnds
+S3,5,52230,  UN Special Code
+S3,5,52231,Hydrochloric acid etc
+S3,5,52232,Sulphuric acid;oleum
+S3,5,52233,Nitric/sulphonitric acid
+S3,5,52234,Phosphoric acids etc
+S3,5,52235,Boric oxide and acid
+S3,5,52236,Oth inorganic acids
+S3,5,52237,Silicon dioxide
+S3,5,52238,Sulphur dioxide
+S3,5,52239,Inorg o-comp non-met nes
+S3,4,5224,Hal/s compounds non-metl
+S3,5,52241,Halides of non-metals
+S3,5,52242,Sulphides of non-metals
+S3,4,5225,Oxides of metals
+S3,5,52251,"Zinc oxide,peroxide"
+S3,5,52252,Chromium oxides
+S3,5,52253,Manganese oxides
+S3,5,52254,Iron oxides/hydroxides
+S3,5,52255,Cobalt oxides/hydroxide
+S3,5,52256,Titanium oxides
+S3,5,52257,Lead oxides
+S3,4,5226,Inorg bases/metal ox nes
+S3,5,52260,  UN Special Code
+S3,5,52261,"Ammonia,anhydrous/solutn"
+S3,5,52262,"Sodium hydroxide, solid"
+S3,5,52263,"Sodium hydroxide, solutn"
+S3,5,52264,Potassium hydroxide etc.
+S3,5,52265,"Oxides etc of mg,sr,ba"
+S3,5,52266,Aluminium hydroxide
+S3,5,52267,Artificial corundum
+S3,5,52268,Hydrazine etc./salts
+S3,5,52269,"Oth oxides,bases etc nes"
+S3,3,523,Metal salts of inorg acd
+S3,4,5230,  UN Special Code
+S3,4,5231,Flourides etc
+S3,4,5232,Chloride/bromide/iodide
+S3,5,52320,  UN Special Code
+S3,5,52321,Ammonium chloride
+S3,5,52322,Calcium chloride
+S3,5,52329,Chlorid/brom/iodide nes c
+S3,4,5233,Hypohalites/perhalites
+S3,5,52330,  UN Special Code
+S3,5,52331,Hypochlorites/h-bromites
+S3,5,52332,Sodium chlorate
+S3,5,52339,Chlorate/brom/iodate nes
+S3,4,5234,Sulphide/s-ate/s-ite etc
+S3,5,52341,Sodium sulphide
+S3,5,52342,Sulphide/polysulphid nes
+S3,5,52343,Dithionite/sulphoxylate
+S3,5,52344,Sulphites/thiosulphates
+S3,5,52345,Sodium sulphates
+S3,5,52349,Oth sulphates/alums
+S3,4,5235,Nitrites/nitrates
+S3,5,52350,  UN Special Code
+S3,5,52351,Nitrites of metals
+S3,5,52352,Potassium nitrate
+S3,5,52359,Nitrates of metals
+S3,4,5236,Phosphates/p.acid salts
+S3,5,52360,  UN Special Code
+S3,5,52361,Phosphinate/phosphonates
+S3,5,52362,Triammonium phosphate
+S3,5,52363,Phosphates of metals
+S3,5,52364,Sodium triphosphate
+S3,5,52365,Polyphosphates nes
+S3,4,5237,Carbonates/peroxycarbona
+S3,5,52370,  UN Special Code
+S3,5,52371,Ammonium carbonate
+S3,5,52372,Neutral sodium carbonate
+S3,5,52373,Sodium bicarbonate
+S3,5,52374,Potassium carbonates
+S3,5,52375,Lead carbonates
+S3,5,52379,Carbonates of metals nes
+S3,4,5238,Metal salts inorg ac nes
+S3,5,52381,Cyanides of metals
+S3,5,52382,Fulminates/cyanates metl
+S3,5,52383,Silicates of metals
+S3,5,52384,Borates/etc of metals
+S3,5,52389,Metal salts inorg ac nes
+S3,3,524,Other inorganic chemical
+S3,4,5240,  UN Special Code
+S3,4,5243,Metal salts/pr.metal cmp
+S3,5,52431,Salts of metallic acids
+S3,5,52432,Precious metal cmpds et
+S3,4,5249,Inorg chemical prods nes
+S3,5,52490,  UN Special Code
+S3,5,52491,Hydrogen peroxide
+S3,5,52492,Phosphides of metals
+S3,5,52493,Calcium carbide
+S3,5,52494,Carbides of metals nes
+S3,5,52495,Hydrides/nitrides metals
+S3,5,52499,Other inorg cmpounds nes
+S3,3,525,Radio-active etc matrial
+S3,4,5250,  UN Special Code
+S3,4,5251,Radio-isotopes/compounds
+S3,5,52510,  UN Special Code
+S3,5,52511,Nat uranium/alloy/cmpnds
+S3,5,52513,Enrich uranium/alloy/cmp
+S3,5,52515,Thorium/depl uran/cmpnds
+S3,5,52517,Spent nucl fuel elements
+S3,5,52519,Radioactive elem/cpd nes
+S3,4,5259,Stable isotopes/compound
+S3,5,52591,Stable isotopes/compound
+S3,5,52595,Rare earth isotop/cmpds
+S3,2,53,Dyeing/tanning/color mat
+S3,3,531,Synth org colour agents
+S3,4,5310,  UN Special Code
+S3,4,5311,Synthet org color matter
+S3,5,53110,  UN Special Code
+S3,5,53111,Disperse dyes/preparatns
+S3,5,53112,Acid/mordant dyes/preps
+S3,5,53113,Basic dyes/preparations
+S3,5,53114,Direct dyes/preparations
+S3,5,53115,Vat dyes/preparations
+S3,5,53116,Reactive dyes/preparatns
+S3,5,53117,Synth org pigments/preps
+S3,5,53119,Synthet org col matr nes
+S3,4,5312,Syn bright agnt/col lake
+S3,5,53121,Synth brightening agents
+S3,5,53122,Colour lakes
+S3,3,532,Dyeing/tanning extracts
+S3,4,5322,Veg tanning extr/tannin l
+S3,5,53221,"Veg tann extrcts,tannins"
+S3,5,53222,Anim/veg coloring matter
+S3,4,5323,Synth tanning subst etc.
+S3,5,53231,Synth org tanning subst
+S3,5,53232,Synth inorg tanning subs
+S3,3,533,Pigments/paints/varnish
+S3,4,5330,  UN Special Code
+S3,4,5331,Coloring preparation nes
+S3,5,53310,  UN Special Code
+S3,5,53311,Titanium dioxide pigment
+S3,5,53312,Chrome pigments etc
+S3,5,53313,Cadmium pigments etc.
+S3,5,53314,Ultramarine pigments etc
+S3,5,53315,Zinc sulphide pigmnt etc
+S3,5,53316,Ferro/ferri-cyanide pigm
+S3,5,53317,Inorg colour matrial nes
+S3,5,53318,Inorganic luminophores
+S3,4,5332,Printing inks
+S3,5,53321,Printing ink - black
+S3,5,53329,Printing ink exc black
+S3,4,5334,Paints/varnishes
+S3,5,53340,  UN Special Code
+S3,5,53341,Polymer paints aqu solut
+S3,5,53342,Polymer paints non-aques
+S3,5,53343,Oth paints/varnishes/etc
+S3,5,53344,Pigments disp non-aq med
+S3,4,5335,Color for enam/glass/art
+S3,5,53350,  UN Special Code
+S3,5,53351,Preprd pigment/glaze/etc
+S3,5,53352,Artists colours
+S3,5,53353,Prepared driers
+S3,5,53354,Putty/other fillings etc
+S3,5,53355,"Varnish solvents,thinner"
+S3,2,54,Pharmaceutical products
+S3,3,540,  UN Special Code
+S3,3,541,Pharmaceut exc medicamnt
+S3,4,5410,  UN Special Code
+S3,4,5411,Vitamins/provitamins
+S3,5,54110,  UN Special Code
+S3,5,54111,"Provitamins, unmixed"
+S3,5,54112,Vitamin a/derivatives
+S3,5,54113,Vitamin b/derivatives
+S3,5,54114,Vitamin c/derivatives
+S3,5,54115,Vitamin e/derivatives
+S3,5,54116,Vitamins unmixed nes
+S3,5,54117,Provitamin/vitamin mixt.
+S3,4,5413,"Antibiotics,non-medical"
+S3,5,54130,  UN Special Code
+S3,5,54131,Penicillins and derivs
+S3,5,54132,Streptomycins and derivs
+S3,5,54133,Tetracyclines and derivs
+S3,5,54139,Other antibiotics(bulk)
+S3,4,5414,Veg alkaloids/ester/salt
+S3,5,54140,  UN Special Code
+S3,5,54141,Opium alkaoids/derivs
+S3,5,54142,Cinchona alkaloids/deriv
+S3,5,54143,Caffeine and its salts
+S3,5,54144,Ephedrines/salts
+S3,5,54145,Theophylline etc/derivs
+S3,5,54146,Rye ergot alkaloids/driv
+S3,5,54147,Nicotine and its salts
+S3,5,54149,Veg alkaloids nes/salts
+S3,4,5415,Hormones/steroids/derivs
+S3,5,54151,Insulin and its salts
+S3,5,54152,Pituitary/etc hormone/de
+S3,5,54153,Cortisone/derivatives
+S3,5,54159,Othr hormones/derivs/etc
+S3,4,5416,Glycosides/glands/vaccin
+S3,5,54160,  UN Special Code
+S3,5,54161,Glycosides and derivativ
+S3,5,54162,Glands etc and extracts
+S3,5,54163,Antisera/bld fra/vaccine
+S3,5,54164,Blood/toxin/cultures etc
+S3,4,5419,"Pharm goods,non-medicam."
+S3,5,54190,  UN Special Code
+S3,5,54191,Bandages/plasters/gauze
+S3,5,54192,Blood grouping reagents
+S3,5,54193,X-ray opacifiers
+S3,5,54199,Oth pharmaceutical goods
+S3,3,542,Medicaments include vet
+S3,4,5420,  UN Special Code
+S3,4,5421,Insulin medicaments bulk
+S3,5,54211,Penicillin non-retail
+S3,5,54212,Antibiotic nes nonretail
+S3,5,54213,Penicillin/strept retail
+S3,5,54219,Antibiotics nes retail
+S3,4,5422,Hormones
+S3,5,54221,"Insulin formulated,bulk"
+S3,5,54222,Other hormone non-retail
+S3,5,54223,Insulin retail packs
+S3,5,54224,"Hormone-ach, retail pack"
+S3,5,54229,Hormones nes retail pack
+S3,4,5423,Alkaloids/derivatives
+S3,5,54231,"Alkaloids, non-retail"
+S3,5,54232,"Alkaloids, retail packs"
+S3,4,5429,Medicaments n.e.s.
+S3,5,54290,  UN Special Code
+S3,5,54291,Medicaments nes non-ret.
+S3,5,54292,Vitamin/provitam. retail
+S3,5,54293,Medicam nes retail packs
+S3,2,55,Perfume/cosmetic/cleansr
+S3,3,550,  UN Special Code
+S3,3,551,Essent.oil/perfume/flavr
+S3,4,5513,Essential oils
+S3,5,55130,  UN Special Code
+S3,5,55131,Essential oils-citrus
+S3,5,55132,Essential oils nes
+S3,5,55133,Resinoids
+S3,5,55135,Essential oil concentrat
+S3,4,5514,Odiferous mixtures
+S3,5,55141,Food/drink perfumes
+S3,5,55149,Other perfume mixes
+S3,3,553,Perfume/toilet/cosmetics
+S3,4,5531,Perfumes/toilet waters
+S3,4,5532,Skin care/manicure preps
+S3,4,5533,Hair care preparations
+S3,4,5534,Oral hygiene preperation
+S3,4,5535,Shaving/deodor/bath prep
+S3,5,55350,  UN Special Code
+S3,5,55351,Shaving preparations
+S3,5,55352,Personal deodorants etc
+S3,5,55353,Bath salts etc.
+S3,5,55354,Room deodorizers/insence
+S3,5,55359,Perfumery/cosmetics nes
+S3,3,554,Soaps/cleansers/polishes
+S3,4,5541,Soap in form of bars etc
+S3,5,55410,  UN Special Code
+S3,5,55411,Toilet soap in bars etc.
+S3,5,55415,Other soap in bars etc.
+S3,5,55419,Soap in other than bars
+S3,4,5542,Organic detergents nes
+S3,5,55421,Organic detergents
+S3,5,55422,Detergent nes retail pak
+S3,5,55423,Detergent nes non-retail
+S3,4,5543,Polishes/scouring preps
+S3,5,55431,Leather polishes/creams
+S3,5,55432,Furniture polishes etc.
+S3,5,55433,Coachwork polishes etc.
+S3,5,55434,Scouring piowders/pastes
+S3,5,55435,Glass/metal polishes etc
+S3,2,56,Manufactured fertilizers
+S3,3,562,Manufactured fertilizers
+S3,4,5620,  UN Special Code
+S3,4,5621,Nitrogenous fertilizers
+S3,5,56210,  UN Special Code
+S3,5,56211,Ammonium nitrate fert.
+S3,5,56212,Ammonium sulphonitrate f
+S3,5,56213,Ammonium sulphate fert.
+S3,5,56214,Ammonium-calcium nitrate
+S3,5,56215,Calcium cyanamide fert.
+S3,5,56216,Urea (fertilizer)
+S3,5,56217,Urea+ammonium nitrat mix
+S3,5,56219,Chem nitrog fertilzr nes
+S3,4,5622,Chem phosphatic fertiliz
+S3,5,56221,Basic slag (thomas slag)
+S3,5,56222,Superphosphates
+S3,5,56229,Chem phosph fertilzr nes
+S3,4,5623,Chem potassic fertilizer
+S3,5,56231,Potassium chloride fert.
+S3,5,56232,Potassium sulphate fert.
+S3,5,56239,Chem potass fertilzr nes
+S3,4,5629,Chemical fertilizers nes
+S3,5,56290,  UN Special Code
+S3,5,56291,Nit-phos-pot fertlzr nes
+S3,5,56292,Phos-potash fertilizers
+S3,5,56293,Diammonium phosphate fer
+S3,5,56294,Monoammonium phosphate f
+S3,5,56295,Nitrog-phos fertilzr nes
+S3,5,56296,Fertilizers retail packs
+S3,5,56299,Fertilizers nes
+S3,2,57,Plastics in primary form
+S3,3,570,  UN Special Code
+S3,3,571,Primary ethylene polymer
+S3,4,5710,  UN Special Code
+S3,4,5711,Polyethylene
+S3,5,57111,Polyethylene sg<0.94
+S3,5,57112,Polyethylene sg>0.94
+S3,4,5712,Ethylene-vinyl acetate
+S3,4,5719,Primary ethylene pol nes
+S3,3,572,Styrene primary polymers
+S3,4,5720,  UN Special Code
+S3,4,5721,Polystyrene
+S3,5,57211,Expansible polystyrene
+S3,5,57219,Other polystyrene
+S3,4,5729,Styrene polmers nes
+S3,5,57290,  UN Special Code
+S3,5,57291,Styrene-acronitrile cpol
+S3,5,57292,Abs copolymer
+S3,5,57299,Styrene polymers nes
+S3,3,573,Vinyl chloride etc polym
+S3,4,5730,  UN Special Code
+S3,4,5731,Polyvinyl chloride
+S3,5,57311,Pvc not mixed other subs
+S3,5,57312,Pvc nes non-plasticised
+S3,5,57313,Pvc nes plasticised
+S3,4,5739,Vc polymers etc nes
+S3,5,57390,  UN Special Code
+S3,5,57391,Vinyl chlor-acet copolym
+S3,5,57392,Vinyl chloride copol nes
+S3,5,57393,Vinylidene chlor polymer
+S3,5,57394,Fluoro-polymers
+S3,5,57399,Other halo-polymers nes
+S3,3,574,Polyacetals/polyesters..
+S3,4,5740,  UN Special Code
+S3,4,5741,Polyacetals/polyethers
+S3,5,57411,Polyacetals
+S3,5,57419,Polyethers nes
+S3,4,5742,Epoxide resins
+S3,4,5743,Polycarbonates/alk resin
+S3,5,57431,Poycarbonates
+S3,5,57432,Alkyd resins
+S3,5,57433,Polyethylene terephthlat
+S3,5,57434,Unsat polyesters nes
+S3,5,57439,Primary polyesters nes
+S3,3,575,Plastic nes-primary form
+S3,4,5750,  UN Special Code
+S3,4,5751,Propylene/olefin polymer
+S3,5,57510,  UN Special Code
+S3,5,57511,Polypropylene
+S3,5,57512,Polyisobutylene
+S3,5,57513,Propylene copolymers
+S3,5,57519,Propyl/olefin polym nes
+S3,4,5752,Acrylic polymers
+S3,5,57521,Polymethyl methacrylate
+S3,5,57529,Acrylic polymers nes
+S3,4,5753,Polyamides
+S3,5,57530,  UN Special Code
+S3,5,57531,Special polyamides
+S3,5,57539,Other polyamides
+S3,4,5754,Amino/phenol resins etc
+S3,5,57540,  UN Special Code
+S3,5,57541,Urea/thiourea resins
+S3,5,57542,Melamine resins
+S3,5,57543,Amino-resins nes
+S3,5,57544,Phenolic resins
+S3,5,57545,Polyurethanes
+S3,4,5755,Cellulose/derivatives
+S3,5,57550,  UN Special Code
+S3,5,57551,Cellulose acetate non-pl
+S3,5,57552,Cellulose acetate plasd
+S3,5,57553,Cellulose nitrates
+S3,5,57554,Cellulose ethers
+S3,5,57559,Cellulose/derivs nes
+S3,4,5759,"Plastics, n.e.s."
+S3,5,57590,  UN Special Code
+S3,5,57591,Vinyl acetate polymers
+S3,5,57592,Vinyl polymers nes
+S3,5,57593,Silicones - primary
+S3,5,57594,"Alginic acid,salts,ester"
+S3,5,57595,Natural polymers/derivs
+S3,5,57596,Petroleum resins etc.
+S3,5,57597,Ion exch polymers
+S3,3,579,Plastic waste/scrap
+S3,4,5790,  UN Special Code
+S3,4,5791,Polyethylene wast/scrap
+S3,4,5792,Polystyrene waste/scrap
+S3,4,5793,Polyvinyl chloride wast
+S3,4,5799,Plastic waste/scrap nes
+S3,2,58,Plastics non-primry form
+S3,3,581,Plastic tube/pipe/hose
+S3,4,5810,  UN Special Code
+S3,4,5811,Plastic sausage casings
+S3,4,5812,Rigid plastic pipes etc
+S3,4,5813,Reinforced plastic pipes
+S3,4,5814,Oth plast pipe w/o fitg
+S3,4,5815,Oth plast pipe with fitg
+S3,4,5816,Plastic tubes etc nes
+S3,4,5817,Fittings - plastic tubes
+S3,3,582,Plastic sheets/film/etc
+S3,4,5820,  UN Special Code
+S3,4,5821,Self-adhesive plastic
+S3,5,58211,Adhes plast film <20cm
+S3,5,58219,Othr adhes plastic film
+S3,4,5822,Plasic sheets etc nes
+S3,5,58220,  UN Special Code
+S3,5,58221,Ethylene polym film etc
+S3,5,58222,Propylene polym film etc
+S3,5,58223,Styrene polym film etc
+S3,5,58224,Vinyl chloride film etc
+S3,5,58225,Acrylic polymer film etc
+S3,5,58226,Polycarb/etc film etc
+S3,5,58227,Vulcanized rubber film
+S3,5,58228,Cellulose etc film etc
+S3,5,58229,Oth plastic film etc
+S3,4,5829,Plastic foil/sheet..nes
+S3,5,58291,Cellular plastic sheet
+S3,5,58299,Non-cellular plast sheet
+S3,3,583,Monofilament rods/sticks
+S3,4,5830,  UN Special Code
+S3,4,5831,Ethlene polymer rods etc
+S3,4,5832,Vinyl chloride rods etc
+S3,4,5839,Oth plastic rods/sticks
+S3,2,59,Chem material/prods nes
+S3,3,591,Household/garden chemcal
+S3,4,5910,  UN Special Code
+S3,4,5911,Insecticides retail
+S3,4,5912,Fungicides retail
+S3,4,5913,Garden chemicals retail
+S3,4,5914,Disinfectant/rodenticide
+S3,5,59141,Disinfectants retail
+S3,5,59149,Pesticides retail pack
+S3,3,592,Starches/glues/etc.
+S3,4,5920,  UN Special Code
+S3,4,5921,Starch/inulin/gluten
+S3,5,59210,  UN Special Code
+S3,5,59211,Wheat starch
+S3,5,59212,Maize (corn) starch
+S3,5,59213,Potato starch
+S3,5,59214,Manioc (cassava) starch
+S3,5,59215,Starches nes
+S3,5,59216,Inulin
+S3,5,59217,Wheat gluten
+S3,4,5922,Aluminoids/modif starch
+S3,5,59221,Casein
+S3,5,59222,Casein glues/derivs
+S3,5,59223,Albumins and derivatives
+S3,5,59224,Gelatin and derivatives
+S3,5,59225,Peptones/protein derivs
+S3,5,59226,Dextrins/modif starches
+S3,5,59227,Dextrin/starch glues
+S3,5,59229,Prepared glue nes retail
+S3,3,593,Explosives/pyrotechnics
+S3,4,5930,  UN Special Code
+S3,4,5931,Propel pwdr/prep explos.
+S3,5,59310,  UN Special Code
+S3,5,59311,Propellent powders
+S3,5,59312,Prepared explosives nes
+S3,4,5932,"Fuses,primers,detonators"
+S3,4,5933,Firworks/flares/rockets
+S3,5,59331,Fireworks
+S3,5,59333,Signal flares/rockets
+S3,3,597,Oil etc additives/fluids
+S3,4,5970,  UN Special Code
+S3,4,5972,Oil/petrol additives
+S3,5,59720,  UN Special Code
+S3,5,59721,Anti-knock preparations
+S3,5,59725,Lubricating oil additive
+S3,5,59729,Oil substitute additives
+S3,4,5973,Hydr trans liq/antifreez
+S3,5,59731,Hydraulic brake fluid
+S3,5,59733,Anti-freezing preps etc
+S3,4,5977,Low-petroleum lube oils
+S3,5,59771,Petro-based leather prep
+S3,5,59772,Petroleum lubricat oils
+S3,5,59773,Textile etc lub non-petr
+S3,5,59774,Lubr oil non-petroleum
+S3,3,598,Misc chemical prods nes
+S3,4,5980,  UN Special Code
+S3,4,5981,Wood/resin-base chem prd
+S3,5,59810,  UN Special Code
+S3,5,59811,Tall oil
+S3,5,59812,Residual wood pulp lyes
+S3,5,59813,Wood oils/turpentine/etc
+S3,5,59814,Rosin/resin acid/oil/der
+S3,5,59818,Wood tar/veg pitch etc
+S3,4,5983,Artificial/prepd waxes
+S3,5,59830,  UN Special Code
+S3,5,59831,Lignite based waxes
+S3,5,59835,Polyethylene glycol wax
+S3,5,59839,Artificial/prepd wax nes
+S3,4,5984,Alkyl-benzene/naphthalen
+S3,5,59840,  UN Special Code
+S3,5,59841,Mixed alkylbenzenes nes
+S3,5,59845,Mixed alkylnaphthalenes
+S3,4,5985,Doped chemicals (electr)
+S3,4,5986,Org chem products nes
+S3,5,59861,Artificial graphite/etc
+S3,5,59863,Prep rubber accelerators
+S3,5,59864,Activted carbon
+S3,5,59865,Activted nat minrl prods
+S3,5,59867,"Culture media,prepared"
+S3,5,59869,Compos lab reagents nes
+S3,4,5988,Catalysts/preparations
+S3,5,59880,  UN Special Code
+S3,5,59881,Ni-based suppt catalysts
+S3,5,59883,Prec.metal supp catalyst
+S3,5,59885,Supported catalysts nes
+S3,5,59889,Catalysts/preps nes
+S3,4,5989,Chem prods/preps nes
+S3,5,59891,Dye carrier/mordant/etc
+S3,5,59893,Compound plasticizers
+S3,5,59894,Fire extinguishr charges
+S3,5,59895,Modelling pastes etc.
+S3,5,59896,Fluxes/pickling prep/etc
+S3,5,59897,Cement/etc additives
+S3,5,59898,Non-refractory mortars
+S3,5,59899,"Oth chem prods,preps,nes"
+S3,1,6,Manufactured goods
+S3,2,60,  UN Special Code
+S3,2,61,Leather manufactures
+S3,3,611,Leather
+S3,4,6110,  UN Special Code
+S3,4,6112,Composition leather
+S3,4,6113,Bovine leather < 2.6 m2
+S3,4,6114,Bovine/equine leathr nes
+S3,5,61141,Tanned bov/equin leather
+S3,5,61142,Prepd bov/equine leather
+S3,4,6115,Sheep leather w/out wool
+S3,5,61151,Tanned sheep/lamb leathr
+S3,5,61152,Prepd sheep/lamb leather
+S3,4,6116,"Goat/kid leather,no hair"
+S3,5,61161,Tanned goat/kid leather
+S3,5,61162,Prepd goat/kid leather
+S3,4,6117,Animal leather nes
+S3,5,61171,Pigs leather
+S3,5,61172,Reptile skin leather
+S3,5,61179,Animal skin leather nes
+S3,4,6118,Leather special finish
+S3,5,61180,  UN Special Code
+S3,5,61181,Chamois-dressed leather
+S3,5,61183,"Leather patent,metalized"
+S3,3,612,Leather manufactures
+S3,4,6121,Indust leather articles
+S3,4,6122,Harness-makers goods
+S3,4,6129,Leather manufactures nes
+S3,3,613,Furskins tanned/dressed
+S3,4,6130,  UN Special Code
+S3,4,6131,Whole furskins unassemb.
+S3,5,61311,Mink skins unassembled
+S3,5,61312,Rabbit/hare skins unass.
+S3,5,61313,Special lamb skins unass
+S3,5,61319,Fur skins nes unassemb.
+S3,4,6132,Fur skin pieces
+S3,4,6133,Whole furskins assembled
+S3,2,62,Rubber manufactures nes
+S3,3,621,Materials of rubber
+S3,4,6211,Compounded unvulc rubber
+S3,5,62110,  UN Special Code
+S3,5,62111,Rubber comp c-black/sil.
+S3,5,62112,Compounded rubber solutn
+S3,5,62119,Rubber material nes
+S3,4,6212,Rubber rod/tube unvulc
+S3,5,62121,Camel-back retread strip
+S3,5,62129,Rubber profiles nes
+S3,4,6213,Unhardened vulc rubber
+S3,5,62131,Vulc rubber thread/cord
+S3,5,62132,Unhard vulc cell rubber
+S3,5,62133,Unhard vulc rubber nes
+S3,4,6214,Uh vulc rubber hose etc.
+S3,5,62140,  UN Special Code
+S3,5,62141,Uh rubber tube no fittng
+S3,5,62142,Uh metal-reinf rubr tube
+S3,5,62143,Uh text-reinf rubbr tube
+S3,5,62144,Uh nes-reinf rubber tube
+S3,5,62145,Uh rubber tube + fitting
+S3,3,625,Rubber tyres/treads
+S3,4,6251,Tyres new for motor car
+S3,4,6252,"Tyres,new,bus or lorry"
+S3,4,6253,"Tyres,new for aircraft"
+S3,4,6254,"Tyres,new,cycles etc."
+S3,5,62541,"Tyres,new,motorcycles"
+S3,5,62542,"Tyres,new,bicycles"
+S3,4,6255,"Tyres,pneumatic,nes"
+S3,5,62551,"Tyres nes,herring-bone"
+S3,5,62559,"Tyres nes,other"
+S3,4,6259,Retreads/flaps/inner tub
+S3,5,62590,  UN Special Code
+S3,5,62591,Inner tubes
+S3,5,62592,Retreaded tyres
+S3,5,62593,Used pneumatic tyres
+S3,5,62594,Solid/cushion tyres
+S3,3,629,Articles of rubber nes
+S3,4,6291,Pharmateutical rubber
+S3,5,62911,Condoms
+S3,5,62919,Pharmaceut. rubber nes
+S3,4,6292,Conveyor/etc belting
+S3,5,62920,  UN Special Code
+S3,5,62921,Conveyor/etc belts v
+S3,5,62929,Conveyor/etc belts nes
+S3,4,6299,Hardened rubber articles
+S3,5,62991,Hardnd rubber/ebonite
+S3,5,62992,Uh cell vulc rub article
+S3,5,62999,Uh non-cell rub articles
+S3,2,63,Cork/wood manufactures
+S3,3,633,Cork manufactures
+S3,4,6331,Articles of natural cork
+S3,5,63311,Corks and stoppers
+S3,5,63319,Cork manufactures nes
+S3,4,6332,Agglomerated cork
+S3,5,63321,Agglomerated cork shapes
+S3,5,63329,Agglomerated cork nes
+S3,3,634,Veneer/plywood/etc
+S3,4,6341,Veneer shets etc <6mm
+S3,5,63411,Veneer sheets coniferous
+S3,5,63412,Veneer sheets non-conif.
+S3,4,6342,Densified/reconst wood
+S3,5,63421,Densif wood blocks etc.
+S3,5,63422,Particle board (wood)
+S3,5,63423,Particle board(exc wood)
+S3,4,6343,Plywood(plies<6mm thick)
+S3,5,63431,Plywood-hardwood faced
+S3,5,63439,Plywood-standard
+S3,4,6344,Plywood/laminates nes
+S3,5,63441,Plywood/lam hard faced
+S3,5,63449,Plywood/laminates nes
+S3,4,6345,Fibreboard
+S3,5,63450,  UN Special Code
+S3,5,63451,Fibreboard dens>0.8g/cm3
+S3,5,63452,Fibreboard dens>0.5g/cm3
+S3,5,63453,Fibreboard dens>.35g/cm3
+S3,5,63459,Fibreboard nes
+S3,4,6349,Wood simply shaped nes
+S3,5,63491,"Hoopwood,split poles etc"
+S3,5,63493,Wood wool/wood flour
+S3,3,635,Wood manufactures n.e.s.
+S3,4,6351,Wood boxes/drums/pallets
+S3,5,63511,Wood boxes/drums/cases
+S3,5,63512,Wood pallets etc.
+S3,4,6352,"Cooprage prod,inc staves"
+S3,4,6353,Builders wood materials
+S3,5,63530,  UN Special Code
+S3,5,63531,Wooden windows/frames
+S3,5,63532,Wooden doors/frames
+S3,5,63533,Wooden shingles/shakes
+S3,5,63539,Builders wood nes
+S3,4,6354,Domestic/decor wood art.
+S3,5,63541,Wood picture etc frames
+S3,5,63542,Wood table/kitchen ware
+S3,5,63549,Wood marquetry/carvings
+S3,4,6359,Wood manufactures nes
+S3,5,63591,Tools/handles etc wood
+S3,5,63599,Other wood articles nes
+S3,2,64,Paper/paperboard/article
+S3,3,640,  UN Special Code
+S3,3,641,Paper/paperboard
+S3,4,6410,  UN Special Code
+S3,4,6411,Newsprint rolls/sheets
+S3,4,6412,Uncoated paper/board
+S3,5,64120,  UN Special Code
+S3,5,64121,Hand-made paper/board
+S3,5,64122,Sensitized paper
+S3,5,64123,Carbonizing base paper
+S3,5,64124,Wallpaper base
+S3,5,64125,Paper nes <40g non-mech
+S3,5,64126,Paper nes 40-150g non-me
+S3,5,64127,Paper nes >150g non-mech
+S3,5,64129,Paper nes mechanic proc.
+S3,4,6413,Paper coated/colourd etc
+S3,5,64130,  UN Special Code
+S3,5,64131,Carbon/duplicator paper
+S3,5,64132,Kaolin coated paper<150g
+S3,5,64133,Kaolin coated paper>150g
+S3,5,64134,Kaolin coat mech paper
+S3,4,6414,Uncoated kraft paper
+S3,5,64140,  UN Special Code
+S3,5,64141,Kraft uncoated unbl bulk
+S3,5,64142,Sack kraft paper in bulk
+S3,5,64146,Kraft uncoat bulk <150g
+S3,5,64147,Kraft uncoat bulk <225g
+S3,5,64148,Kraft uncoat bulk >225g
+S3,4,6415,Kraft uncoat bulk nes
+S3,5,64150,  UN Special Code
+S3,5,64151,Semi-chem fluting paper
+S3,5,64152,"Sulphite wrap paper,bulk"
+S3,5,64153,Greaseproof/transp paper
+S3,5,64154,Multi-ply uncoat paper
+S3,5,64155,Cigarette paper nes
+S3,5,64156,Filter/felt paper
+S3,5,64157,Paper nes uncoated <150g
+S3,5,64158,Paper nes uncoated <225g
+S3,5,64159,Paper nes uncoated >225g
+S3,4,6416,Bulk corrug etc paper
+S3,5,64160,  UN Special Code
+S3,5,64161,Bulk creped sack kraft
+S3,5,64162,Bulk creped kraft nes
+S3,5,64163,Creped household paper
+S3,5,64164,Bulk corrugated paper
+S3,5,64169,Creped etc paper nes
+S3,4,6417,Bulk paper etc nes
+S3,5,64170,  UN Special Code
+S3,5,64171,Plasticized paper >150g
+S3,5,64172,Plasticized paper nes
+S3,5,64173,Bulk tarred paper
+S3,5,64174,Bleached coat kraft<150g
+S3,5,64175,Bleached coat kraft>150g
+S3,5,64176,Kraft paper/board nes
+S3,5,64177,Coated paper etc nes
+S3,5,64178,Gummed/adhesive paper
+S3,5,64179,Bulk paper/board nes
+S3,4,6419,Convertd paper/board nes
+S3,5,64190,  UN Special Code
+S3,5,64191,Tar-laminated paper etc.
+S3,5,64192,Composite paper bulk nes
+S3,5,64193,Paper pulp filter blocks
+S3,5,64194,"Wallpaper, etc."
+S3,3,642,Cut paper/board/articles
+S3,4,6421,Paper cartons/packing
+S3,5,64211,Corrugated paper cartons
+S3,5,64212,Folding non-corr cartons
+S3,5,64213,Paper sacks >40cm wide
+S3,5,64214,Paper sacks/bags nes
+S3,5,64215,Paper packing contrs nes
+S3,5,64216,Office files etc-paper
+S3,4,6422,Envelopes/writing paper
+S3,5,64221,Envelopes
+S3,5,64222,Postcards etc
+S3,5,64223,Boxed stationary etc.
+S3,4,6423,Note books/folders etc
+S3,5,64231,Office books/pads
+S3,5,64232,Exercise books
+S3,5,64233,Binders/folders/files
+S3,5,64234,Manifold business forms
+S3,5,64235,Albums for collections
+S3,5,64239,Book covers/blotters etc
+S3,4,6424,Paper/board cut nes
+S3,5,64241,Cigarette paper precut
+S3,5,64242,Copying paper ct to size
+S3,5,64243,Toilet paper cut to size
+S3,5,64244,"Gummed paper strip,rolls"
+S3,5,64245,Filter papers etc.
+S3,5,64248,Printg/writing paper nes
+S3,4,6429,Paper products nes
+S3,5,64291,Spools etc of paper etc
+S3,5,64292,Punched card mach cards
+S3,5,64293,Paper plates etc.
+S3,5,64294,"Paper tissues,towels etc"
+S3,5,64295,Paper etc diapers etc
+S3,5,64299,Other articles of paper
+S3,2,65,Textile yarn/fabric/art.
+S3,3,650,  UN Special Code
+S3,3,651,Textile yarn
+S3,4,6510,  UN Special Code
+S3,4,6511,Wool/animal hair yarn
+S3,5,65110,  UN Special Code
+S3,5,65112,Carded wool yarn in bulk
+S3,5,65113,Combed wool yarn in bulk
+S3,5,65114,Fine hair yarn in bulk
+S3,5,65115,Coarse hair yarn in bulk
+S3,5,65116,"Wool etc yarn, retail"
+S3,5,65117,Carded wool blend yarn
+S3,5,65118,Combed wool blend yarn
+S3,5,65119,"Wool blend yarn, retail"
+S3,4,6512,Cotton sewing thread
+S3,5,65120,  UN Special Code
+S3,5,65121,"Cotton sewing thrd, bulk"
+S3,5,65122,Cotton sewing thr retail
+S3,4,6513,Cotton yarn nes
+S3,5,65131,"Cotton (>85%)yarn,retail"
+S3,5,65132,"Cotton yarn nes, retail"
+S3,5,65133,Cotton(>85%)yarn bulk
+S3,5,65134,Cotton(<85%)yarn bulk
+S3,4,6514,Man-made sewing threads
+S3,5,65140,  UN Special Code
+S3,5,65141,Synth filament sewing th
+S3,5,65142,Artif filament sewing th
+S3,5,65143,Synth staple sewing thrd
+S3,5,65144,Artif staple sewing thrd
+S3,4,6515,Synth.fil.yarn text.bulk
+S3,5,65150,  UN Special Code
+S3,5,65151,Nylon/polyamide fil yarn
+S3,5,65152,Polyester filament yarn
+S3,5,65159,Synth filament yarn nes
+S3,4,6516,Synth fil yarn untexturd
+S3,5,65160,  UN Special Code
+S3,5,65161,Synth fil yarn retail
+S3,5,65162,Nylon/polyam hi-ten yarn
+S3,5,65163,Single untw syn yarn nes
+S3,5,65164,Singl twist syn yarn nes
+S3,5,65169,Multi-fil synth yarn nes
+S3,4,6517,Artificial filament yarn
+S3,5,65170,  UN Special Code
+S3,5,65171,Artif filam yarn retail
+S3,5,65172,Bulk textured artif yarn
+S3,5,65173,Bulk hi-ten viscos rayon
+S3,5,65174,Bulk visco-rayon <120t/m
+S3,5,65175,Single artif yarn nes
+S3,5,65176,Multi-fil artif yarn nes
+S3,5,65177,Artif monfil >67 decitex
+S3,4,6518,Yarn stap fib etc <5mm
+S3,5,65180,  UN Special Code
+S3,5,65181,Syn stap(>85%)yarn retl.
+S3,5,65182,Syn stap(>85%)yarn bulk
+S3,5,65183,Syn stap(<85%)yarn retl.
+S3,5,65184,Syn stap(<85%)yarn bulk
+S3,5,65185,Artif staple yarn retail
+S3,5,65186,Art stap(>85%)yarn bulk
+S3,5,65187,Art stap(<85%)yarn mixt.
+S3,5,65188,Syn monof yarn>67decitex
+S3,4,6519,Yarn-textile fibres nes
+S3,5,65191,Metallized textile yarn
+S3,5,65192,"Silk yarn non waste,bulk"
+S3,5,65193,Silk waste yarn in bulk
+S3,5,65194,Silk yarn for retail
+S3,5,65195,Yarn etc of glass fibre
+S3,5,65196,Flax yarn
+S3,5,65197,Jute etc yarn
+S3,5,65199,"Veg fibre yarn nes,paper"
+S3,3,652,"Cotton fabrics, woven"
+S3,4,6520,  UN Special Code
+S3,4,6521,Cotton gauze/pile/chenil
+S3,5,65210,  UN Special Code
+S3,5,65211,Cotton gauze exc narrow
+S3,5,65212,Unblchd cotton terry fab
+S3,5,65213,Woven cotton terry nes
+S3,5,65214,Cotton uncut pile fabric
+S3,5,65215,Cotton cut pile fabric
+S3,4,6522,Woven unb cotton fab nes
+S3,5,65220,  UN Special Code
+S3,5,65221,Woven cottn unbl<200g/m2
+S3,5,65222,Woven cottn unbl>200g/m2
+S3,5,65223,Woven cotton mix<200g/m2
+S3,5,65224,Woven cotton mix>200g/m2
+S3,5,65225,Woven cotton nes<200g/m2
+S3,5,65226,Woven cotton nes>200g/m2
+S3,4,6523,Woven cotton finish<200g
+S3,5,65231,Woven cotton bleach<200g
+S3,5,65232,Woven cotton dyed  <200g
+S3,5,65233,Color woven cotton <200g
+S3,5,65234,Woven cotton print <200g
+S3,4,6524,Woven cotton finish>200g
+S3,5,65241,Woven cotton bleach>200g
+S3,5,65242,Woven cotton dyed  >200g
+S3,5,65243,Woven cotton denim >200g
+S3,5,65244,Color woven cotton >200g
+S3,5,65245,Woven cotton print >200g
+S3,4,6525,Woven cotton blend <200g
+S3,5,65251,Woven cotn mix blch<200g
+S3,5,65252,Woven cotn mix dyed<200g
+S3,5,65253,Color woven ctn mix<200g
+S3,5,65254,Woven cotn mix prnt<200g
+S3,4,6526,Woven cotton blend >200g
+S3,5,65261,Woven cotn mix blch>200g
+S3,5,65262,Woven cotn mix dyed>200g
+S3,5,65263,Woven cotn mix denm>200g
+S3,5,65264,Color wovn cotn mix>200g
+S3,5,65265,Woven cotn mix prnt>200g
+S3,4,6529,Woven cotton fabrics nes
+S3,5,65290,  UN Special Code
+S3,5,65291,Blchd wovn cotn nes<200g
+S3,5,65292,Dyed woven cotn nes<200g
+S3,5,65293,Color wovn cotn nes<200g
+S3,5,65294,Print wovn cotn nes<200g
+S3,5,65295,Blchd wovn cotn nes>200g
+S3,5,65296,Dyed woven cotn nes>200g
+S3,5,65297,Color wovn cotn nes>200g
+S3,5,65298,Print wovn cotn nes>200g
+S3,3,653,Man-made woven fabrics
+S3,4,6530,  UN Special Code
+S3,4,6531,Woven syn fil yarn fabrc
+S3,5,65310,  UN Special Code
+S3,5,65311,Wvn hi-ten syn yarn fabr
+S3,5,65312,Woven fabr frm strip etc
+S3,5,65313,Bonded syn yarn fabrics
+S3,5,65314,Woven polyamide fabr nes
+S3,5,65315,Wovn text.pestr fab nes
+S3,5,65316,Woven polyester fabr nes
+S3,5,65317,Wovn synth fil fabrc nes
+S3,5,65318,Wovn synth mix fabrc nes
+S3,5,65319,Woven synth fil fab nes
+S3,4,6532,Woven syn st fibre fabrc
+S3,5,65320,  UN Special Code
+S3,5,65321,Wovn pester s.f. fabric
+S3,5,65325,Wovn acrylic s.f. fabric
+S3,5,65329,Wovn synth s.f.fabrc nes
+S3,4,6533,Wovn synth s.f/cotn fab
+S3,5,65331,Wovn pester sf/ctn<170g
+S3,5,65332,Woven other sf/cotn<170g
+S3,5,65333,Wovn pester sf/ctn>170g
+S3,5,65334,Woven other sf/cotn>170g
+S3,4,6534,Wovn synth sf blends nes
+S3,5,65340,  UN Special Code
+S3,5,65341,Wovn syn fib/wool fabric
+S3,5,65342,Wovn syn fib/manmade fab
+S3,5,65343,Wovn syn fib/nes blends
+S3,4,6535,Wovn art fil yarn fabric
+S3,5,65350,  UN Special Code
+S3,5,65351,Wovn viscose rayon fabrc
+S3,5,65352,Wovn art fil/strip fabrc
+S3,5,65359,Wovn art fil fabric nes
+S3,4,6536,Wovn art st fibre fabric
+S3,4,6538,Wovn art sf blend fabric
+S3,5,65380,  UN Special Code
+S3,5,65381,Wovn art sf/cotton fabrc
+S3,5,65382,Wovn art sf/wool fabrics
+S3,5,65383,Wovn art sf/manmade fabr
+S3,5,65389,Wovn art sf/other fabric
+S3,4,6539,Pile/chenile manmade fab
+S3,5,65390,  UN Special Code
+S3,5,65391,Man-made pile fab uncut
+S3,5,65393,Man-made pile fabric nes
+S3,3,654,Woven textile fabric nes
+S3,4,6541,Woven silk fabrics
+S3,5,65410,  UN Special Code
+S3,5,65411,Woven noil silk fabric
+S3,5,65413,Woven silk >85% fabr nes
+S3,5,65419,Woven silk fabrics nes
+S3,4,6542,Woven anim hair fabrics
+S3,5,65421,"Wovn card wool,fine hair"
+S3,5,65422,"Wovn comb wool,fine hair"
+S3,4,6543,"Woven wool,hair nes"
+S3,5,65430,  UN Special Code
+S3,5,65431,"Wovn card wool,h/manmade"
+S3,5,65432,"Wovn comb wool,h/manmade"
+S3,5,65433,"Woven card wool,h/other"
+S3,5,65434,"Woven comb wool,h/other"
+S3,5,65435,Wovn pile fab wool/hair
+S3,4,6544,Woven flax fabrics
+S3,5,65441,Woven flax fabric >85%
+S3,5,65442,Woven flax fabric <85%
+S3,4,6545,Woven jute etc fabrics
+S3,4,6546,Wovn glass fibre fabric
+S3,4,6549,Woven fabrics nes
+S3,5,65490,  UN Special Code
+S3,5,65491,Woven metallized fabric
+S3,5,65492,Coarse hair woven fabric
+S3,5,65493,Wovn veg text fibre fabr
+S3,5,65494,Woven wide gauze ex cotn
+S3,5,65495,"Pile,chenille fabric nes"
+S3,5,65496,Terry towelling exc cotn
+S3,5,65497,Tufted textile fabrics
+S3,3,655,Knit/crochet fabrics
+S3,4,6550,  UN Special Code
+S3,4,6551,Knit/croch pile fabric
+S3,5,65510,  UN Special Code
+S3,5,65511,Long pile knit/croch fab
+S3,5,65512,Loop pile knit/croch fab
+S3,5,65519,Knit/croch pile fabr nes
+S3,4,6552,Knit/croch fabric nes
+S3,5,65520,  UN Special Code
+S3,5,65521,Knit/croch fab nes <30cm
+S3,5,65522,Knit/cr fab >30cm+rubber
+S3,5,65523,"Other fabrics, warp knit"
+S3,5,65529,Knit/crochet fabric nes
+S3,3,656,Tulle/lace/embr/trim etc
+S3,4,6560,  UN Special Code
+S3,4,6561,Narrow woven fabrics
+S3,5,65610,  UN Special Code
+S3,5,65611,Narrow woven pile fabric
+S3,5,65612,Narrow woven elastic fab
+S3,5,65613,Narrow woven fabric nes
+S3,5,65614,Narrow bonded fabrics
+S3,4,6562,Textile badges etc
+S3,5,65620,  UN Special Code
+S3,5,65621,Woven textile labels etc
+S3,5,65629,Non-woven text label etc
+S3,4,6563,Gimped yarn/tassels/etc
+S3,5,65631,Gimped yarns
+S3,5,65632,Braids/trimmings/etc
+S3,4,6564,Tulles/nets/laces
+S3,5,65640,  UN Special Code
+S3,5,65641,"Tulles, net fabrics"
+S3,5,65642,Mechanical lace
+S3,5,65643,Hand-made lace
+S3,4,6565,Embroidery piece/strip..
+S3,5,65651,"Embroidery,no vis.ground"
+S3,5,65659,Embroidery nes
+S3,3,657,Special yarns/fabrics
+S3,4,6570,  UN Special Code
+S3,4,6571,Felt fabric
+S3,5,65710,  UN Special Code
+S3,5,65711,Needleloom/stch bnd felt
+S3,5,65712,Felt nes not impregnated
+S3,5,65719,Felt impregnated etc
+S3,4,6572,Non-woven fabrics nes
+S3,4,6573,Coated/impreg fabric nes
+S3,5,65731,Gum etc coated textiles
+S3,5,65732,Plastic coated textiles
+S3,5,65733,Rubberized textiles nes
+S3,5,65734,Coated/impreg text. nes
+S3,5,65735,Textile wall coverings
+S3,4,6574,Quilted textile products
+S3,4,6575,Twine/cords/cables/nets
+S3,5,65751,Twine/cordage/rope/cable
+S3,5,65752,Knotted rope/twine nets
+S3,5,65759,Articles of cordage nes
+S3,4,6576,Hat shapes/forms/bodies
+S3,5,65761,Felt hat bodies/forms ..
+S3,5,65762,Hat bodies nes
+S3,4,6577,Indust wadding/wicks/fab
+S3,5,65771,Textile wadding nes etc
+S3,5,65772,Textile wicks/mantle etc
+S3,5,65773,Industrial textiles nes
+S3,4,6578,Rubberized thread/cord..
+S3,5,65780,  UN Special Code
+S3,5,65781,Textile covd rubber cord
+S3,5,65785,Coated hi-ten synth yarn
+S3,5,65789,Rubber/plasticized t nes
+S3,4,6579,Special textile products
+S3,5,65791,Textile hosepiping etc
+S3,5,65792,"Machinery belts etc,text"
+S3,5,65793,Tyre cord fabric
+S3,3,658,Made-up textile articles
+S3,4,6580,  UN Special Code
+S3,4,6581,Textile sacks/bags
+S3,5,65811,Jute etc sacks/bags
+S3,5,65812,Cotton sacks/bags
+S3,5,65813,Man-made text sacks/bags
+S3,5,65819,Textile sacks/bags nes
+S3,4,6582,Tarpaulins/tents/blinds
+S3,5,65820,  UN Special Code
+S3,5,65821,Tarpaulins/awnings/blind
+S3,5,65822,Tents
+S3,5,65823,Sails
+S3,5,65824,Pneumatic mattresses
+S3,5,65829,Camping goods n.e.s.
+S3,4,6583,Blankets/travelling rugs
+S3,5,65830,  UN Special Code
+S3,5,65831,Wool/hair blankets
+S3,5,65832,Cotton blankets
+S3,5,65833,Synthetic fibre blankets
+S3,5,65839,Blankets of textiles nes
+S3,4,6584,Bed/table/toilet linen
+S3,5,65840,  UN Special Code
+S3,5,65841,Knit/crochet bed linen
+S3,5,65842,Bed linen of cotton nes
+S3,5,65843,Bed linen of othr fibres
+S3,5,65844,Knit/crochet table linen
+S3,5,65845,Table linen of coton nes
+S3,5,65846,Table linen of oth fibre
+S3,5,65847,Toilet/kitchen artic cot
+S3,5,65848,Toilet/kitchen linen nes
+S3,4,6585,Curtains etc nes
+S3,5,65851,Curtains/drapes/blinds
+S3,5,65852,Bedspreads
+S3,5,65859,Furnishing articles nes
+S3,4,6589,Made-up textile arts nes
+S3,5,65891,Tapestries hand-made
+S3,5,65892,"Dusters, dish cloths etc"
+S3,5,65893,"Life jacket/belt, etc."
+S3,5,65899,Rug/tapestry etc kits
+S3,3,659,Floor coverings etc.
+S3,4,6590,  UN Special Code
+S3,4,6591,Linoleum etc.
+S3,5,65911,Floor cover paper-backed
+S3,5,65912,Linoleum etc textil back
+S3,4,6592,Carpets etc. knotted
+S3,5,65921,"Carpet,knotted,wool/hair"
+S3,5,65929,"Carpet,knotted,oth text"
+S3,4,6593,Hand woven rugs
+S3,4,6594,"Carpets, tufted"
+S3,5,65940,  UN Special Code
+S3,5,65941,"Carpet,tufted,wool/hair"
+S3,5,65942,"Carpet,tufted,polyamide"
+S3,5,65943,"Carpet,tufted,man-mad fi"
+S3,5,65949,"Carpet,tufted,textil nes"
+S3,4,6595,"Carpets, woven"
+S3,5,65950,  UN Special Code
+S3,5,65951,"Carpet,woven,wool/hair"
+S3,5,65952,"Carpet,woven,man-mad tex"
+S3,5,65959,"Carpet,woven,textile nes"
+S3,4,6596,Carpets etc nes
+S3,5,65961,Floor coverings of felt
+S3,5,65969,Carpets/flooor covrs nes
+S3,2,66,Non-metal mineral manuf.
+S3,3,660,  UN Special Code
+S3,3,661,Lime/cement/constr matl
+S3,4,6611,Quick/slaked/hydr lime
+S3,5,66110,  UN Special Code
+S3,5,66111,Quicklime
+S3,5,66112,Slaked lime
+S3,5,66113,Hydraulic lime
+S3,4,6612,Portland etc cements
+S3,5,66121,Cement clinkers
+S3,5,66122,Portland cement
+S3,5,66123,Aluminous cement
+S3,5,66129,Hydraulic cements nes
+S3,4,6613,Monument/building stone
+S3,5,66130,  UN Special Code
+S3,5,66131,"Flagstones etc,nat stone"
+S3,5,66132,"Slate,worked,articles"
+S3,5,66133,Nat stone tiles <7cm
+S3,5,66134,"Marble etc., worked"
+S3,5,66135,Building stone unworked
+S3,5,66136,Marble etc finished
+S3,5,66139,Building stone worked
+S3,4,6618,Asbestos/fibre cement
+S3,5,66181,Asphalt etc articles
+S3,5,66182,Mixed veg-mnrl bldg prod
+S3,5,66183,Asbestos/fibre cemnt art
+S3,3,662,Clay/refractory material
+S3,4,6623,Refract bricks/const mat
+S3,5,66231,Silice earth bricks etc
+S3,5,66232,Refractry bricks etc
+S3,5,66233,Refractory cement/mortar
+S3,4,6624,Non-refract bricks/tiles
+S3,5,66241,N-r bricks/tiles/pipes
+S3,5,66242,Non-ref roof tiles etc.
+S3,5,66243,"Piping etc,ceramic"
+S3,5,66244,Unglazed ceramic paving
+S3,5,66245,Glazed ceramic paving et
+S3,3,663,Mineral manufactures nes
+S3,4,6631,Millstones/grindstones..
+S3,5,66310,  UN Special Code
+S3,5,66311,Millstones
+S3,5,66312,Grindstones
+S3,5,66313,Hand sharpening stones
+S3,4,6632,Glass paper/emery cloth
+S3,5,66320,  UN Special Code
+S3,5,66321,Abrasives cloth backing
+S3,5,66322,Abrasives paper backing
+S3,5,66329,Abrasives other backing
+S3,4,6633,Min material manuf nes
+S3,5,66331,Plaster board/articles
+S3,5,66332,Concrete blocks/tiles
+S3,5,66333,Prefab concrete structre
+S3,5,66334,Concrete articles nes
+S3,5,66335,"Mica,worked/articles of"
+S3,5,66336,Non-electr graphite arts
+S3,5,66337,Articles of peat
+S3,5,66338,Magnesite/dolomit/chromi
+S3,5,66339,Stone etc articles nes
+S3,4,6635,Rock wools/exp minerals
+S3,5,66350,  UN Special Code
+S3,5,66351,Slag/rock/mireral wool
+S3,5,66352,Exf vermiculite/exp clay
+S3,5,66353,Minrl insulatng prod nes
+S3,4,6637,Ceramics nes
+S3,4,6638,Sbestos manufactures
+S3,5,66381,Asbestos mfs nonfriction
+S3,5,66382,Asbestos manuf-friction
+S3,4,6639,Ceramic articles nes
+S3,5,66391,Lab/indus ceram ware nes
+S3,5,66399,Oth ceramic articles nes
+S3,3,664,Glass
+S3,4,6640,  UN Special Code
+S3,4,6641,Bulk/scrap glass
+S3,5,66410,  UN Special Code
+S3,5,66411,Glass in mass/cullet/etc
+S3,5,66412,Glass ball/rod/tube unwk
+S3,4,6643,Drawn/blown glass sheets
+S3,5,66431,Drawn/blown tinted glass
+S3,5,66439,Other drawn/blown glass
+S3,4,6644,Float/polished glass sht
+S3,5,66441,Non-wired float glass
+S3,5,66442,Wired float glass
+S3,4,6645,Cast/rolled glass sheets
+S3,5,66450,  UN Special Code
+S3,5,66451,Cast/roll glass unwired
+S3,5,66452,"Cast,rolled glass wired"
+S3,5,66453,"Cast,rolled glass profil"
+S3,4,6647,Tempr/lamin safety glass
+S3,5,66471,Tempered safety glass
+S3,5,66472,Laminated safety glass
+S3,4,6648,Glass mirrors
+S3,5,66481,Vehicle rear-view mirror
+S3,5,66489,Glass mirrors nes
+S3,4,6649,Glass n.e.s.
+S3,5,66490,  UN Special Code
+S3,5,66491,Edge worked sheet glass
+S3,5,66492,Multi-wall insulat glass
+S3,5,66493,"Lamp etc envelopes,glass"
+S3,5,66494,Spectacle/clock/.. glass
+S3,5,66495,Glass fibre/wool/prods
+S3,5,66496,Glass bricks/tiles/etc.
+S3,3,665,Glassware
+S3,4,6650,  UN Special Code
+S3,4,6651,Glass containers/fitting
+S3,5,66511,Glass bottles/jars/etc
+S3,5,66512,Inners for vacuum vessel
+S3,4,6652,Table/kitchen glassware
+S3,5,66520,  UN Special Code
+S3,5,66521,Glass-ceramic table ware
+S3,5,66522,Drink glasses non-ceram.
+S3,5,66523,Kitchen/table glass nes
+S3,5,66529,Other glassware nes
+S3,4,6659,Glass articles nes
+S3,5,66590,  UN Special Code
+S3,5,66591,Laboratory etc glass
+S3,5,66592,Glass ampoules
+S3,5,66593,Glass ornament/beads/etc
+S3,5,66594,Glass cubes/smallwares
+S3,5,66595,Lighting etc glassware
+S3,5,66599,Other glass articles nes
+S3,3,666,Pottery
+S3,4,6661,Ceramic hosehold/table w
+S3,5,66611,Kitchen/table porcelain
+S3,5,66612,Household/toilet porcel.
+S3,5,66613,Coarse ceramic houseware
+S3,4,6662,Ceramic ornaments
+S3,5,66620,  UN Special Code
+S3,5,66621,Porcelain ornaments
+S3,5,66629,Ceramic ornaments nes
+S3,3,667,Pearls/precious stones
+S3,4,6671,Pearls not strung/set
+S3,5,66710,  UN Special Code
+S3,5,66711,Pearls natural unworked
+S3,5,66712,Pearls cultured unworked
+S3,5,66713,Pearls cultured worked
+S3,4,6672,Diamonds unset
+S3,5,66721,"Diamonds,rough,unsorted"
+S3,5,66722,"Diamonds,sorted,cleaved"
+S3,5,66729,"Diamonds,worked,unmountd"
+S3,4,6673,Prec/semi-p stones unset
+S3,5,66731,Prec/semi-p stone shaped
+S3,5,66739,Prec/semi-p stone worked
+S3,4,6674,Synthetic jewels not set
+S3,5,66740,  UN Special Code
+S3,5,66741,Piezo-electric quartz
+S3,5,66742,Synth jewels nes unworkd
+S3,5,66749,Synth jewels nes unset
+S3,2,67,Iron and steel
+S3,3,670,  UN Special Code
+S3,3,671,Pig iron etc ferro alloy
+S3,4,6710,  UN Special Code
+S3,4,6712,Pig iron/spiegeleisen
+S3,5,67120,  UN Special Code
+S3,5,67121,"Pig iron,phosph max 0.5%"
+S3,5,67122,"Pig iron,phosph exc 0.5%"
+S3,5,67123,Alloy pig iron/spiegelei
+S3,4,6713,Iron granule/powder/etc
+S3,5,67131,Iron/steel granules
+S3,5,67132,Iron/steel powders
+S3,5,67133,Pure reduc proc iron
+S3,4,6714,Ferro-manganese
+S3,5,67141,Ferro-manganese>2%carbon
+S3,5,67149,Ferro-manganese<2%carbon
+S3,4,6715,Other ferro alloys
+S3,5,67150,  UN Special Code
+S3,5,67151,Ferro-silicon alloy
+S3,5,67152,Ferro-silico-manganese
+S3,5,67153,Ferro-chromium alloys
+S3,5,67154,Ferro-silico-chromium
+S3,5,67155,Ferro-nickel alloys
+S3,5,67159,Other ferro-alloys nes
+S3,3,672,Primary/prods iron/steel
+S3,4,6720,  UN Special Code
+S3,4,6724,Ingot/primary iron/steel
+S3,5,67240,  UN Special Code
+S3,5,67241,Iron/simple steel ingot
+S3,5,67245,Prim form iron/steel nes
+S3,5,67247,Stnless steel etc ingots
+S3,5,67249,Other alloy steel ingots
+S3,4,6726,Semi-fin iron/stel<.25%c
+S3,5,67260,  UN Special Code
+S3,5,67261,"Irn,smple steel bars etc"
+S3,5,67262,"Irn,smple stl plates etc"
+S3,5,67269,"Irn,smple stl shapes nes"
+S3,4,6727,Semi-fin iron/st. >.25%c
+S3,4,6728,Semi-finish alloy steel
+S3,5,67281,Semi-finish stainless
+S3,5,67282,Semi-finish alloy st nes
+S3,3,673,Flat rolled iron/st prod
+S3,4,6730,  UN Special Code
+S3,4,6731,Flat rolled steel-1
+S3,5,67311,Coil steel-1 w>600t>4.75
+S3,5,67312,Coil steel-1 w>600t<4.75
+S3,5,67313,Flat steel-1 w>600t>4.00
+S3,5,67314,Flat steel-1 w>600t>4.75
+S3,5,67315,Flat steel-1 w>600t<4.75
+S3,5,67316,Flat steel-1 w 150-600
+S3,5,67317,Flat steel-1 w<600t>4.75
+S3,5,67319,Flat steel-1 w<600 nes
+S3,4,6732,Flat rolled steel-2
+S3,5,67321,Coil steel-2 w>600t>4.75
+S3,5,67322,Coil steel-2 w>600t<4.75
+S3,5,67323,Flat steel-2 w>600t>4.00
+S3,5,67324,Flat steel-2 w>600t>4.75
+S3,5,67325,Flat steel-2 w>600t<4.75
+S3,5,67326,Flat steel-2 w>150t>4.00
+S3,5,67327,Flat steel-2 w<600t>4.75
+S3,5,67329,Flat steel-2 w<600 nes
+S3,4,6733,Cold rolled steel-3
+S3,5,67331,Coil steel-3 w>600t>3.00
+S3,5,67332,Coil steel-3 w>600t1-3mm
+S3,5,67333,Coil steel-3 w>600t0.5-1
+S3,5,67334,Coil steel-3 w>600t<0.5
+S3,5,67335,Flat steel-3 w>600t<3.00
+S3,5,67336,Flat steel-3 w>600t1-3mm
+S3,5,67337,Flat steel-3 w>600t0.5-1
+S3,5,67338,Flat steel-3 w>600t<0.5
+S3,5,67339,Flat steel-3 w<600mm nes
+S3,4,6734,Colled rolled steel-4
+S3,5,67341,Coil steel-4 w>600t>3.00
+S3,5,67342,Coil steel-4 w>600t<3.00
+S3,5,67343,Coil steel-4 w>600t0.5-1
+S3,5,67344,Coil steel-4 w>600t<0.55
+S3,5,67345,Flat steel-4 w>600t>3.00
+S3,5,67346,Flat steel-4 w>600t1-3mm
+S3,5,67347,Flat steel-4 w>600t0.5-1
+S3,5,67348,Flat steel-4 w>600t<0.50
+S3,5,67349,Flat steel-4 w<600 nes
+S3,4,6735,Flat rolled steel nes
+S3,5,67351,Hot roll steel nes w>600
+S3,5,67352,Cold rol steel nes w>600
+S3,5,67353,Rolled steel nes w<600
+S3,3,674,Rolled plated m-steel
+S3,4,6740,  UN Special Code
+S3,4,6741,Zinc coated/plated steel
+S3,5,67411,Zinc el-pl. steel w>600
+S3,5,67412,Zinc el-pl. steel w<600
+S3,5,67413,Zinc coated steel w>600
+S3,5,67414,Zinc coated steel w<600
+S3,4,6742,Tin plated/coated steel
+S3,5,67421,Tin coated steel  w>600
+S3,5,67422,Tin coated steel  w<600
+S3,4,6743,Steel paint/plastic covr
+S3,5,67431,Painted etc steel w>600
+S3,5,67432,Painted etc steel w<600
+S3,4,6744,Coated steel plate w>600
+S3,5,67441,Lead coated/plated steel
+S3,5,67442,Chrome oxide coatd steel
+S3,5,67443,Alumin coatd/platd steel
+S3,5,67444,Coated plated steel nes
+S3,4,6745,Coated/platd steel w<600
+S3,5,67451,Non-ep coat steel  w<600
+S3,5,67452,Clad steel plate   w<600
+S3,3,675,Flat rolled alloy steel
+S3,4,6750,  UN Special Code
+S3,4,6751,Flat silicon-elect steel
+S3,5,67511,Flat si-elec steel w>600
+S3,5,67512,Flat si-elec steel w<600
+S3,4,6752,Flat high-speed steel
+S3,5,67521,Flat hispeed steel w>600
+S3,5,67522,Flat hispeed steel w<600
+S3,4,6753,Hot rolled stnless steel
+S3,5,67531,Chr stnless w>600 t>4.75
+S3,5,67532,Chr stnless w>600t3-4.75
+S3,5,67533,Chr stnless w>600 t<3mm
+S3,5,67534,Fhr stnless w>600 t>4.75
+S3,5,67535,Fhr stnless w>600t3-4.75
+S3,5,67536,Fhr stnless w>600 t<3mm
+S3,5,67537,H-r stnless w<600 t>4.75
+S3,5,67538,H-r stnless w<600 t<4.75
+S3,4,6754,Hot-rolled alloy steel
+S3,5,67541,Hot-r alloy-st coils>600
+S3,5,67542,Hot-r alloy-st flat >600
+S3,5,67543,Hot-roll alloy-steel<600
+S3,4,6755,Cold-rol stainless steel
+S3,5,67551,C-r stnless w>600 t>4.75
+S3,5,67552,C-r stnless w>600t3-4.75
+S3,5,67553,C-r stnless w>600 t1-3
+S3,5,67554,C-r stnless w>600 t0.5-1
+S3,5,67555,C-r stnless w>600 t<0.5
+S3,5,67556,C-r stnless steel w<600
+S3,4,6756,Cold roll alloy steel
+S3,5,67561,Cold roll alloy-st w>600
+S3,5,67562,Cold roll alloy-st w<600
+S3,4,6757,Flat roll alloy stl nes
+S3,5,67571,Stnless steel nes w>600
+S3,5,67572,Stnless steel nes w<600
+S3,5,67573,Alloy steel nes w>600
+S3,5,67574,Alloy steel nes w<600
+S3,3,676,Iron/steel bars/rods/etc
+S3,4,6760,  UN Special Code
+S3,4,6761,Hot-r coil bar/rod ir/st
+S3,5,67611,Hrc groove bar/rod ir/st
+S3,5,67612,Hrc free-cut bar steel
+S3,5,67613,Hrc ir/st bar nes c<0.6%
+S3,5,67614,Hrc ir/st bar nes c>0.6%
+S3,5,67615,Hrc stainless steel rods
+S3,5,67617,Hrc hi-speed steel rod
+S3,5,67619,Hrc alloy-steel nes rod
+S3,4,6762,Hot-form stl bar/rod nes
+S3,5,67621,Hf groove etc ir/st bar
+S3,5,67622,Hf free-cutting st bar
+S3,5,67623,Hf ir/st nes bar c<0.6%
+S3,5,67624,Hf ir/st nes bar c>0.6%
+S3,5,67625,Hf stainless bars nes
+S3,5,67629,Hot form al-st bar nes
+S3,4,6763,Cold-form air/st bar nes
+S3,5,67631,C-f free-cut st bars nes
+S3,5,67632,C-f ir/st bar nes c<0.6%
+S3,5,67633,C-f ir/st bar nes c>0.6%
+S3,5,67634,C-f stainless bar nes
+S3,5,67639,C-f alloy-steel bar nes
+S3,4,6764,Iron/steel bars nes
+S3,5,67641,Hi-speed steel bars nes
+S3,5,67642,Sil-mang steel bars nes
+S3,5,67643,Forged iron/stl bars nes
+S3,5,67644,Alloy steel nes bars nes
+S3,5,67645,Stnless steel bars nes
+S3,5,67646,Forge alloy-st bars nes
+S3,5,67647,Alloy steel bar/rod nes
+S3,5,67648,Hollow drill steel bars
+S3,4,6768,Iron/st angle/shape/sect
+S3,5,67680,  UN Special Code
+S3,5,67681,H-f u/i/h/l/t sect h<80
+S3,5,67682,H-f u/i/h/l/t sect h>80
+S3,5,67683,H-f ir/st shape/sect nes
+S3,5,67684,C-f ir/st shape/sect nes
+S3,5,67685,Iron/steel shape/sec nes
+S3,5,67686,Iron/steel sheet piling
+S3,5,67687,Stnless stl etc profile
+S3,5,67688,Other alloy stl profile
+S3,3,677,Iron/steel railway matl
+S3,4,6770,Iron/steel railway matl
+S3,5,67701,Railway rails irn/steel
+S3,5,67709,Rlway tr equ nes irn/stl
+S3,3,678,Iron/steel wire
+S3,4,6780,  UN Special Code
+S3,4,6781,Iron/non-alloy stl wire
+S3,5,67810,  UN Special Code
+S3,5,67811,Wire iron/steel c<0.25%
+S3,5,67812,Wire iron/stl c0.25-0.6%
+S3,5,67813,Wire iron/steel c>0.6%
+S3,4,6782,"Wire,stainless/alloy stl"
+S3,5,67821,Stainless steel wire
+S3,5,67829,Alloy steel wire nes
+S3,3,679,Iron/steel pipe/tube/etc
+S3,4,6791,Iron/steel tube seamless
+S3,5,67911,Cast iron tubes/pipes
+S3,5,67912,Iron/stl oil/gas piping
+S3,5,67913,Iron/stl oil drill casng
+S3,5,67914,Ir/n-a stl circ pipe nes
+S3,5,67915,Stless stl circ pipe nes
+S3,5,67916,Alloy-stl circ pipes nes
+S3,5,67917,Ir/st seamless tubes nes
+S3,4,6793,Seamed pipe/tube d>406.4
+S3,5,67930,  UN Special Code
+S3,5,67931,Seamed oil/gas pipeline
+S3,5,67932,Seamed oil/gas dril csng
+S3,5,67933,Welded pipes nes d>406.4
+S3,5,67939,Seamed pipes nes d>406.4
+S3,4,6794,Seamed tubes/pipes nes
+S3,5,67940,  UN Special Code
+S3,5,67941,Seam oil/gas pipelne nes
+S3,5,67942,Seam oil drill casng nes
+S3,5,67943,Seamed circlar pipes nes
+S3,5,67944,Welded non-circ pipe nes
+S3,5,67949,Irn/steel pipes/etc nes
+S3,4,6795,Iron/steel pipe fittings
+S3,5,67950,  UN Special Code
+S3,5,67951,Non-m cast iron pipe fit
+S3,5,67952,Cast ir/st pipe fit nes
+S3,5,67953,Stnless st pipe flanges
+S3,5,67954,Stnls st thread pipe fit
+S3,5,67955,Stnls st but-weld pipe f
+S3,5,67956,Stnls steel pipe fit nes
+S3,5,67959,Ir/st pipe fittings nes
+S3,2,68,Non-ferrous metals
+S3,3,681,Silver/platinum etc
+S3,4,6811,Semi-manuf silver/clad
+S3,5,68110,  UN Special Code
+S3,5,68112,Rolled silver
+S3,5,68113,Silver unwrought
+S3,5,68114,Silver semi-manufacture
+S3,4,6812,Platinum etc
+S3,5,68120,  UN Special Code
+S3,5,68122,Rolled platinum etc
+S3,5,68123,Platinum/alloys unwrght
+S3,5,68124,Oth plat grp metal unwrt
+S3,5,68125,Plat grp metals semi-man
+S3,3,682,Copper
+S3,4,6820,  UN Special Code
+S3,4,6821,Copper refined/unrefined
+S3,5,68211,"Copper unref,exc cement"
+S3,5,68212,Copper refined
+S3,5,68213,Master alloys of copper
+S3,5,68214,Copper alloys nes unwrt
+S3,4,6823,Copper rod/bar/profile
+S3,5,68231,Ref copper rod/bar/prof
+S3,5,68232,Copper alloy rod/bar/pro
+S3,4,6824,Copper wire
+S3,5,68241,Refined copper wire
+S3,5,68242,Copper alloy wire
+S3,4,6825,Copper plate/sheet/strip
+S3,5,68251,Refined copper sheet etc
+S3,5,68252,Alloy copper sheet etc
+S3,4,6826,Copper foil/powder/flake
+S3,5,68261,Copper foil+backed t<.15
+S3,5,68262,"Copper powders,flakes"
+S3,4,6827,Copper tube/pipe/fitting
+S3,5,68271,"Copper tubes,pipes,etc"
+S3,5,68272,Copper tube fittings
+S3,3,683,Nickel
+S3,4,6831,Nickel/alloys unwrought
+S3,5,68311,Nickel unwrought
+S3,5,68312,Nickel alloys unwrought
+S3,4,6832,Nickel/alloys worked
+S3,5,68321,Nickel bars/wire/etc
+S3,5,68322,Nickel tube/pipe/etc
+S3,5,68323,Nickel powder/flakes
+S3,5,68324,Nickel plate/sheet/foil
+S3,3,684,Aluminium
+S3,4,6841,Aluminium/alloys unwrt
+S3,5,68411,Aluminium not alloyed uw
+S3,5,68412,"Aluminium alloys,unwrgh"
+S3,4,6842,Aluminium/alloys worked
+S3,5,68420,  UN Special Code
+S3,5,68421,Aluminium bars/rod/prof.
+S3,5,68422,Aluminium/alloy wire
+S3,5,68423,Alumnm plate/sheet t>0.2
+S3,5,68424,Aluminium foil     t<0.2
+S3,5,68425,Aluminium powders/flakes
+S3,5,68426,Aluminium tubes/pipes
+S3,5,68427,Aluminium tube fittings
+S3,3,685,Lead
+S3,4,6850,  UN Special Code
+S3,4,6851,Lead/alloys unwrought
+S3,5,68510,  UN Special Code
+S3,5,68511,Unrefined lead/alloys
+S3,5,68512,Refined lead
+S3,4,6852,Lead/alloys worked
+S3,5,68521,Lead bar/rod/prof/wire
+S3,5,68522,Lead plate/sheet/strip
+S3,5,68524,Lead tubes/fittings/etc
+S3,3,686,Zinc
+S3,4,6861,Zinc/alloys unwrought
+S3,5,68611,Zinc not alloyed unwrt
+S3,5,68612,Zinc alloys unwrought
+S3,4,6863,Zinc/alloys worked
+S3,5,68631,Zinc bar/rod/prof/wire
+S3,5,68632,Zinc sheet/strip/foil
+S3,5,68633,Zinc powders/dust/flake
+S3,5,68634,Zinc tubes/fittings/etc
+S3,3,687,Tin
+S3,4,6871,Tin/alloys unwrought
+S3,5,68710,  UN Special Code
+S3,5,68711,Tin not alloyed unwrt
+S3,5,68712,Tin alloys unwrought
+S3,4,6872,Tin/alloys worked
+S3,5,68721,Tin bar/rod/wire/profile
+S3,5,68722,Tin sheet/plate/etc t>.2
+S3,5,68723,Tin foil+backed     t<.2
+S3,5,68724,Tin tubes/fittings/etc
+S3,3,689,Misc non-ferr base metal
+S3,4,6890,  UN Special Code
+S3,4,6891,Tungsten/molyb/tant/magn
+S3,5,68910,  UN Special Code
+S3,5,68911,Tungsten unwrought/waste
+S3,5,68912,Molybdenum unwrght/waste
+S3,5,68913,Tantalum unwrought/waste
+S3,5,68914,Magnesium waste/scrap
+S3,5,68915,Magnesium unwrought
+S3,4,6898,Cobalt/cadm/titan/zircon
+S3,5,68980,  UN Special Code
+S3,5,68981,Cobalt mattes/waste
+S3,5,68982,Cadmium unwrought/waste
+S3,5,68983,Titanium unwrought/waste
+S3,5,68984,Zirconium unwrt/waste
+S3,4,6899,Base metals nes
+S3,5,68990,  UN Special Code
+S3,5,68991,Beryllium unwrght/waste
+S3,5,68992,Bismuth/articles/waste
+S3,5,68993,Antimony/articles/waste
+S3,5,68994,Manganese/articles/waste
+S3,5,68995,Chromium/articles/waste
+S3,5,68996,Germanium/articles/waste
+S3,5,68997,Bvanadium/articles/waste
+S3,5,68998,"Base mtl nes unwrt,waste"
+S3,5,68999,Cermets/articles/waste
+S3,2,69,Metal manufactures nes
+S3,3,690,  UN Special Code
+S3,3,691,Iron/stl/alum structures
+S3,4,6911,Iron/st structures/parts
+S3,5,69111,Iron/st bridges/sections
+S3,5,69112,Iron/st towers/lat masts
+S3,5,69113,Iron/st doors/windows
+S3,5,69114,Iron/st props/scaffold
+S3,5,69119,Irn/steel structure nes
+S3,4,6912,Aluminium structure/part
+S3,5,69121,Aluminium doors/windows
+S3,5,69129,"Structures,parts alumnm"
+S3,3,692,Metal store/transpt cont
+S3,4,6921,Metal tanks/vats/etc
+S3,5,69211,Iron/steel tanks/vats
+S3,5,69212,Aluminium tanks/vats
+S3,4,6924,Metal tanks <300l unfitd
+S3,5,69241,Stl tanks <300l exc gas
+S3,5,69242,Alu tanks <300l exc gas
+S3,5,69243,Irn/stl comp gas tanks
+S3,5,69244,Aluminium comp gas tanks
+S3,3,693,Wire prod exc ins electr
+S3,4,6931,Sranded wire ropes/cable
+S3,5,69311,Iron/steel ropes/cables
+S3,5,69312,Copper rope/cable non-el
+S3,5,69313,Aluminium ropes/cables
+S3,4,6932,Iron/steel fencing wire
+S3,4,6935,Irn/stl/copper netting
+S3,5,69351,Irn/stl netting/grill
+S3,5,69352,Copper netting/grill/etc
+S3,3,694,Nails/screws/nuts/bolts
+S3,4,6941,Iron/steel nails etc
+S3,4,6942,Iron/stl bolt/screw/etc
+S3,5,69421,Irn/stl nut/bolt/screw
+S3,5,69422,Irn/stl rivet/pin/washer
+S3,4,6943,Copper nail/screw/bolt
+S3,5,69430,  UN Special Code
+S3,5,69431,Copper nail/tack/staple
+S3,5,69432,Copper washers etc
+S3,5,69433,Copper nuts/bolts
+S3,4,6944,Alumin nail/bolt/etc
+S3,3,695,Hand/machine tools
+S3,4,6950,  UN Special Code
+S3,4,6951,Hand tools agric/forest
+S3,4,6952,Hand tools - workshop
+S3,5,69521,Hand saws
+S3,5,69522,Files/rasps/etc
+S3,5,69523,"Pliers,pincers,snips,ets"
+S3,4,6953,Wrenches and spanners
+S3,4,6954,Hand/portable tools nes
+S3,5,69540,  UN Special Code
+S3,5,69541,Tools drill/thread/tap
+S3,5,69542,Hammers
+S3,5,69543,Planes/chisels/gouges
+S3,5,69544,Screwdrivers
+S3,5,69545,Household tools nes
+S3,5,69546,Hand tools nes
+S3,5,69547,Vices/clamps/etc
+S3,5,69548,Anvil/p.forges/h.grinder
+S3,5,69549,Hand tools sets
+S3,4,6955,Saw blades
+S3,5,69550,  UN Special Code
+S3,5,69551,Band saw blades
+S3,5,69552,Steel circular saw blade
+S3,5,69553,Circular saw blades nes
+S3,5,69554,Chain saw blades
+S3,5,69555,Straight saw bl for metl
+S3,5,69559,Saw blades nes
+S3,4,6956,Knives/blades/tool tips
+S3,5,69560,  UN Special Code
+S3,5,69561,Cutting blades for machn
+S3,5,69562,Carbide tool tips etc
+S3,5,69563,Rock etc drilling tools
+S3,5,69564,Parts to insert in tools
+S3,4,6957,Mixed hand tool sets
+S3,3,696,Cutlery
+S3,4,6963,Razors/razor blades
+S3,5,69630,  UN Special Code
+S3,5,69631,Razors non-electric
+S3,5,69635,Safety razor blades
+S3,5,69638,Mtl parts non-elec razor
+S3,4,6964,Scissors/scissor blades
+S3,4,6965,Cutlery articles nes
+S3,5,69650,  UN Special Code
+S3,5,69651,Paper knife/pencil sharp
+S3,5,69655,Manicure/pedicure sets
+S3,5,69659,Cutlery articles nes
+S3,4,6966,Kitchen/table cutlery
+S3,5,69660,  UN Special Code
+S3,5,69661,Plated table cutlery set
+S3,5,69662,Cutlery sets nes
+S3,5,69663,"Cutlery,plated,not sets"
+S3,5,69669,"Cutlery nes, not in sets"
+S3,4,6968,Knives and blades nes
+S3,3,697,Base metal hhold equipms
+S3,4,6973,Non-el dom cook/heat app
+S3,5,69731,Irn/st non-e dom cook eq
+S3,5,69732,Irn/st non-e dom heat eq
+S3,5,69733,Irn/st parts for 697 eq.
+S3,5,69734,Copper dom cook/heat eq.
+S3,4,6974,Metal kitchen equip nes
+S3,5,69741,Irn/st kitchen equip nes
+S3,5,69742,Copper kitchen equip nes
+S3,5,69743,Alumin kitchen equip nes
+S3,5,69744,Iron/steel wool/scourers
+S3,4,6975,Metal sanitary ware/part
+S3,5,69751,Iron/steel sanitary ware
+S3,5,69752,Copper sanitary ware
+S3,5,69753,Aluminium household ware
+S3,4,6978,Household appliances etc
+S3,5,69781,Domstc food appl non-el.
+S3,5,69782,Metal decor articles
+S3,3,699,Base metal manufac nes
+S3,4,6990,  UN Special Code
+S3,4,6991,Locksmiths wares
+S3,5,69911,Locks/keys/clasps/parts
+S3,5,69912,Base metal safes etc
+S3,5,69913,Hinges - base metal
+S3,5,69914,Castors - base metal
+S3,5,69915,Base mtl vehicle fitment
+S3,5,69916,Base mtl building fitmnt
+S3,5,69917,Base mtl furnit fitment
+S3,5,69919,Base mtl bracket/racks
+S3,4,6992,Iron/steel chain
+S3,5,69920,  UN Special Code
+S3,5,69921,Iron/steel skid chain
+S3,5,69922,Iron/steel chain nes art
+S3,4,6993,Sewing pin/needle/notion
+S3,5,69931,Iron/steel needles etc
+S3,5,69932,Iron/steel pins
+S3,5,69933,Base metal buckles etc
+S3,4,6994,Springs and leaves
+S3,5,69941,"Iron,steel springs,etc"
+S3,5,69942,Copper springs/leaves
+S3,4,6995,Base mtl misc articles
+S3,5,69951,Base mtl flexible tubing
+S3,5,69952,Base mtl bells non-elec
+S3,5,69953,Base mtl stoppers/lids
+S3,5,69954,Base mtl name etc plate
+S3,5,69955,Base mtl solder/weld rod
+S3,4,6996,Iron/steel articles nes
+S3,5,69961,"Iron,steel anchors,part"
+S3,5,69962,Non-mal iron casting nes
+S3,5,69963,Iron/steel castings nes
+S3,5,69965,Iron/stl forging nes unw
+S3,5,69967,Irn/stl wire article nes
+S3,5,69969,Irn/steel articles nes
+S3,4,6997,Artics cu/ni/al/pb/zn/sn
+S3,5,69970,  UN Special Code
+S3,5,69971,Copper chain/parts
+S3,5,69973,Copper articles nes
+S3,5,69975,Nickel articles nes
+S3,5,69976,Lead articles nes
+S3,5,69977,Zinc articles nes
+S3,5,69978,Tin articles nes
+S3,5,69979,Aluminium articles nes
+S3,4,6998,Articles co/cd/ti/zr nes
+S3,5,69981,Cobalt wrt/articles nes
+S3,5,69983,Cadmium wrt/articles nes
+S3,5,69985,Titanium wrt/artics nes
+S3,5,69987,Zirconium wrt/artics nes
+S3,4,6999,Articles w/mo/ta/mg/etc
+S3,5,69990,  UN Special Code
+S3,5,69991,Tungsten wrt/artics nes
+S3,5,69992,Molybdenm wrt/artics nes
+S3,5,69993,Tantalum wrt/artics nes
+S3,5,69994,Magnesium wrt/artics nes
+S3,5,69995,Beryllium wrt/artics nes
+S3,5,69999,Base mtls nes wrt/artics
+S3,1,7,Machinery/transp equipmt
+S3,2,70,  UN Special Code
+S3,2,71,Power generating equipmt
+S3,3,710,  UN Special Code
+S3,3,711,Steam generating boilers
+S3,4,7110,  UN Special Code
+S3,4,7111,Steam/s-h water boilers
+S3,5,71111,Steam boilers exc cent-h
+S3,5,71112,Super-heat water boilers
+S3,4,7112,Aux plant for boilers
+S3,5,71121,Aux plant for boilers
+S3,5,71122,Steam condensers
+S3,4,7119,Parts for boilers/etc
+S3,5,71191,Pts nes of boilers 711.1
+S3,5,71192,Pts nes boiler equ 711.2
+S3,3,712,Steam/vapour turbines
+S3,4,7120,  UN Special Code
+S3,4,7121,Steam/etc turbines
+S3,5,71211,"Steam turbines, marine"
+S3,5,71219,"Steam turbines, other"
+S3,4,7128,Stm turbine(712.1)parts
+S3,3,713,Internal combust engines
+S3,4,7131,Int comb piston engines
+S3,5,71311,Aircraft piston engines
+S3,5,71319,Pts nes a/c piston engs
+S3,4,7132,Motor veh. i/c pistn eng
+S3,5,71321,Recip piston engs<1000cc
+S3,5,71322,Recip piston engs>1000cc
+S3,5,71323,Diesel etc engines
+S3,4,7133,Marine i/c piston motors
+S3,5,71331,Outboard motors
+S3,5,71332,Marine spark-ign eng nes
+S3,5,71333,Marine diesel engines
+S3,4,7138,Int comb piston engs nes
+S3,5,71381,Spark-ign piston eng nes
+S3,5,71382,Diesel engines nes
+S3,4,7139,Parts nes int-c engines
+S3,5,71391,Parts nes spark-ign engs
+S3,5,71392,Parts nes diesel engines
+S3,3,714,Engines non-electric nes
+S3,4,7144,Reaction engines
+S3,5,71441,Turbo-jets
+S3,5,71449,Reaction engines nes
+S3,4,7148,Gas turbines nes
+S3,5,71480,  UN Special Code
+S3,5,71481,Turbo-propellers
+S3,5,71489,Other gas turbines nes
+S3,4,7149,Parts react/gas turb eng
+S3,5,71490,  UN Special Code
+S3,5,71491,Parts nes turbo-jet/prop
+S3,5,71499,Parts nes gas turbines
+S3,3,716,Rotating electr plant
+S3,4,7160,  UN Special Code
+S3,4,7161,Electric motors <37.5w
+S3,4,7162,Dc motor(>37w)/generator
+S3,4,7163,Ac motor(>37w)/generator
+S3,5,71631,"Ac,ac/dc motors >37.5w"
+S3,5,71632,Ac generators
+S3,4,7164,Electric rotary convertr
+S3,4,7165,Electricity generatg set
+S3,5,71651,Gen sets with pistn engs
+S3,5,71652,Generating sets nes
+S3,4,7169,Pts nes motors/generator
+S3,3,718,Power generating equ nes
+S3,4,7181,Hydraulic turbines/parts
+S3,5,71811,Hydr turbine/water wheel
+S3,5,71819,Parts nes hydraul turbin
+S3,4,7187,Nuclear reactr/part/fuel
+S3,5,71871,Nuclear reactors
+S3,5,71877,Nuclear fuel elements
+S3,5,71878,Nuclear reactor parts
+S3,4,7189,Engines/motors nes
+S3,5,71890,  UN Special Code
+S3,5,71891,Linear hydr power engine
+S3,5,71892,Linear pneum.power engin
+S3,5,71893,"Other engines,motors nes"
+S3,5,71899,Parts nes of engines nes
+S3,2,72,Industry special machine
+S3,3,720,  UN Special Code
+S3,3,721,Agric machine ex tractr
+S3,4,7211,Agricultural machinery
+S3,5,72111,Ploughs
+S3,5,72112,Seeders/planters/etc
+S3,5,72113,Cultivators/weeders/etc
+S3,5,72118,Oth agric/hortic machnry
+S3,5,72119,Agric machine(7211)parts
+S3,4,7212,Harvesting machinery
+S3,5,72121,Lawn mowers
+S3,5,72122,Combine harvestr-threshr
+S3,5,72123,Oth harv/thresher/mower
+S3,5,72126,Egg/fruit clean/sort mac
+S3,5,72127,Seed clean/sort machinry
+S3,5,72129,Pts nes of machy of 7212
+S3,4,7213,Dairy machinery
+S3,5,72130,  UN Special Code
+S3,5,72131,Milking machines
+S3,5,72138,Oth dairy machinery nes
+S3,5,72139,Pts nes dairy machinery
+S3,4,7219,Agricultural machine nes
+S3,5,72191,Wine/cider/juice equipmt
+S3,5,72195,Poultry keeping equipmnt
+S3,5,72196,Agric machinery nes
+S3,5,72198,Parts wine/etc machines
+S3,5,72199,Pts nes agric machines
+S3,3,722,Tractors
+S3,4,7223,Track-laying tractors
+S3,4,7224,Wheeled tractors
+S3,5,72241,Pedestrian cntrl tractor
+S3,5,72249,Wheeled tractors nes
+S3,3,723,Civil engineering plant
+S3,4,7231,Bulldozers/graders/etc
+S3,5,72311,Bulldozers/angledozers
+S3,5,72312,Graders/levellers-constr
+S3,4,7232,Mechan shovel/excavators
+S3,5,72321,Front-end shovel loaders
+S3,5,72322,Shovel/excavators 360deg
+S3,5,72329,Self prop shovel/exc nes
+S3,4,7233,Earth-movng/borng eq nes
+S3,5,72330,  UN Special Code
+S3,5,72331,Earth-moving scrapers
+S3,5,72333,Road rollers/tampers
+S3,5,72335,Coal/rock/tunnel cutters
+S3,5,72337,Boring/sinking equip nes
+S3,5,72339,Earth handling equip nes
+S3,4,7234,Constr/mining machin nes
+S3,5,72340,  UN Special Code
+S3,5,72341,Pile drivers/extractors
+S3,5,72342,Snow ploughs/blowers
+S3,5,72343,Non-sp coal/rock cutters
+S3,5,72344,Non-sp boring machin nes
+S3,5,72345,Non-sp tamping machn nes
+S3,5,72346,Non-self prop scrapers
+S3,5,72347,Non-sp e-m machines nes
+S3,5,72348,Public works machnry nes
+S3,4,7239,Earth moving mach parts
+S3,5,72390,  UN Special Code
+S3,5,72391,E-m bucket/grab/shovels
+S3,5,72392,Bulldozer etc blades
+S3,5,72393,Boring/sink machry parts
+S3,5,72399,Pts nes earth-movg mach
+S3,3,724,Textile/leather machinry
+S3,4,7243,Sewing machines etc
+S3,5,72433,Sewing machines domestic
+S3,5,72435,Sewing machines industrl
+S3,5,72439,Sew mch needles/furn/pts
+S3,4,7244,Textile yarn machinery
+S3,5,72441,Textile yarn extruders
+S3,5,72442,Textile fibre proc equip
+S3,5,72443,Yarn spinning/etc equipm
+S3,5,72449,Pts nes textile machines
+S3,4,7245,Weaving/knitting/etc equ
+S3,5,72451,Weaving machines (looms)
+S3,5,72452,Knitting/stitch bond mac
+S3,5,72453,Gimping/lace/etc machine
+S3,5,72454,Yarn pre-process machine
+S3,5,72455,"Felt mfg,finishing machy"
+S3,4,7246,Auxiliary textile machny
+S3,5,72461,Auxil weave/knit machine
+S3,5,72467,Weaving loom parts/acces
+S3,5,72468,Loom/knitter etc pts/acc
+S3,4,7247,Text wash/dye/etc machny
+S3,5,72471,Washing machine cap>10kg
+S3,5,72472,Dry-cleaning machines
+S3,5,72473,Drying machines cap>10kg
+S3,5,72474,Oth textile machnery nes
+S3,4,7248,Leather working mach nes
+S3,5,72480,  UN Special Code
+S3,5,72481,Hide preparation equipmt
+S3,5,72483,Footwear manuf/repair eq
+S3,5,72485,Leather man/repr equ nes
+S3,5,72488,Parts for leather machns
+S3,4,7249,Washing/etc machine part
+S3,5,72491,Washing machine parts
+S3,5,72492,Textile machinry pts nes
+S3,3,725,Paper industry machinery
+S3,4,7251,Pulp/paper making machin
+S3,5,72511,Cellulose pulp mfg machn
+S3,5,72512,Paper etc making etc mch
+S3,4,7252,Aux paper making machiny
+S3,5,72521,Paper/board cutting mach
+S3,5,72523,Paper sack/env manf mach
+S3,5,72525,Paper carton/etc machnry
+S3,5,72527,Paper moulding machinery
+S3,5,72529,Paper ind machines nes
+S3,4,7259,Paper ind machine parts
+S3,5,72591,Paper manuf machine pts
+S3,5,72599,Paper product mach parts
+S3,3,726,Printing industry machny
+S3,4,7260,  UN Special Code
+S3,4,7263,Print block/type mkng eq
+S3,5,72631,Type setting equipment
+S3,5,72635,"Printing type,plates,etc"
+S3,4,7265,Offset printing machines
+S3,5,72650,  UN Special Code
+S3,5,72651,Reel fed offset printers
+S3,5,72655,Sheet fed offset mach a4
+S3,5,72659,Offset print machine nes
+S3,4,7266,Non-offset printing mach
+S3,5,72661,Letterpress print machin
+S3,5,72663,Flexographic print mach.
+S3,5,72665,Gravure print machinery
+S3,5,72667,Printing machinery nes
+S3,5,72668,Mach ancillary to printg
+S3,4,7268,Bbokbinding machinery
+S3,5,72681,Bookbinding machinery
+S3,5,72689,Pts nes of bookbind mchn
+S3,4,7269,Printing ind mach parts
+S3,5,72690,  UN Special Code
+S3,5,72691,Type-setting machn parts
+S3,5,72699,Printing press parts
+S3,3,727,Food processing machines
+S3,4,7271,Food milling/etc machry
+S3,5,72711,Cereal/dried legume mach
+S3,5,72719,Cereal/dry legm mach pts
+S3,4,7272,Other food proc machines
+S3,5,72721,Oil/fat extract machines
+S3,5,72722,Indus food proc mach nes
+S3,5,72729,Indus food proc mach pts
+S3,3,728,Special indust machn nes
+S3,4,7280,  UN Special Code
+S3,4,7281,Specialized machine tool
+S3,5,72811,Machine tools - minerals
+S3,5,72812,Machine tools - wood/etc
+S3,5,72819,Pts nes of tools of 7281
+S3,4,7283,Machinery nes - minerals
+S3,5,72830,  UN Special Code
+S3,5,72831,Mineral sorting etc mach
+S3,5,72832,Minrl crushing etc machn
+S3,5,72833,"Mnrl mixing,kneading mch"
+S3,5,72834,Minrl moulding etc machn
+S3,5,72839,Pts nes of machy of 7283
+S3,4,7284,Special indust machy nes
+S3,5,72840,  UN Special Code
+S3,5,72841,Glass/lamp wkng mach nes
+S3,5,72842,Rubber/plastics wrkg mch
+S3,5,72843,Tobacco industry mch nes
+S3,5,72844,Wood/cork presses etc.
+S3,5,72846,Mtal treating machny nes
+S3,5,72847,Isotopic separators
+S3,5,72849,"Machnry nes,indiv functn"
+S3,4,7285,Parts spec indust machny
+S3,5,72851,Glass-working machy part
+S3,5,72852,Plastic/rubber mach part
+S3,5,72853,Tobacco machinery parts
+S3,5,72855,"Parts nes, machines 7284"
+S3,2,73,Metalworking machinery
+S3,3,731,Mach-tools remove mtrial
+S3,4,7311,Laser/etc machine tools
+S3,5,73111,Laser/photon mach tools
+S3,5,73112,Ultrasonic machine tools
+S3,5,73113,Electro-disch mach tools
+S3,5,73114,Electro/plasma mach tool
+S3,4,7312,Machining centres etc
+S3,5,73120,  UN Special Code
+S3,5,73121,Metal machining centres
+S3,5,73122,Unit construct machines
+S3,5,73123,Multi-stat transfer mchn
+S3,4,7313,Lathes - metal removal
+S3,5,73130,  UN Special Code
+S3,5,73131,"Horiz lathes,num control"
+S3,5,73135,"Other lathes,num control"
+S3,5,73137,Lathes horizontal nes
+S3,5,73139,"Lathes,metalworking,nes"
+S3,4,7314,Drilling/boring tools
+S3,5,73140,  UN Special Code
+S3,5,73141,Way-type unit head machn
+S3,5,73142,Drilling machs nes num-c
+S3,5,73143,Drilling machines nes
+S3,5,73144,Bore-mill mach nes num-c
+S3,5,73145,Boring-milling machs nes
+S3,5,73146,Boringg machines nes
+S3,4,7315,Mill/thread/tap mac-tool
+S3,5,73150,  UN Special Code
+S3,5,73151,"Mill mach,knee,num-cntrl"
+S3,5,73152,"Milling mach,knee-t,nes"
+S3,5,73153,Milling mach nes num-ctl
+S3,5,73154,Milling machines nes
+S3,5,73157,Threading/tapp machn nes
+S3,4,7316,Sharpen/grind.. mac tool
+S3,5,73160,  UN Special Code
+S3,5,73161,Flat grinder acc num-ctl
+S3,5,73162,Flat grinder accurat nes
+S3,5,73163,Grinder nes acc num-ctrl
+S3,5,73164,Grinder nes accurate nes
+S3,5,73165,Sharpeners num-control
+S3,5,73166,Sharpening machine nes
+S3,5,73167,Honing/lapping machines
+S3,5,73169,Debur/polish tools nes
+S3,4,7317,Shaping/slotting/gear tl
+S3,5,73170,  UN Special Code
+S3,5,73171,Shaping/slotting machine
+S3,5,73173,Broaching machines
+S3,5,73175,Gear-cutting machines
+S3,5,73177,"Sawing machs,metalworkng"
+S3,5,73178,"Planing machs,mtlworking"
+S3,5,73179,Mtl-removal m-tools nes
+S3,3,733,Mtl m-tools w/o mtl-rmvl
+S3,4,7331,Mtl press/bend/shear etc
+S3,5,73310,  UN Special Code
+S3,5,73311,Forging/stamping machine
+S3,5,73312,Bending etc mchs num-ctl
+S3,5,73313,Bending etc machines nes
+S3,5,73314,Shearing etc mch num-ctl
+S3,5,73315,Shearing etc mchines nes
+S3,5,73316,Punching etc mch num-ctl
+S3,5,73317,Punching etc mchines nes
+S3,5,73318,Metal work presses nes
+S3,4,7339,Metal non-rmvl tools nes
+S3,5,73390,  UN Special Code
+S3,5,73391,Draw benches mtl bar etc
+S3,5,73393,Metal thread rolling mac
+S3,5,73395,Wire working machines
+S3,5,73399,Metal non-rmvl tools nes
+S3,3,735,Metal machine tool parts
+S3,4,7350,  UN Special Code
+S3,4,7351,Mtl work/tool holder etc
+S3,5,73511,Tool holder/slf-open die
+S3,5,73513,Metal mch-tl work holder
+S3,5,73515,Dividing head/spec atach
+S3,4,7359,Metalwork mach-tool pts
+S3,5,73591,Pts nes metal rmvl tools
+S3,5,73595,Pts nes mtl nonrmvl tool
+S3,3,737,Metalworking machine nes
+S3,4,7371,Foundry equipment nes
+S3,5,73711,Foundry mould/ladle/etc
+S3,5,73712,Foundry casting machines
+S3,5,73719,Foundry machine parts
+S3,4,7372,Metal rolling mills/part
+S3,5,73721,Metal rolling mills
+S3,5,73729,"Roll-mill pts nes, rolls"
+S3,4,7373,Electric welder/solderer
+S3,5,73730,  UN Special Code
+S3,5,73731,Electric soldering irons
+S3,5,73732,Elec braze/solder eq nes
+S3,5,73733,Metl resist-weld eq auto
+S3,5,73734,Metl resist-weld equ nes
+S3,5,73735,Metal arc welders autom.
+S3,5,73736,Metal arc welders nes
+S3,5,73737,Mtl weld/solder equi nes
+S3,5,73739,Mtl weld/solder eq parts
+S3,4,7374,Gas op mtl weld/cut mach
+S3,5,73741,Hand-held gas welders
+S3,5,73742,Gas oper weld/etc eq nes
+S3,5,73743,Welding machines not gas
+S3,5,73749,Parts gas welders etc.
+S3,2,74,Industrial equipment nes
+S3,3,740,  UN Special Code
+S3,3,741,Indust heat/cool equipmt
+S3,4,7410,  UN Special Code
+S3,4,7412,Non-elec furnaces/parts
+S3,5,74120,  UN Special Code
+S3,5,74121,"Furnace burners,liq fuel"
+S3,5,74123,Furnace burners nes
+S3,5,74125,Mech stokers/grates/etc
+S3,5,74128,Furnace burner parts
+S3,4,7413,Ind/lab furnaces/ovens
+S3,5,74130,  UN Special Code
+S3,5,74131,Resist heat furnace/oven
+S3,5,74132,Induct/diel furnace/oven
+S3,5,74133,Furnaces/ovens elect nes
+S3,5,74134,Induct/diel heat equ nes
+S3,5,74135,Elect furnace/oven parts
+S3,5,74136,Ind furnace/oven non-ele
+S3,5,74137,Bakery ovens non-electrc
+S3,5,74138,Ind furn/oven non-el nes
+S3,5,74139,Parts ind non-el furn/ov
+S3,4,7414,Indust refrigeration equ
+S3,5,74140,  UN Special Code
+S3,5,74143,Refrigerated display cab
+S3,5,74145,Indust refrig equip nes
+S3,5,74149,Pts nes indus refrig equ
+S3,4,7415,Air-conditioning equipmt
+S3,5,74150,  UN Special Code
+S3,5,74151,Air-cond window/wall typ
+S3,5,74155,Air-conditioners nes
+S3,5,74159,Air-conditioner parts
+S3,4,7417,Industr gas prod equipmt
+S3,5,74170,  UN Special Code
+S3,5,74171,Water proc gas generator
+S3,5,74172,Water proc gas gen parts
+S3,5,74173,Gas distill/rectify plnt
+S3,5,74174,Gas heat exchange units
+S3,5,74175,Air/gas liquefying equip
+S3,4,7418,Indust heat/cool equ nes
+S3,5,74181,Instant gas water heater
+S3,5,74182,Instant non-e w-heat nes
+S3,5,74183,Medical/lab sterilizers
+S3,5,74184,Agricult drying equipmnt
+S3,5,74185,Wood/pulp/paper dryers
+S3,5,74186,Indust driers non-electr
+S3,5,74187,Indust hot food/drink eq
+S3,5,74189,Indust heat/cool equ nes
+S3,4,7419,Parts indus heat/cool eq
+S3,3,742,Pumps for liquids
+S3,4,7421,Metred liquid pumps
+S3,5,74211,Garage-type fuel pumps
+S3,5,74219,Metred liquid pumps nes
+S3,4,7422,Piston eng fuel/wtr pump
+S3,4,7423,Concrete pumps
+S3,4,7424,Reciprocating pumps nes
+S3,4,7425,Rotary pumps nes
+S3,4,7426,Centrifugal pumps nes
+S3,4,7427,Pumps/liqu elevators nes
+S3,5,74271,Pumps for liquids nes
+S3,5,74275,Liquid elevators
+S3,4,7429,Pump/liq elevator parts
+S3,5,74290,  UN Special Code
+S3,5,74291,Pump parts
+S3,5,74295,Liquid elevator parts
+S3,3,743,Fans/filters/gas pumps
+S3,4,7430,  UN Special Code
+S3,4,7431,"Air/vacuum pumps,comprsr"
+S3,5,74310,  UN Special Code
+S3,5,74311,Vacuum pumps
+S3,5,74313,Hand/foot air pumps
+S3,5,74315,Refrigerator compressors
+S3,5,74317,Mobile air compressors
+S3,5,74319,Pumps/etc nes
+S3,4,7434,Fans/fan cooker hoods
+S3,5,74341,Electric room fans <125w
+S3,5,74343,Electric fans nes
+S3,5,74345,Fan cooker hoods <120cm
+S3,4,7435,Centrifuges
+S3,5,74351,Centrifug cream separatr
+S3,5,74355,Centrifug clothes drier
+S3,5,74359,Centrifuges nes
+S3,4,7436,Filter/purify equipment
+S3,5,74361,Water filters/purifiers
+S3,5,74362,Beverage filter/purifier
+S3,5,74363,Engine oil/petrol filter
+S3,5,74364,Engine air filters
+S3,5,74367,Liquid filters nes
+S3,5,74369,Gas filters nes
+S3,4,7438,Parts for fans/gas pumps
+S3,4,7439,Parts centrifuge/filters
+S3,5,74391,Parts for centrifuges
+S3,5,74395,Parts filters/purifiers
+S3,3,744,Mechanical handling equi
+S3,4,7440,  UN Special Code
+S3,4,7441,Goods trucks/tractors/et
+S3,5,74410,  UN Special Code
+S3,5,74411,Fork lift truck etc elec
+S3,5,74412,Fork lift trucks etc nes
+S3,5,74413,Oth handling trucks etc
+S3,5,74414,Elec work trucks no lift
+S3,5,74415,Work trucks nes no lift
+S3,5,74419,Pts nes of work trucks
+S3,4,7442,Pulleys/winches/capstans
+S3,5,74420,  UN Special Code
+S3,5,74421,Pulley tackle/hoists
+S3,5,74423,Pit head winding gear
+S3,5,74425,Capstans/winches nes
+S3,4,7443,Cranes/crane trucks
+S3,5,74430,  UN Special Code
+S3,5,74431,Ohead tr crane fix supp
+S3,5,74432,Straddle carriers etc
+S3,5,74433,Gantry/bridge/etc cranes
+S3,5,74434,Tower cranes
+S3,5,74435,Portal/pdestal jib crane
+S3,5,74437,Crane mach nes self-prop
+S3,5,74439,Cranes nes not self prop
+S3,4,7444,Vehicle jacks/hoists
+S3,5,74440,  UN Special Code
+S3,5,74441,Garage hoists etc
+S3,5,74443,Jacks/hoists nes hydraul
+S3,5,74449,Vehicle jacks/hoists nes
+S3,4,7447,Cont-a conveyor/elevator
+S3,5,74471,Pneum elevator/conveyor
+S3,5,74472,Cont action elev/conveyr
+S3,5,74473,Bucket conveyor/elevator
+S3,5,74474,Belt conveyor/elevator
+S3,5,74479,Cont conveyor/elevat nes
+S3,4,7448,Lifting/handling mch nes
+S3,5,74481,Lifts and skip hoists
+S3,5,74485,"Escalator,movng walkways"
+S3,5,74489,Lift/handle machinry nes
+S3,4,7449,Lift/handle machine part
+S3,5,74491,Parts for winches/hoists
+S3,5,74492,Lift truck parts
+S3,5,74493,Lift/skip h/escalat part
+S3,5,74494,Lifting equip parts nes
+S3,3,745,Non-electr machines nes
+S3,4,7451,Non-el assisted hand tls
+S3,5,74511,Pneumatic hand tools
+S3,5,74512,Non-el motor hand tools
+S3,5,74519,Pts nes of tool of 7451
+S3,4,7452,Indus wash/dry/pack equi
+S3,5,74521,Industrial dish washers
+S3,5,74523,Bottle clean/dry machine
+S3,5,74527,Packing/wrapping mac nes
+S3,5,74529,Packing etc mchy pts nes
+S3,4,7453,Weighing/counting machns
+S3,5,74530,  UN Special Code
+S3,5,74531,Indus weighing machines
+S3,5,74532,Personal weighing machns
+S3,5,74539,"Weighng mach wts,pts nes"
+S3,4,7456,Spraying etc equipment
+S3,5,74561,Fire extinguishers
+S3,5,74562,Spray guns etc  ry
+S3,5,74563,Steam/sand blasting mach
+S3,5,74564,Agric spraying equipment
+S3,5,74565,Spraying machinery nes
+S3,5,74568,Spraying machinery parts
+S3,4,7459,Non-electric machine nes
+S3,5,74591,Rolling mch ex mtl/glass
+S3,5,74593,Rolling machine parts
+S3,5,74595,Automatic vending machs
+S3,5,74597,Automatic vending machs
+S3,3,746,Ball/roller bearings
+S3,4,7460,  UN Special Code
+S3,4,7461,Ball bearings
+S3,4,7462,Tapered roller bearings
+S3,4,7463,Spherical roller bearing
+S3,4,7464,Needle roller bearings
+S3,4,7465,Cyl roller bearings nes
+S3,4,7468,Ball/roller bearings nes
+S3,4,7469,Ball/roller bearing part
+S3,5,74691,Bearing ball/needle/roll
+S3,5,74699,Ball etc bearng part nes
+S3,3,747,Taps/cocks/valves
+S3,4,7470,  UN Special Code
+S3,4,7471,Pressure reducing valves
+S3,4,7472,Pneumat/hydraulic valves
+S3,4,7473,Check valves
+S3,4,7474,Safety/relief valves
+S3,4,7478,Taps/cocks/valves nes
+S3,4,7479,Tap/cock/valve parts
+S3,3,748,Mech transmission equmnt
+S3,4,7480,  UN Special Code
+S3,4,7481,Transmission shafts
+S3,4,7482,Shaft bearings/housings
+S3,5,74821,Ball/roll bearing housng
+S3,5,74822,Bearing housings nes
+S3,4,7483,Irn/stl artic link chain
+S3,5,74830,  UN Special Code
+S3,5,74831,Iron/stl roller chain
+S3,5,74832,Iron/steel a-l chain nes
+S3,5,74839,"Iron,stl a-l chain parts"
+S3,4,7484,Gears and gearing
+S3,4,7485,Flywheels/pulleys/etc
+S3,4,7486,Clutches/sh coupling/etc
+S3,4,7489,Gear/flywheel/cltch part
+S3,3,749,Non-elec parts/acc machn
+S3,4,7491,Moulds (exc metal ingot)
+S3,5,74910,  UN Special Code
+S3,5,74911,Foundry moulds etc nes
+S3,5,74912,Mould bases
+S3,5,74913,Moulding patterns
+S3,5,74914,Inject/comp moulds metal
+S3,5,74915,Moulds nes metal/carbide
+S3,5,74916,Moulds for glass
+S3,5,74917,Moulds for minerals
+S3,5,74918,Inject/comp mould rubber
+S3,5,74919,Mould nes rubber/plastic
+S3,4,7492,Metal clad gaskets
+S3,4,7499,Machine parts non-el nes
+S3,5,74991,Ships propellers/blades
+S3,5,74999,Mach parts nonelec nes
+S3,2,75,Office/dat proc machines
+S3,3,751,Office machines
+S3,4,7511,Typewrirers/word proces
+S3,5,75113,Auto typewriters/wp mach
+S3,5,75115,Elec typewriters <12kg
+S3,5,75116,Electric typewriters nes
+S3,5,75118,Nonelec typewriter <12kg
+S3,5,75119,Nonelec typewriters nes
+S3,4,7512,Calculating machines etc
+S3,5,75121,Electronic calculators
+S3,5,75122,Calculating machines nes
+S3,5,75123,Accounting machines
+S3,5,75124,Cash registers
+S3,5,75128,Postage-franking etc mch
+S3,4,7513,Thermo/cont photocopiers
+S3,5,75130,  UN Special Code
+S3,5,75131,Direct el-stat photocop.
+S3,5,75132,Indir e-stat photocopier
+S3,5,75133,Non-es opt syst photocop
+S3,5,75134,Non-es contact photocop.
+S3,5,75135,Thermo-copying apparatus
+S3,4,7519,Office machines nes
+S3,5,75191,Duplicating machines
+S3,5,75192,Addressing machines
+S3,5,75193,Envelope handling machns
+S3,5,75199,Othr office machines nes
+S3,3,752,Computer equipment
+S3,4,7520,  UN Special Code
+S3,4,7521,Analog/hybrid computers
+S3,4,7522,Digital computers
+S3,4,7523,Digital processing units
+S3,4,7526,Adp peripheral units
+S3,4,7527,Adp storage units
+S3,4,7529,Adp equipment nes
+S3,3,759,Office equip parts/accs.
+S3,4,7591,Copy mach parts/access.
+S3,4,7599,Office equip parts nes
+S3,5,75991,"Typewrtr parts,acces nes"
+S3,5,75993,Dupl/addr mach parts etc
+S3,5,75995,Calculator parts/access.
+S3,5,75997,Adp equip parts/access.
+S3,2,76,Telecomms etc equipment
+S3,3,761,Television receivers
+S3,4,7611,Colour tv receivers
+S3,4,7612,Monochrome tv receivers
+S3,3,762,Radio broadcast receiver
+S3,4,7621,Vehicle etc radio recvrs
+S3,5,76210,  UN Special Code
+S3,5,76211,Mtr vehc radio/player
+S3,5,76212,Mtr vehc radio rec only
+S3,4,7622,Battery etc radios
+S3,5,76221,Portable radio/player
+S3,5,76222,Portable radio receiver
+S3,4,7628,Radio receivers nes
+S3,5,76281,Other radio/record/play
+S3,5,76282,Clock radio receivers
+S3,5,76289,Radio receivers nes
+S3,3,763,Sound/tv recorders etc
+S3,4,7633,Record player non-record
+S3,5,76331,Coin-op record players
+S3,5,76333,Record players nes
+S3,5,76335,Gramophone turntables
+S3,4,7638,Sound/tv recorders etc
+S3,5,76380,  UN Special Code
+S3,5,76381,Video recorders/players
+S3,5,76382,Transcribing machines
+S3,5,76383,Sound reprod machine nes
+S3,5,76384,Sound recording apparats
+S3,3,764,Telecomms equipment nes
+S3,4,7640,  UN Special Code
+S3,4,7641,Telephone equipment
+S3,5,76411,Telephone sets
+S3,5,76413,Teleprinters
+S3,5,76415,Telephone switch equipmt
+S3,5,76417,Telephone line equip nes
+S3,5,76419,Telephone equipment nes
+S3,4,7642,Microphones/speakers/etc
+S3,5,76420,  UN Special Code
+S3,5,76421,Microphones/stands
+S3,5,76422,Loudspeakers mounted
+S3,5,76423,Loudspeakers unmounted
+S3,5,76424,Headphones/earphones/etc
+S3,5,76425,Audio freq amplifiers
+S3,5,76426,Elec sound amplifier set
+S3,4,7643,Radio/tv transmit equip.
+S3,5,76431,Tv/radio transmitters
+S3,5,76432,Radio transceivers
+S3,4,7648,Telecomms equipment nes
+S3,5,76480,  UN Special Code
+S3,5,76481,Radio recep equip nes
+S3,5,76482,Television cameras
+S3,5,76483,Radar apparatus etc
+S3,4,7649,Telecomms parts/access.
+S3,5,76491,Telephone system parts
+S3,5,76492,Sound reprod equip parts
+S3,5,76493,Telecomm equipmt pts nes
+S3,5,76499,Parts etc of sound equip
+S3,2,77,Electrical equipment
+S3,3,771,Elect power transm equip
+S3,4,7711,Electrical transformers
+S3,5,77111,Liquid dielec transfrmrs
+S3,5,77119,Other elec transformers
+S3,4,7712,Elect power eq nes/parts
+S3,5,77121,Static converters
+S3,5,77123,Discharge tube ballasts
+S3,5,77125,Inductors nes
+S3,5,77129,Pts nes elec power mach.
+S3,3,772,Electric circuit equipmt
+S3,4,7722,Printed circuits
+S3,4,7723,Electrical resistors
+S3,5,77230,  UN Special Code
+S3,5,77231,Fixed carbon resistors
+S3,5,77232,Fixed resistors nes
+S3,5,77233,Wirewound var resistors
+S3,5,77235,Variable resistors nes
+S3,5,77238,Elect resistor parts
+S3,4,7724,Hi-voltage elect equipmt
+S3,5,77240,  UN Special Code
+S3,5,77241,High voltage fuses
+S3,5,77242,Auto circuit breakr<72kv
+S3,5,77243,Other auto circuit brkrs
+S3,5,77244,Hi-volt isolating switch
+S3,5,77245,Limiter/surge prtect etc
+S3,5,77249,Hi-volt equipment nes
+S3,4,7725,Elec swithing etc <1000v
+S3,5,77251,Fuses (electrical)
+S3,5,77252,Automatic circuit breakr
+S3,5,77253,Circuit protect equi nes
+S3,5,77254,Relays (electrical)
+S3,5,77255,Other switches
+S3,5,77257,Lamp holders
+S3,5,77258,Plugs and sockets
+S3,5,77259,El connect equ nes<1000v
+S3,4,7726,Elec switch boards etc
+S3,5,77260,  UN Special Code
+S3,5,77261,Switchboards etc <1000v
+S3,5,77262,Switchboards etc >1000v
+S3,4,7728,Elec switch etc parts
+S3,5,77281,Switchboards etc unequip
+S3,5,77282,Switchgear parts nes
+S3,3,773,Electrical distrib equip
+S3,4,7731,Insulated wire/opt fibre
+S3,5,77311,Winding wire
+S3,5,77312,Co-axial cables
+S3,5,77313,Vehicle etc ignition wir
+S3,5,77314,Elect conductor nes <80v
+S3,5,77315,El conductor nes 80-1000
+S3,5,77317,El conductor nes >1000v
+S3,5,77318,Optical fibre cables
+S3,4,7732,Elec insulating equipmnt
+S3,5,77322,Glass electric insulator
+S3,5,77323,Ceramic elect insulators
+S3,5,77324,Other electrc insulators
+S3,5,77326,Ceram elec insul fit nes
+S3,5,77328,Plastic el insul fit nes
+S3,5,77329,Other elec insul fit nes
+S3,3,774,Medical etc el diag equi
+S3,4,7741,Electro-diag eq ex xray
+S3,5,77411,Electro-cardiographs
+S3,5,77412,Electro-diag equip nes
+S3,5,77413,Ultra-v/infra-red appar.
+S3,4,7742,X-ray etc equipment
+S3,5,77420,  UN Special Code
+S3,5,77421,X-ray apparatus
+S3,5,77422,Alpha/beta/etc ray app.
+S3,5,77423,X-ray tubes
+S3,5,77429,X-ray etc parts/access.
+S3,3,775,Domestic equipment
+S3,4,7751,Domestic laundry equip.
+S3,5,77511,Dom washing machine<10kg
+S3,5,77512,Domestic dryer <10kg
+S3,4,7752,Dom refrigerator/freezer
+S3,5,77520,  UN Special Code
+S3,5,77521,Domestic refrigerators
+S3,5,77522,Domestic deep-freezers
+S3,4,7753,Domestic dishwashers
+S3,4,7754,Electric shavers/clipper
+S3,5,77541,Electric shavers
+S3,5,77542,Electric hair clippers
+S3,5,77549,Electr shaver/etc parts
+S3,4,7757,Domestic electric machns
+S3,5,77571,Vac cleaner/floor polish
+S3,5,77572,Food grinder/mixer/etc
+S3,5,77573,Oth domstc elec appl nes
+S3,5,77579,Parts dom elect equipmnt
+S3,4,7758,Electro-thermic equipmnt
+S3,5,77581,Elec water heaters
+S3,5,77582,Elec soil/space heaters
+S3,5,77583,Elec hair etc driers
+S3,5,77584,Electric smoothing irons
+S3,5,77585,Electric blankets
+S3,5,77586,Domest ovens/cookers/etc
+S3,5,77587,Electrotherm dom app nes
+S3,5,77588,Non-carbon elec elements
+S3,5,77589,Domest el-therm app part
+S3,3,776,Valves/transistors/etc
+S3,4,7761,Cathode-ray/tv tubes
+S3,5,77610,  UN Special Code
+S3,5,77611,Tv picture tubes colour
+S3,5,77612,Tv picture tubes monochr
+S3,4,7762,Electron valves/tube nes
+S3,5,77620,  UN Special Code
+S3,5,77621,Tv camera tubes etc
+S3,5,77623,Cathode-ray tubes nes
+S3,5,77625,Microwave tubes
+S3,5,77627,Electronic tubes nes
+S3,5,77629,Electrnic tube parts nes
+S3,4,7763,Diodes/transistors/etc
+S3,5,77631,Diodes exc photo-diodes
+S3,5,77632,Transistors <1watt
+S3,5,77633,Transistors >1watt
+S3,5,77635,Thyristors/diacs/triacs
+S3,5,77637,Photo-active semi-conds
+S3,5,77639,Semi-conductors nes
+S3,4,7764,Electron integ circuits
+S3,5,77640,  UN Special Code
+S3,5,77641,Dig monolith integ units
+S3,5,77643,Monolith integ units nes
+S3,5,77645,Hybrid integrat circuits
+S3,5,77649,Integrated circuits nes
+S3,4,7768,Piezo-elect crystals mtd
+S3,5,77681,"Piezo-elec crystals,mntd"
+S3,5,77688,Piezo-elec assmbly parts
+S3,5,77689,Electrnic compon pts nes
+S3,3,778,Electrical equipment nes
+S3,4,7780,  UN Special Code
+S3,4,7781,Batteries/accumulators
+S3,5,77810,  UN Special Code
+S3,5,77811,Primary batteries/cells
+S3,5,77812,Electric accumulators
+S3,5,77817,Primary batt/cell parts
+S3,5,77819,Elec accumulator parts
+S3,4,7782,Electric lamps
+S3,5,77821,Elec filament lamps nes
+S3,5,77822,Elec discharge lamps nes
+S3,5,77823,Sealed beam lamp units
+S3,5,77824,Ultra-v/infra-r/arc lamp
+S3,5,77829,Pts nes of lamps of 7782
+S3,4,7783,Vehicle electric equ nes
+S3,5,77831,Ignition/starting equipm
+S3,5,77833,Ignition/starting parts
+S3,5,77834,Veh elect light/etc equ.
+S3,5,77835,Veh elect light/etc part
+S3,4,7784,Hand electro-mech tools
+S3,5,77840,  UN Special Code
+S3,5,77841,Electric drills
+S3,5,77843,Saws (electro-mech hand)
+S3,5,77845,Hand elec-mech tools nes
+S3,5,77848,Hand elec-mech tool part
+S3,4,7786,Electrical capacitors
+S3,5,77860,  UN Special Code
+S3,5,77861,Fixed power capacitors
+S3,5,77862,Tantalum fixd capacitors
+S3,5,77863,Alum electrolyte capacit
+S3,5,77864,Ceram-diel capacit sngle
+S3,5,77865,Ceram-diel capacit multi
+S3,5,77866,Paper/plastic capacitor
+S3,5,77867,Fixed capacitors nes
+S3,5,77868,Variable/adj capacitors
+S3,5,77869,Electrical capacitr part
+S3,4,7787,Special use el equip nes
+S3,5,77871,Particle accelerators
+S3,5,77878,Special use el equip nes
+S3,5,77879,Parts el equip of 778.7
+S3,4,7788,Electrical equipment nes
+S3,5,77880,  UN Special Code
+S3,5,77881,Electro-magnets/devices
+S3,5,77882,Elec traffic control equ
+S3,5,77883,Elec traffic control pts
+S3,5,77884,Electric alarms etc
+S3,5,77885,Electric alarm parts
+S3,5,77886,Electrical carbons
+S3,5,77889,Elec parts of machy nes
+S3,2,78,Road vehicles
+S3,3,781,Passenger cars etc
+S3,4,7811,Snow/golf motor buggies
+S3,4,7812,Pass motor veh exc buses
+S3,3,782,Goods/service vehicles
+S3,4,7820,  UN Special Code
+S3,4,7821,Goods transport vehicles
+S3,5,78211,"Dumpers, off-highway use"
+S3,5,78219,Goods transp vehicle nes
+S3,4,7822,Special-use vehicles nes
+S3,5,78220,  UN Special Code
+S3,5,78221,Crane lorries
+S3,5,78223,Mobile drilling derricks
+S3,5,78225,Fire fighting vehicles
+S3,5,78227,Concrete mixer trucks
+S3,5,78229,Special motor vehcls ne
+S3,3,783,Road motor vehicles nes
+S3,4,7831,Buses etc
+S3,5,78311,Diesel buses
+S3,5,78319,Buses etc nes
+S3,4,7832,Semi-trailer tractors
+S3,3,784,Motor veh parts/access
+S3,4,7841,Motor veh chassis+engine
+S3,4,7842,Motor vehicle bodies
+S3,5,78421,Motor car bodies
+S3,5,78425,Motor vehicle bodies nes
+S3,4,7843,Motor veh part/acces nes
+S3,5,78430,  UN Special Code
+S3,5,78431,Motor vehicle bumpers
+S3,5,78432,Motor veh body parts nes
+S3,5,78433,Motor vehicle brake/part
+S3,5,78434,Motor vehicle gear boxes
+S3,5,78435,Motor veh drive axle etc
+S3,5,78436,Mot veh non-drive axles
+S3,5,78439,Other motor vehcl parts
+S3,3,785,Motorcycles/cycles/etc
+S3,4,7851,Motorcycles/mopeds
+S3,5,78510,  UN Special Code
+S3,5,78511,Motorcycles etc i/c<50cc
+S3,5,78513,Motorcycles etc 50-250cc
+S3,5,78515,Motorcycles et 250-500cc
+S3,5,78516,Motorcycles et 500-800cc
+S3,5,78517,Motorcycles etc >800cc
+S3,5,78519,Motorcycles etc nes
+S3,4,7852,Cycles not motorized
+S3,4,7853,Invalid carriages/parts
+S3,5,78530,  UN Special Code
+S3,5,78531,Invalid carriages
+S3,5,78535,Parts/access motorcycles
+S3,5,78536,Parts/acces inv carriage
+S3,5,78537,"Parts,acces cycles etc"
+S3,3,786,Trailers/caravans/etc
+S3,4,7861,Housing/camping trailer
+S3,4,7862,Goods trailer/semi-trail
+S3,5,78621,Agric self-load trailers
+S3,5,78622,Tanker trailers/semi-
+S3,5,78629,Other goods trailers
+S3,4,7863,"Containers,goods transpt"
+S3,4,7868,Non-motor vehicles nes
+S3,5,78683,Trailer/semi-trailer nes
+S3,5,78685,Non-motor vehicles nes
+S3,5,78689,Trailer/semi-trailer pts
+S3,2,79,Railway/tramway equipmnt
+S3,3,791,Railway vehicles/equipmt
+S3,4,7910,  UN Special Code
+S3,4,7911,Electric locomotives
+S3,5,79111,Locomotives-ext electric
+S3,5,79115,Locomotives-int electric
+S3,4,7912,Rail locomotives etc nes
+S3,5,79121,Diesel-elect locomotives
+S3,5,79129,Rail locomotive/tend nes
+S3,4,7916,Rail/tram self-prop nes
+S3,4,7917,Rail/tram pass coach etc
+S3,4,7918,Rail/tram freight/maint
+S3,5,79181,Rail/tram service vehics
+S3,5,79182,Rail/tram goods wagons
+S3,4,7919,Rail/tram/etc equip nes
+S3,5,79191,Rail/air/etc signals/etc
+S3,5,79199,Rail/tram parts nes
+S3,3,792,Aircraft/spacecraft/etc
+S3,4,7920,  UN Special Code
+S3,4,7921,Helicopters
+S3,5,79211,Helicopters >2000kg
+S3,5,79215,Helicopters <2000kg
+S3,4,7922,Aircrft nes <2000kg
+S3,4,7923,Aircrft nes 2001-15000kg
+S3,4,7924,Aircrft nes over 15000kg
+S3,4,7925,Spacecraft/satellites
+S3,4,7928,Dirigible/balloon/glider
+S3,5,79281,Gliders/hang gliders
+S3,5,79282,Balloons/dirigibles
+S3,5,79283,Aircraft launchers etc
+S3,4,7929,Aircraft etc parts
+S3,5,79290,  UN Special Code
+S3,5,79291,Aircraft props/rotors
+S3,5,79293,Aircraft under-carriages
+S3,5,79295,Aircraft/helic parts nes
+S3,5,79297,Air/space craft part nes
+S3,3,793,Ships/boats/etc
+S3,4,7930,  UN Special Code
+S3,4,7931,Yachts/pleasure vessels
+S3,5,79311,Inflatable boats
+S3,5,79312,Sailboats nes
+S3,5,79319,Rowing boats/canoes/etc
+S3,4,7932,Ships/boats nes
+S3,5,79320,  UN Special Code
+S3,5,79322,Tanker ships/boats
+S3,5,79324,Fishing vessels etc
+S3,5,79326,Refrigerated ships/boats
+S3,5,79327,Other cargo ships/boats
+S3,5,79328,Passenger ships/boats
+S3,5,79329,"Warships, lifeboats"
+S3,4,7933,Vessels for breaking up
+S3,4,7935,Special purpose vessels
+S3,5,79351,Dredgers
+S3,5,79355,Float/sub drill/etc plat
+S3,5,79359,Light/fire/crane vessels
+S3,4,7937,Tugs and pusher craft
+S3,4,7939,Floating structures nes
+S3,5,79391,Inflatable rafts
+S3,5,79399,Floating structures nes
+S3,1,8,Miscellaneous manuf arts
+S3,2,80,  UN Special Code
+S3,2,81,Building fixtures etc
+S3,3,811,Prefabricated buildings
+S3,4,8110,Prefabricated buildings
+S3,3,812,Sanitary/plumb/heat fixt
+S3,4,8121,Boilers etc non-electric
+S3,5,81210,  UN Special Code
+S3,5,81211,"Radiators, parts thereof"
+S3,5,81215,Air heat/distrib equipmt
+S3,5,81217,Central heat boilers n-e
+S3,5,81219,Parts for c-heat boilers
+S3,4,8122,Ceramic plumbing fixture
+S3,5,81221,Porc/china plumb fixts
+S3,5,81229,Ceramic plumb fixts nes
+S3,3,813,Lighting fixtures etc
+S3,4,8131,Lamps/lighting fittings
+S3,5,81311,Ceiling/wall lamps
+S3,5,81312,Portable battery lamps
+S3,5,81313,Lamps table/desk/etc
+S3,5,81315,Lamps/fittings nes elect
+S3,5,81317,"Lamps,fittings non-elect"
+S3,4,8132,Illuminated signs etc
+S3,4,8138,Portable lamp parts
+S3,4,8139,Parts nes lamps/fittings
+S3,5,81390,  UN Special Code
+S3,5,81391,Glass lighting parts
+S3,5,81392,Plastic lighting parts
+S3,5,81399,Lighting parts nes
+S3,2,82,Furniture/furnishings
+S3,3,821,Furniture/stuff furnishg
+S3,4,8210,  UN Special Code
+S3,4,8211,Chairs and seats
+S3,5,82110,  UN Special Code
+S3,5,82111,Aircraft seats
+S3,5,82112,Motor vehicle seats
+S3,5,82113,Bamboo/etc seats/chairs
+S3,5,82114,Office type adjust seats
+S3,5,82115,Sofa-beds/chair-beds
+S3,5,82116,"Seats nes, wood frames"
+S3,5,82117,"Seats nes, metal frame"
+S3,5,82118,Chairs/seats nes
+S3,5,82119,Parts of chairs/seats
+S3,4,8212,Mattresses/bedding
+S3,5,82121,Mattresses supports
+S3,5,82123,Mattress rubber/plastic
+S3,5,82125,Mattresses other mater.
+S3,5,82127,Sleeping bags
+S3,5,82129,Bedding articles nes
+S3,4,8213,"Furniture nes, metal"
+S3,5,82131,Metal office furniture
+S3,5,82139,Metal furniture nes
+S3,4,8215,"Furniture nes, wood"
+S3,5,82151,Wood office furniture
+S3,5,82153,Wood kitchen furniture
+S3,5,82155,Wood bedroom furniture
+S3,5,82159,Wood furniture nes
+S3,4,8217,"Furniture nes, mater nes"
+S3,5,82170,  UN Special Code
+S3,5,82171,Plastic furniture
+S3,5,82179,Bamboo furniture
+S3,4,8218,Furniture parts
+S3,2,83,Travel goods/handbag/etc
+S3,3,831,Trunks and cases
+S3,4,8310,  UN Special Code
+S3,4,8311,Handbags
+S3,5,83110,  UN Special Code
+S3,5,83111,"Handbags, leather"
+S3,5,83112,"Handbags, plastic"
+S3,5,83119,"Handbags, nes"
+S3,4,8312,Trunks/suitcases/etc
+S3,5,83120,  UN Special Code
+S3,5,83121,Leather trunks/cases/etc
+S3,5,83122,Plastic/textil cases/etc
+S3,5,83129,Trunks/cases/etc nes
+S3,4,8313,Travel kits/sets
+S3,4,8319,Special purpose cases
+S3,5,83191,Pocket travel/etc artics
+S3,5,83199,Travel goods nes
+S3,2,84,Apparel/clothing/access
+S3,3,840,  UN Special Code
+S3,3,841,"Mens/boys wear, woven"
+S3,4,8410,  UN Special Code
+S3,4,8411,"Mens/boys coats, woven"
+S3,5,84110,  UN Special Code
+S3,5,84111,Wvn m/b coats wool/hair
+S3,5,84112,Wvn m/b coats oth fibres
+S3,5,84119,Men/boy overcoat nes wvn
+S3,4,8412,Men/boy suits/etc woven
+S3,5,84120,  UN Special Code
+S3,5,84121,M/b suits wool/hair wovn
+S3,5,84122,M/b suits fibre nes wovn
+S3,5,84123,Mens/boys ensembles wovn
+S3,4,8413,M/b jackets/blazer woven
+S3,4,8414,Men/boy trouser/etc wovn
+S3,4,8415,"Mens/boys shirts, woven"
+S3,5,84151,M/b trousers cotton wovn
+S3,5,84159,M/b trouser fibre nes wv
+S3,4,8416,M/b under/night wear wvn
+S3,5,84160,  UN Special Code
+S3,5,84161,Men/boy underwear woven
+S3,5,84162,Men/boy pyjama/etc woven
+S3,5,84169,Men/boy bathrobe nes wvn
+S3,3,842,Women/girl clothing wven
+S3,4,8420,  UN Special Code
+S3,4,8421,Womens/girls coats woven
+S3,5,84211,Wom/g overcoat/etc woven
+S3,5,84219,Wom/girl ocoat nes woven
+S3,4,8422,Women/g suit/esemble wvn
+S3,5,84221,Wom/girl suits woven
+S3,5,84222,Womens/g ensembles woven
+S3,4,8423,Womens/girl jacket woven
+S3,4,8424,Womens/girl dresses wven
+S3,4,8425,Womens/girl skirts woven
+S3,4,8426,Women/g trousers woven
+S3,4,8427,Womens/girls blouse wven
+S3,4,8428,Wom/g under/night-w wven
+S3,5,84280,  UN Special Code
+S3,5,84281,Wom/g slip/petticoat wvn
+S3,5,84282,Wom/g nightwear woven
+S3,5,84289,Wom/girl uwear nes woven
+S3,3,843,Men/boy wear knit/croch
+S3,4,8431,Men/b coats knit/crochet
+S3,4,8432,Men/b suits/etc knit/cr
+S3,5,84320,  UN Special Code
+S3,5,84321,Men/boy knit/croch suits
+S3,5,84322,Men/b ensembles knit/cr
+S3,5,84323,Men/b jackets knit/croch
+S3,5,84324,Men/b trouser/etc kni/cr
+S3,4,8437,Men/boy knit/croch shirt
+S3,5,84371,Men/b trouser cotton k/c
+S3,5,84379,M/b trouser fibre nes kc
+S3,4,8438,M/b underwear etc kni/cr
+S3,5,84380,  UN Special Code
+S3,5,84381,Men/b underwear knit/cro
+S3,5,84382,Men/b nightwear knit/cro
+S3,5,84389,Men/boy uwear nes kn/cr
+S3,3,844,Women/girl wear knit/cro
+S3,4,8441,Wom/g coats etc knit/cro
+S3,4,8442,Wom/g outerwear knit/cro
+S3,5,84420,  UN Special Code
+S3,5,84421,Wom/girl knit/croch suit
+S3,5,84422,Women/g ensembles knit/c
+S3,5,84423,Women/g jackets knit/cro
+S3,5,84424,Women/g dresses knit/cro
+S3,5,84425,Women/g skirts knit/croc
+S3,5,84426,Women/g trouser knit/cro
+S3,4,8447,Women/g blouses knit/cro
+S3,4,8448,Wom/g und/night wear k/c
+S3,5,84480,  UN Special Code
+S3,5,84481,Women/g slips/etc kni/cr
+S3,5,84482,Women/g panties knit/cro
+S3,5,84483,Women/g nightwear knit/c
+S3,5,84489,Wom/girl uwear kn/cr nes
+S3,3,845,Articles of apparel nes
+S3,4,8451,Babies garments etc
+S3,5,84511,Baby clothes woven
+S3,5,84512,Baby clothes knit/croch
+S3,4,8452,Felt/coated text clothes
+S3,5,84521,Felt/nonwoven t clothes
+S3,5,84522,Men/b waterproofs not kc
+S3,5,84523,Wom/g waterproofs woven
+S3,5,84524,Waterproof clothes kn/cr
+S3,4,8453,Jerseys/pullovers/etc
+S3,4,8454,T-shirts/singlets knit/c
+S3,4,8455,Bras/girdles/corsets/etc
+S3,5,84551,Brassieres
+S3,5,84552,Girdles/corsets/braces..
+S3,4,8456,Swimwear
+S3,5,84561,Men/b swimwear not kn/cr
+S3,5,84562,Men/b swimwear knit/croc
+S3,5,84563,Wom/g swimwear not kn/cr
+S3,5,84564,Wom/g swimwear knit/croc
+S3,4,8458,Garments nes not knit/cr
+S3,5,84581,Ski suits not knit/croch
+S3,5,84587,Men/b appar nes not kn/c
+S3,5,84589,Wom/g appar nes not kn/c
+S3,4,8459,Apparel nes knit/crochet
+S3,5,84591,Track suits knit/crochet
+S3,5,84592,Ski suits knit/crochet
+S3,5,84599,Garments nes knit/croch
+S3,3,846,Clothing accessories
+S3,4,8461,Clothing acc not knit/cr
+S3,5,84611,Handkerchiefs
+S3,5,84612,Shawl/scarf/etc not kn/c
+S3,5,84613,"Ties,cravats not knit/cr"
+S3,5,84614,Gloves etc not knit/croc
+S3,5,84619,Clothing acc nes not k/c
+S3,4,8462,Panty hose/hosiery kn/cr
+S3,5,84620,  UN Special Code
+S3,5,84621,Panty hose/tights
+S3,5,84622,Womens long hosiery
+S3,5,84629,Womens hosiery nes
+S3,4,8469,Made up/part cl acc nes
+S3,5,84691,Kn/cr gloves impreg/coat
+S3,5,84692,Gloves etc nes knit/croc
+S3,5,84693,Shawls/scarves/etc.
+S3,5,84694,Ties/cravats/etc
+S3,5,84699,Made-up/part cl accs nes
+S3,3,848,Headgear/non-text clothg
+S3,4,8481,Leather clothing/access
+S3,5,84810,  UN Special Code
+S3,5,84811,Leather clothes
+S3,5,84812,Leather gloves etc
+S3,5,84813,Leather belts etc
+S3,5,84819,Leather clothing access.
+S3,4,8482,Plastic/rubber clthg/acc
+S3,5,84821,Plastic clothing/access
+S3,5,84822,Rubber gloves
+S3,5,84829,Rubber clothing/acc nes
+S3,4,8483,Nat/artif fur apparl/acc
+S3,5,84831,Furskin apparel/access
+S3,5,84832,Artificial fur/articles
+S3,4,8484,Headgear/fittings
+S3,5,84840,  UN Special Code
+S3,5,84841,Headgear of felt
+S3,5,84842,Headgear plaited
+S3,5,84843,Knit/croch/lace/etc hats
+S3,5,84844,Safety headgear
+S3,5,84845,Rubber/plastic hats nes
+S3,5,84848,Parts for headgear
+S3,5,84849,Headgear nes ex rub/plas
+S3,2,85,Footwear
+S3,3,851,Footwear
+S3,4,8510,  UN Special Code
+S3,4,8511,Footwear metal toe-cap
+S3,5,85111,Footw all rub/plast weld
+S3,5,85113,Footw all rub/plast nes
+S3,5,85115,Footwear rub/plast sole
+S3,4,8512,Sports footwear
+S3,5,85120,  UN Special Code
+S3,5,85121,Ski-boots rubber/plastic
+S3,5,85122,Ski-boots leather uppers
+S3,5,85123,Sport footw rub/plas nes
+S3,5,85124,Sport footw leath-up nes
+S3,5,85125,All rub/plast footw nes
+S3,4,8513,Rub/plast footware nes
+S3,5,85131,Rub/plast footw nes weld
+S3,5,85132,Footwear rub/plastic nes
+S3,4,8514,Footwear leather upr nes
+S3,5,85140,  UN Special Code
+S3,5,85141,Leather sandals
+S3,5,85142,Footwear wood base/platf
+S3,5,85148,Footwear nes leathr sole
+S3,5,85149,Footwear nes leathr uppr
+S3,4,8515,Footwear nes textile upr
+S3,5,85150,  UN Special Code
+S3,5,85151,"Footw text up,ru/pl sole"
+S3,5,85152,"Footw text up,leath sole"
+S3,5,85159,Footwear textile upr nes
+S3,4,8517,Footwear nes
+S3,4,8519,Footwear parts/leggings
+S3,2,87,Scientific/etc instrumnt
+S3,3,871,Optical instruments nes
+S3,4,8710,  UN Special Code
+S3,4,8711,Binoculars/telescopes
+S3,5,87111,Binoculars
+S3,5,87115,Optical telescopes etc
+S3,5,87119,Binoc/telescope part/acc
+S3,4,8713,Electron/etc diffrac equ
+S3,5,87131,Electron/etc diffrac equ
+S3,5,87139,Electron/etc diffr parts
+S3,4,8714,Optical microscopes
+S3,5,87140,  UN Special Code
+S3,5,87141,Microscopes stereoscopic
+S3,5,87143,Microscope photo/proj/et
+S3,5,87145,Microscopes nes
+S3,5,87149,Microscopes parts/access
+S3,4,8719,Optical appliances nes
+S3,5,87190,  UN Special Code
+S3,5,87191,Telescopic sights/etc
+S3,5,87192,Lasers exc laser diodes
+S3,5,87193,Optical instruments nes
+S3,5,87199,Parts/access for 8719
+S3,3,872,Medical/etc instruments
+S3,4,8721,Dental instruments
+S3,5,87211,Dental drills
+S3,5,87219,Dental instruments nes
+S3,4,8722,Medical.surg/vet instrum
+S3,5,87221,Syringes/catheters/etc
+S3,5,87225,Ophthalmic instruments
+S3,5,87229,Oth medical instruments
+S3,4,8723,Mechano-therapy equipmnt
+S3,5,87230,  UN Special Code
+S3,5,87231,M-t/massage/apt test app
+S3,5,87233,Therap respiration appar
+S3,5,87235,Breathing appliances nes
+S3,4,8724,"Medical furniture,parts"
+S3,3,873,Meters and counters nes
+S3,4,8731,Gas/liquid/electr meters
+S3,5,87310,  UN Special Code
+S3,5,87311,Gas meters
+S3,5,87313,Liquid meters
+S3,5,87315,Electricity meters
+S3,5,87319,Gas/liq/elec meter parts
+S3,4,8732,Meters/counters nes
+S3,5,87321,Counting devices
+S3,5,87325,Speed etc indicators
+S3,5,87329,Meter/counter parts/acc.
+S3,3,874,Measure/control app nes
+S3,4,8740,  UN Special Code
+S3,4,8741,Navigation/survey/et app
+S3,5,87411,Navigation instruments
+S3,5,87412,Navigation inst part/acc
+S3,5,87413,Survey instruments
+S3,5,87414,Survey instr parts/acc.
+S3,4,8742,Drafting/len meas instr
+S3,5,87420,  UN Special Code
+S3,5,87422,Drafting/drawing equipmt
+S3,5,87423,Length measuring equipmt
+S3,5,87424,Pts nes of inst of 8742
+S3,5,87425,Measure/check instr nes
+S3,5,87426,Meas/check instr part/ac
+S3,4,8743,Fluid gauges/instruments
+S3,5,87430,  UN Special Code
+S3,5,87431,Liquid flow/level gauges
+S3,5,87435,Pressure gauges etc
+S3,5,87437,Fluid instruments nes
+S3,5,87439,Fluid instrum parts/acc
+S3,4,8744,Physic/chem analysis equ
+S3,5,87440,  UN Special Code
+S3,5,87441,Gas/smoke analysis appar
+S3,5,87442,Chromatog/electrophe app
+S3,5,87443,Spectrometers etc
+S3,5,87444,Exposure meters
+S3,5,87445,Optical scient instr nes
+S3,5,87446,Phys/chem analys app nes
+S3,5,87449,Phys/chem anal parts/acc
+S3,4,8745,Scientific instrumnt nes
+S3,5,87450,  UN Special Code
+S3,5,87451,Balances sensetivity>5cg
+S3,5,87452,Demonstration apparatus
+S3,5,87453,Mechanical testing equip
+S3,5,87454,Mech tester parts/accs
+S3,5,87455,Thermo-/hydro-meters etc
+S3,5,87456,Thermometer etc part/acc
+S3,4,8746,Automatic control instr.
+S3,5,87461,Thermostats
+S3,5,87463,Pressure regulators/etc
+S3,5,87465,Regulate/contrl inst nes
+S3,5,87469,Regul/cntrl inst part/ac
+S3,4,8747,Elect/radiation meters
+S3,5,87471,Radiation detectors etc
+S3,5,87473,Oscilloscopes etc
+S3,5,87475,Non-record elect meters
+S3,5,87477,Telecomms test meters
+S3,5,87478,Electrical meters nes
+S3,5,87479,Elec/rad meter parts/acc
+S3,4,8749,Instrument part/acc nes
+S3,2,88,Photographic equ/clocks
+S3,3,881,Photographic equipment
+S3,4,8811,Still photo equipment
+S3,5,88111,Still cameras
+S3,5,88112,Photo flashbulbs/etc
+S3,5,88113,Photo flashlight equipmt
+S3,5,88114,Camera parts/accessories
+S3,5,88115,Flashlight parts/access
+S3,4,8812,Movie cameras/projectors
+S3,5,88121,Movie cameras
+S3,5,88122,Movie projectors
+S3,5,88123,Movie camera parts/acc.
+S3,5,88124,Movie projector part/acc
+S3,4,8813,Photo equipment nes
+S3,5,88131,Microfilm/etc readers
+S3,5,88132,Image projectors nes
+S3,5,88133,Photo enlargers/reducers
+S3,5,88134,Photo equip nes part/acc
+S3,5,88135,Photo/cine lab equip nes
+S3,5,88136,"Photo,cine lab equip ne"
+S3,3,882,Photographic supplies
+S3,4,8820,  UN Special Code
+S3,4,8821,"Chem photo goods,retail"
+S3,4,8822,Photo film flat unexposd
+S3,4,8823,Photo film roll unexposd
+S3,4,8824,Photographic paper unexp
+S3,4,8825,Photo film/plates undevd
+S3,4,8826,Still photo film devlopd
+S3,3,883,Cine fild developed
+S3,4,8831,Developed cine film 35mm
+S3,4,8839,Developed cine film nes
+S3,3,884,Optical fibres
+S3,4,8841,Optical fibre/elements
+S3,5,88410,  UN Special Code
+S3,5,88411,Contact lenses
+S3,5,88415,Glass spectacle lenses
+S3,5,88417,Spectacle lenses nes
+S3,5,88419,Optical fibres/plates
+S3,4,8842,Spectacles/frames
+S3,5,88421,Spectacle frames
+S3,5,88422,Spectacle frame parts
+S3,5,88423,Spectacles etc corective
+S3,4,8843,Opticl lens/prism/mirror
+S3,5,88430,  UN Special Code
+S3,5,88431,Camera/etc objectiv lens
+S3,5,88432,Objective lenses nes
+S3,5,88433,Optical filters
+S3,5,88439,Mounted opt elements nes
+S3,3,885,Watches and clocks
+S3,4,8850,  UN Special Code
+S3,4,8853,Watches prec metal case
+S3,5,88530,  UN Special Code
+S3,5,88531,"Watches,battery,prec mtl"
+S3,5,88532,Watches nes prec metal
+S3,5,88539,Pocket/etc watch pre mtl
+S3,4,8854,Watches nes
+S3,5,88540,  UN Special Code
+S3,5,88541,Wrist watces nes battery
+S3,5,88542,Wrist watches nes
+S3,5,88549,Pocket/etc watches nes
+S3,4,8855,Watch movements assembld
+S3,5,88551,Watch movements battery
+S3,5,88552,Watch movements nes
+S3,4,8857,Clocks
+S3,5,88571,Instr panel clocks/etc
+S3,5,88572,Clocks with watch mvmnt
+S3,5,88573,Clocks with watch mvmnt
+S3,5,88574,Electric alarm clocks
+S3,5,88575,Alarm clocks non-electrc
+S3,5,88576,Wall clocks electric
+S3,5,88577,Wall clocks non-electric
+S3,5,88578,Clocks nes electric
+S3,5,88579,Clocks nes
+S3,4,8859,Time measure equipmt nes
+S3,5,88590,  UN Special Code
+S3,5,88591,"Watch cases,case parts"
+S3,5,88592,Watch straps/bands metal
+S3,5,88593,Watch strap/band non-mtl
+S3,5,88594,Time recording apparatus
+S3,5,88595,Time switches
+S3,5,88596,"Clock movements,assembld"
+S3,5,88597,"Clock cases,case parts"
+S3,5,88598,Clock/watch mmnts unass
+S3,5,88599,Clock/watch parts nes
+S3,2,89,Misc manufactures nes
+S3,3,890,  UN Special Code
+S3,3,891,Arms and ammunition
+S3,4,8910,  UN Special Code
+S3,4,8911,Armoured fighting vehicl
+S3,5,89111,Armoured tanks/etc
+S3,5,89112,Military firearms nes
+S3,5,89113,Swords/bayonets/etc
+S3,5,89114,Revolvers and pistols
+S3,4,8912,Bombs/ammunition/etc
+S3,5,89120,  UN Special Code
+S3,5,89121,Cartridges rivet gun etc
+S3,5,89122,Cartridges for shotguns
+S3,5,89123,Airgun pellets etc
+S3,5,89124,Cartridges/parts nes
+S3,5,89129,War munitions/parts
+S3,4,8913,Non-military arms
+S3,5,89131,Sporting firearms
+S3,5,89139,"Airguns,truncheons,etc"
+S3,4,8919,Firearm parts/accessory
+S3,5,89190,  UN Special Code
+S3,5,89191,Pistol parts/accessories
+S3,5,89193,Shotgun barrels
+S3,5,89195,Shotgun/rifle parts nes
+S3,5,89199,Military weapon part nes
+S3,3,892,Printed matter
+S3,4,8920,  UN Special Code
+S3,4,8921,Book/pamphlet/map/globes
+S3,5,89212,Childrns pictur ec book
+S3,5,89213,Map/chart books
+S3,5,89214,Maps/charts not in books
+S3,5,89215,Books etc(single sheets)
+S3,5,89216,Dictionary/encyclopaedia
+S3,5,89219,Printed books nes
+S3,4,8922,Newspapers/periodicals
+S3,5,89221,Newspaper etc>4 per week
+S3,5,89229,Newspapers/periodic nes
+S3,4,8924,Printed cards/transfers
+S3,5,89241,Decalcomanias(transfers)
+S3,5,89242,"Picture pst-,greetng-crd"
+S3,4,8928,Printed matter nes
+S3,5,89280,  UN Special Code
+S3,5,89281,"Labels paper,paperboard"
+S3,5,89282,"Plans,etc not printed"
+S3,5,89283,Unissued banknotes etc
+S3,5,89284,Calendars on paper
+S3,5,89285,Printed/manuscript music
+S3,5,89286,"Trade adv matrl,catalog"
+S3,5,89287,Pictures/designs/photos
+S3,5,89289,Other printed matter
+S3,3,893,Articles nes of plastics
+S3,4,8931,Plastic boxes/lids/etc
+S3,5,89311,Plastic sacks/bags/cones
+S3,5,89319,Plstc packg contnrs/lids
+S3,4,8932,Plastic builders ware
+S3,5,89320,  UN Special Code
+S3,5,89321,Plstic bathroom fixtures
+S3,5,89329,Plastic builder ware nes
+S3,4,8933,Plstc lino/etc kitch art
+S3,5,89331,Plastic lino/tiles/etc
+S3,5,89332,Plstc table/kitch/..arts
+S3,4,8939,Plastic articles nes
+S3,5,89390,  UN Special Code
+S3,5,89394,"Plastc office,school equ"
+S3,5,89395,Plastc furniture fittngs
+S3,5,89399,Othr plastc articles nes
+S3,3,894,Baby carr/toy/game/sport
+S3,4,8940,  UN Special Code
+S3,4,8941,"Baby carriages,parts nes"
+S3,4,8942,Childrens toys
+S3,5,89421,Large size wheeled toys
+S3,5,89422,Dolls
+S3,5,89423,Doll parts/accessories
+S3,5,89424,Construction toys
+S3,5,89425,Toy animals/etc
+S3,5,89426,Toys musical instruments
+S3,5,89427,Toy puzzles
+S3,5,89429,Toys nes
+S3,4,8943,Games equipment
+S3,5,89431,Video (tv) games
+S3,5,89433,Billiards equipment
+S3,5,89435,Coin operated games
+S3,5,89437,Playing cards
+S3,5,89439,Funfair/table/.. game eq
+S3,4,8944,Festive entertainm artic
+S3,5,89441,Xmas/etc lighting sets
+S3,5,89445,Xmas decorations etc
+S3,5,89449,Entertainment artics nes
+S3,4,8946,Fairs/circus/theatre etc
+S3,4,8947,Sports goods
+S3,5,89471,Fishng/huntng equip nes
+S3,5,89472,Ice/roller skates
+S3,5,89473,Snow-ski equipment
+S3,5,89474,Water skis/surf brds etc
+S3,5,89475,Golf equipment
+S3,5,89476,Tennis/etc rackets
+S3,5,89477,Sports gloves etc.
+S3,5,89478,Gymnasium/etc equipment
+S3,5,89479,Sports goods nes
+S3,3,895,Office/stationery supply
+S3,4,8951,Base mtl office/stat sup
+S3,5,89511,Filing cabinet/tray/etc
+S3,5,89512,Bse mtl stationery goods
+S3,4,8952,Pens/pencils
+S3,5,89521,Pens of all kinds
+S3,5,89522,"Pen nibs,nib points"
+S3,5,89523,Pencils/crayons/chalks
+S3,4,8959,Office stat supplies nes
+S3,5,89590,  UN Special Code
+S3,5,89591,Writing/drawing ink
+S3,5,89592,Slates for writing
+S3,5,89593,Hand date etc stamps
+S3,5,89594,"Typewrtr ribbon,ink pad"
+S3,3,896,Art/collections/antiques
+S3,4,8960,  UN Special Code
+S3,4,8961,Paintings/drawings/etc
+S3,5,89610,  UN Special Code
+S3,5,89611,Paintings/drawngs/pastel
+S3,5,89612,Collages/decor plaques
+S3,4,8962,Original prints etc
+S3,4,8963,Original sculpture etc
+S3,4,8964,Stamps for philately
+S3,4,8965,Coins/nature collections
+S3,4,8966,Antiques over 100 years
+S3,3,897,Jewellery
+S3,4,8970,  UN Special Code
+S3,4,8972,Imitation jewellery
+S3,5,89721,Base metal imit jewelery
+S3,5,89729,Imitation jewellery nes
+S3,4,8973,Precious metal jewellery
+S3,5,89731,Prec mtal jewellery/clad
+S3,5,89732,"Gold,silver,etc ware"
+S3,5,89733,Pearl/prec stone articls
+S3,4,8974,Artics nes prec mtl/clad
+S3,5,89741,Platinum catalyst equip.
+S3,5,89749,Prec mtl articles nes
+S3,3,898,Musical instrums/records
+S3,4,8980,  UN Special Code
+S3,4,8981,Pianos/string instrumnts
+S3,5,89813,Pianos/harpsichords/etc
+S3,5,89815,Guitars/violins/harp/etc
+S3,4,8982,Musical instr exc string
+S3,5,89820,  UN Special Code
+S3,5,89821,Pipe and reed organs
+S3,5,89822,Accordion/mouth organ/..
+S3,5,89823,Wind musical instr nes
+S3,5,89824,Percussion musical instr
+S3,5,89825,Elec keyboard instrumnts
+S3,5,89826,Electric instruments nes
+S3,5,89829,Music iinstruments nes
+S3,4,8984,Sound recording mag tape
+S3,5,89840,  UN Special Code
+S3,5,89841,Recording tape w<4mm
+S3,5,89843,Recording tape w4-6.5 mm
+S3,5,89845,Recording tape w>6.5mm
+S3,4,8985,Prepd unrecord media nes
+S3,5,89851,Magnetic disks
+S3,5,89859,Prepd unrecord media nes
+S3,4,8986,Recorded magnetic tapes
+S3,5,89860,  UN Special Code
+S3,5,89861,Recorded tapes w<4mm
+S3,5,89865,Recorded tapes w4-6.5mm
+S3,5,89867,Recorded tapes w>6.5mm
+S3,4,8987,Non-mag recorded media
+S3,5,89871,Gramophone records
+S3,5,89879,Recorded media nes
+S3,4,8989,Musical instr parts/acc.
+S3,3,899,Misc manuf articles nes
+S3,4,8990,  UN Special Code
+S3,4,8991,Carvings/mouldings
+S3,5,89911,Animal mater carving etc
+S3,5,89919,"Moulded,carved goods nes"
+S3,4,8992,Artificial flowers/fruit
+S3,5,89921,"Artif flower/fruit,plast"
+S3,5,89929,Artif flower/fruit nes
+S3,4,8993,Candles/matches/smokers
+S3,5,89930,  UN Special Code
+S3,5,89931,Candles/tapers/etc
+S3,5,89932,Matches
+S3,5,89933,Cigarette/etc lighters
+S3,5,89934,Cig lighter fuels <300cc
+S3,5,89935,Cig lighter parts/access
+S3,5,89936,Unfinished smoking pipes
+S3,5,89937,Smoking pipes and parts
+S3,5,89939,Combustible products nes
+S3,4,8994,Umbrella/walking sticks
+S3,5,89940,  UN Special Code
+S3,5,89941,Umbrellas/sunshades/etc
+S3,5,89942,Canes/riding-crops/etc
+S3,5,89949,Parts nes umbrella/canes
+S3,4,8996,Orthopaedic appliances
+S3,5,89961,Hearing aids
+S3,5,89963,Orthopaedic/fracture app
+S3,5,89965,Artificial teeth/filling
+S3,5,89966,Artific body parts nes
+S3,5,89967,Heart pacemakers/etc
+S3,5,89969,Orthopaedic applince nes
+S3,4,8997,Basketware/briushes/etc
+S3,5,89970,  UN Special Code
+S3,5,89971,Basketwork/wickerwrk/etc
+S3,5,89972,Brushes/brooms/mops etc
+S3,5,89973,"Plaits,plaited products"
+S3,5,89974,Veg matl mats/screens
+S3,5,89979,"Plaits,plaited products"
+S3,4,8998,Small wares nes
+S3,5,89980,  UN Special Code
+S3,5,89981,Hand sieves and riddles
+S3,5,89982,"Powder-puffs,etc"
+S3,5,89983,Buttons/studs/snaps/etc
+S3,5,89984,Button moulds/parts
+S3,5,89985,Slide fasteners
+S3,5,89986,Slide fastener parts
+S3,5,89987,Scent etc toilet sprays
+S3,5,89988,Tailors/shop dummies
+S3,5,89989,Combs/hair-slides/etc
+S3,4,8999,Manufactured goods nes
+S3,5,89990,  UN Special Code
+S3,5,89991,Articles of gut/etc
+S3,5,89992,Feather/etc goods nes
+S3,5,89994,Wig making materials
+S3,5,89995,"Wigs/false beards,etc"
+S3,5,89996,Parachutes/parts/access.
+S3,5,89997,Vacuum flasks/etc
+S3,1,9,Commodities nes
+S3,2,90,  UN Special Code
+S3,2,91,  UN Special Code
+S3,3,911,  UN Special Code
+S3,4,9110,  UN Special Code
+S3,2,93,  UN Special Code
+S3,3,931,  UN Special Code
+S3,4,9310,  UN Special Code
+S3,2,96,Coin nongold non current
+S3,3,961,Coin nongold non current
+S3,4,9610,Coin nongold non current
+S3,2,97,Gold non-monetary ex ore
+S3,3,971,Gold non-monetary ex ore
+S3,4,9710,Gold non-monetary ex ore
+S3,5,97100,  UN Special Code
+S3,5,97101,"Nonmon gld unwrt,semi-mf"
+S3,5,97102,"Rolled gld unwkd,semi-mf"
+S3,5,97103,"Gold sweepings,waste etc"
