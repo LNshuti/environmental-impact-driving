@@ -140,10 +140,13 @@ fertility_map <-
   # geom_sf_interactive(aes(tooltip = tooltip, data_id = code), size = 0.1) + 
   coord_sf(crs = 'ESRI:54030') + 
   scale_fill_viridis_c() + 
-  labs(fill = "")
+  labs(fill = "") +
+   guides(fill="none")
 
 girafe(ggobj = fertility_map) %>%
   girafe_options(opts_zoom(max = 10))
 
-
+ggsave(fertility_map,width = 10, height = 6,
+       filename = paste0(repo_, "/plots/rwanda_geography.png")
+       )
 ```

@@ -47,6 +47,12 @@ Rwanda's key imports over time
 ![](plots/rwanda_imports.png)
 
 
+# Application of Linear Optimization 
+Determine optimal location for electric vehicle charging stations in Rwanda. 
+
+![](plots/rwanda_geography.png)
+
+
 #### References: 
 
 Jitendra, B and Jonathan B (2020). A road map for e-mobility transition in Rwanda (Policy brief 200018).
