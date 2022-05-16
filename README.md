@@ -52,6 +52,10 @@ Determine optimal location for electric vehicle charging stations in Rwanda.
 
 ![](plots/rwanda_geography.png)
 
+We use this tutorial as a reference:
+
+https://cran.r-project.org/web/packages/prioritizr/vignettes/prioritizr.html
+
 
 #### References: 
 
