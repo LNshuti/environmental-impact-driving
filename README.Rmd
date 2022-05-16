@@ -120,7 +120,6 @@ ggsave(rwa_sum_rank_plt,width = 10, height = 6,
 
 
 ```{r}
-
 library(idbr)
 library(sf)
 library(ggiraph)
