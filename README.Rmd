@@ -29,7 +29,7 @@ rwa_sum <-
 
 rwa_summary <-
   rwa_sum %>% 
-  group_by(product_name, year, location_id, partner_id, product_id) %>%
+  group_by(product_name, year) %>%
   summarise(imports = sum(import_value, na.rm = TRUE), exports = sum(export_value, na.rm = TRUE)) %>%
   ungroup() %>%
   rename(name = product_name) %>%
@@ -116,4 +116,34 @@ rwa_sum_rank_plt <-
 
 ggsave(rwa_sum_rank_plt,width = 10, height = 6,
        filename = "rwandatrade/output/rwanda_imports.png")
+```
+
+
+```{r}
+
+library(idbr)
+library(sf)
+library(ggiraph)
+library(tidyverse)
+
+fertility_data <- get_idb(
+  country = "RW",
+  year = 2021,
+  variables = "tfr",
+  geometry = TRUE,
+)
+
+fertility_map <-
+  ggplot(fertility_data, aes(fill = tfr)) + 
+  theme_bw() + 
+  geom_sf() + 
+  # geom_sf_interactive(aes(tooltip = tooltip, data_id = code), size = 0.1) + 
+  coord_sf(crs = 'ESRI:54030') + 
+  scale_fill_viridis_c() + 
+  labs(fill = "")
+
+girafe(ggobj = fertility_map) %>%
+  girafe_options(opts_zoom(max = 10))
+
+
 ```
