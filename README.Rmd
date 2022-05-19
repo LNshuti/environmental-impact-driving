@@ -100,7 +100,7 @@ write_rds(x = rwa_sum_features, file = "rwandatrade/processed/rwa_sum_features.r
 ```{r}
 rwa_sum_rank_plt <- 
   rwa_sum_features %>%
-  #filter(year > 2010 & rank < 6) %>%
+  filter(year > 2010 & rank < 6) %>%
   ggplot() +  
   aes(xmin = 0,  xmax = log(imports)) +  
   aes(ymin = rank - 0.5, ymax = rank + 0.5, y = rank) +  
@@ -148,4 +148,51 @@ girafe(ggobj = fertility_map) %>%
 ggsave(fertility_map,width = 10, height = 6,
        filename = paste0(repo_, "/plots/rwanda_geography.png")
        )
+```
+
+```{r}
+library(idbr)
+library(tidyverse)
+
+rw_data <- get_idb(
+  country = "rwanda",
+  year = 2021,
+  age = 0:100,
+  sex = c("male", "female")
+) 
+
+rw_data %>%
+  mutate(pop = ifelse(sex == "Male", pop * -1, pop)) %>%
+  ggplot(aes(x = pop, y = as.factor(age), fill = sex)) + 
+  geom_col(width = 1) + 
+  theme_minimal(base_size = 15) + 
+  scale_x_continuous(labels = function(x) paste0(abs(x / 1000000), "m")) + 
+  scale_y_discrete(breaks = scales::pretty_breaks(n = 10)) + 
+  scale_fill_manual(values = c("red", "gold")) + 
+  labs(title = "Population structure of Rwanda in 2021",
+       x = "Population",
+       y = "Age",
+       fill = "")
+
+```
+
+
+```{r}
+
+lex <- get_idb(
+  country = "all",
+  year = 2021,
+  variables = c("name", "e0"),
+  geometry = TRUE
+)
+
+ggplot(lex, aes(fill = e0)) + 
+  theme_bw() + 
+  geom_sf() + 
+  coord_sf(crs = 'ESRI:54030') + 
+  scale_fill_viridis_c() + 
+  labs(fill = "Life expectancy \nat birth (2021)")
+
+
+
 ```
