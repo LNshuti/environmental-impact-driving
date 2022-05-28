@@ -15,8 +15,6 @@ A country is said to have a trade *imbalance* if the country imports more than i
 #### Data Sources
 We use the World Bank's World Development Indicator APIs to pull trade data from the World Bank database. Additionally, we rely on **International Trade Data** from the Harvard data-verse. This source is richer and has more detailed information related to the flow of goods and services between countries.  
 
-Using the **wb_search()** function, we search for all indicators that are related to trade. Display some of them and their corresponding descriptions. Of the trade metrics found, exclude those without a valid description. For consistency, we limit ourselves to indicators that are measured in **US dollars.**  
-
 ##### Import required libraries
 ```
 library(TSstudio)
@@ -46,18 +44,7 @@ According to a report by Bajpai and Bower from the International Growth Center, 
 Rwanda can improve her trade balance by using fewer vehicles that consume petrol. We use empirical evidence to show that it is more cost effective to replace, albeit in a phased out manner that doesn't harm the national budget, the vehicle fleets belonging to all major government institutions.
 
 Rwanda's key imports over time
-![](plots/rwanda_imports.png)
-
-
-# Application of Linear Optimization 
-Determine optimal location for electric vehicle charging stations in Rwanda. 
-
-![](plots/rwanda_geography.png)
-
-We use this tutorial as a reference:
-
-https://cran.r-project.org/web/packages/prioritizr/vignettes/prioritizr.html
-
+![](plots/rwanda_imports.png)ß
 
 #### References: 
 
